@@ -22,6 +22,7 @@ import HeroMakingView from '@/views/MakingAHeroOptions/HeroMakingView.vue'
 import AdventuringGearView from '@/views/MakingAHeroOptions/AdventuringGearView.vue'
 import ChangingOptionsView from '@/views/MakingAHeroOptions/ChangingOptionsView.vue'
 import HeroicAdvancementView from '@/views/MakingAHeroOptions/HeroicAdvancementView.vue'
+// AncestriesOptions
 import AncestriesOverviewView from '@/views/AncestriesOptions/AncestriesOverviewView.vue'
 import AncestryDevilView from '@/views/AncestriesOptions/AncestryDevilView.vue'
 import AncestryDragonKnightView from '@/views/AncestriesOptions/AncestryDragonKnightView.vue'
@@ -35,7 +36,13 @@ import AncestryOrkView from '@/views/AncestriesOptions/AncestryOrkView.vue'
 import AncestryPolderView from '@/views/AncestriesOptions/AncestryPolderView.vue'
 import AncestryRevenantView from '@/views/AncestriesOptions/AncestryRevenantView.vue'
 import AncestryTimeRaiderView from '@/views/AncestriesOptions/AncestryTimeRaiderView.vue'
-// AncestriesOptions
+// CulturesOptions
+import CultureOverviewView from '@/views/CulturesOptions/CultureOverviewView.vue'
+import CultureLanguageView from '@/views/CulturesOptions/CultureLanguageView.vue'
+import CultureEnvironmentView from '@/views/CulturesOptions/CultureEnvironmentView.vue'
+import CultureOrganizationView from '@/views/CulturesOptions/CultureOrganizationView.vue'
+import CultureUpbringingView from '@/views/CulturesOptions/CultureUpbringingView.vue'
+import CareersOverviewView from '@/views/CareersOptions/CareersOverviewView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -204,6 +211,36 @@ const router = createRouter({
       path: '/ancestryTimeRaider',
       name: 'ancestryTimeRaider',
       component: AncestryTimeRaiderView,
+    },
+    {
+      path: '/culturesOverview',
+      name: 'culturesOverview',
+      component: CultureOverviewView,
+    },
+    {
+      path: '/culturesLanguage',
+      name: 'culturesLanguage',
+      component: CultureLanguageView,
+    },
+    {
+      path: '/culturesEnvironment',
+      name: 'culturesEnvironment',
+      component: CultureEnvironmentView,
+    },
+    {
+      path: '/culturesOrganization',
+      name: 'culturesOrganization',
+      component: CultureOrganizationView,
+    },
+    {
+      path: '/culturesUpbringing',
+      name: 'culturesUpbringing',
+      component: CultureUpbringingView,
+    },
+    {
+      path: '/careersOverview',
+      name: 'careersOverview',
+      component: CareersOverviewView,
     },
   ],
 })

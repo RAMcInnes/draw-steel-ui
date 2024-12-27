@@ -26,7 +26,7 @@
       ['Heroic Advancement', 'heroicAdvancement']
     ];
     const ancestriesOption = [
-      ['Overview', 'ancestriesOverview'],
+      ['Ancestry Overview', 'ancestriesOverview'],
       ['Devil', 'ancestryDevil'],
       ['Dragon Knight', 'ancestryDragonKnight'],
       ['Dwarf', 'ancestryDwarf'],
@@ -41,12 +41,15 @@
       ['Time Raider', 'ancestryTimeRaider'],
     ];
     const culturesOptions = [
-      ['Overview', 'culturesOverview'],
+      ['Culture Overview', 'culturesOverview'],
       ['Language', 'culturesLanguage'],
       ['Environment', 'culturesEnvironment'],
       ['Organization', 'culturesOrganization'],
       ['Upbringing', 'culturesUpbringing'],
-    ]
+    ];
+    const careersOptions = [
+      ['Career Overview', 'careersOverview'],
+    ];
 </script>
 
 <template>
@@ -105,11 +108,11 @@
               ></v-list-item>
           </v-list-group>
 
-          <v-list-group value="Ancestries">
+          <v-list-group value="Ancestry">
             <template v-slot:activator="{ props }">
               <v-list-item
                 v-bind="props"
-                title="Ancestries"
+                title="Ancestry"
               ></v-list-item>
             </template>
 
@@ -122,7 +125,7 @@
               ></v-list-item>
           </v-list-group>
 
-          <v-list-group value="Cultures">
+          <v-list-group value="Culture">
             <template v-slot:activator="{ props }">
               <v-list-item
                 v-bind="props"
@@ -132,6 +135,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in culturesOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Careers">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Careers"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in careersOptions"
                 :key="i"
                 :title="title"
                 :value="title"
