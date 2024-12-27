@@ -23,6 +23,18 @@ import AdventuringGearView from '@/views/MakingAHeroOptions/AdventuringGearView.
 import ChangingOptionsView from '@/views/MakingAHeroOptions/ChangingOptionsView.vue'
 import HeroicAdvancementView from '@/views/MakingAHeroOptions/HeroicAdvancementView.vue'
 import AncestriesOverviewView from '@/views/AncestriesOptions/AncestriesOverviewView.vue'
+import AncestryDevilView from '@/views/AncestriesOptions/AncestryDevilView.vue'
+import AncestryDragonKnightView from '@/views/AncestriesOptions/AncestryDragonKnightView.vue'
+import AncestryDwarfView from '@/views/AncestriesOptions/AncestryDwarfView.vue'
+import AncestryWodeElfView from '@/views/AncestriesOptions/AncestryWodeElfView.vue'
+import AncestryHighElfView from '@/views/AncestriesOptions/AncestryHighElfView.vue'
+import AncestryHakaanView from '@/views/AncestriesOptions/AncestryHakaanView.vue'
+import AncestryHumanView from '@/views/AncestriesOptions/AncestryHumanView.vue'
+import AncestryMemonekView from '@/views/AncestriesOptions/AncestryMemonekView.vue'
+import AncestryOrkView from '@/views/AncestriesOptions/AncestryOrkView.vue'
+import AncestryPolderView from '@/views/AncestriesOptions/AncestryPolderView.vue'
+import AncestryRevenantView from '@/views/AncestriesOptions/AncestryRevenantView.vue'
+import AncestryTimeRaiderView from '@/views/AncestriesOptions/AncestryTimeRaiderView.vue'
 // AncestriesOptions
 
 const router = createRouter({
@@ -132,6 +144,66 @@ const router = createRouter({
       path: '/ancestriesOverview',
       name: 'ancestriesOverview',
       component: AncestriesOverviewView,
+    },
+    {
+      path: '/ancestryDevil',
+      name: 'ancestryDevil',
+      component: AncestryDevilView,
+    },
+    {
+      path: '/ancestryDragonKnight',
+      name: 'ancestryDragonKnight',
+      component: AncestryDragonKnightView,
+    },
+    {
+      path: '/ancestryDwarf',
+      name: 'ancestryDwarf',
+      component: AncestryDwarfView,
+    },
+    {
+      path: '/ancestryWodeElf',
+      name: 'ancestryWodeElf',
+      component: AncestryWodeElfView,
+    },
+    {
+      path: '/ancestryHighElf',
+      name: 'ancestryHighElf',
+      component: AncestryHighElfView,
+    },
+    {
+      path: '/ancestryHakaan',
+      name: 'ancestryHakaan',
+      component: AncestryHakaanView,
+    },
+    {
+      path: '/ancestryHuman',
+      name: 'ancestryHuman',
+      component: AncestryHumanView,
+    },
+    {
+      path: '/ancestryMemonek',
+      name: 'ancestryMemonek',
+      component: AncestryMemonekView,
+    },
+    {
+      path: '/ancestryOrc',
+      name: 'ancestryOrc',
+      component: AncestryOrkView,
+    },
+    {
+      path: '/ancestryPolder',
+      name: 'ancestryPolder',
+      component: AncestryPolderView,
+    },
+    {
+      path: '/ancestryRevenant',
+      name: 'ancestryRevenant',
+      component: AncestryRevenantView,
+    },
+    {
+      path: '/ancestryTimeRaider',
+      name: 'ancestryTimeRaider',
+      component: AncestryTimeRaiderView,
     },
   ],
 })

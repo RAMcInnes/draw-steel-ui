@@ -26,8 +26,27 @@
       ['Heroic Advancement', 'heroicAdvancement']
     ];
     const ancestriesOption = [
-      ['Overview', 'ancestriesOverview']
+      ['Overview', 'ancestriesOverview'],
+      ['Devil', 'ancestryDevil'],
+      ['Dragon Knight', 'ancestryDragonKnight'],
+      ['Dwarf', 'ancestryDwarf'],
+      ['Wode Elf', 'ancestryWodeElf'],
+      ['High Elf', 'ancestryHighElf'],
+      ['Hakaan', 'ancestryHakaan'],
+      ['Human', 'ancestryHuman'],
+      ['Memonek', 'ancestryMemonek'],
+      ['Orc', 'ancestryOrc'],
+      ['Polder', 'ancestryPolder'],
+      ['Revenant', 'ancestryRevenant'],
+      ['Time Raider', 'ancestryTimeRaider'],
     ];
+    const culturesOptions = [
+      ['Overview', 'culturesOverview'],
+      ['Language', 'culturesLanguage'],
+      ['Environment', 'culturesEnvironment'],
+      ['Organization', 'culturesOrganization'],
+      ['Upbringing', 'culturesUpbringing'],
+    ]
 </script>
 
 <template>
@@ -96,6 +115,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in ancestriesOption"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Cultures">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Culture"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in culturesOptions"
                 :key="i"
                 :title="title"
                 :value="title"
