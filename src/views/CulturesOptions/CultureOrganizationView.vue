@@ -52,7 +52,7 @@
                 represent.
                 <br>
                 <b>Skill Options</b>: One skill from the <i>Exploration</i> or <i>Intrigue</i>
-                Skill Groups. (Quick Build: Hide)
+                skill groups. (Quick Build: Hide)
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -112,7 +112,7 @@
                 of others.
                 <br>
                 <b>Skill Options</b>: One skill from the <i>Crafting</i> or <i>Interpersonal</i>
-                Skill Groups. (Quick Build: Persuade)
+                skill groups. (Quick Build: Persuade)
             </v-expansion-panel-text>
         </v-expansion-panel>
     </v-expansion-panels>

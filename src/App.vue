@@ -49,6 +49,24 @@
     ];
     const careersOptions = [
       ['Career Overview', 'careersOverview'],
+      ['Agent', 'careersAgent'],
+      ['Aristocrat', 'careersAristocrat'],
+      ['Artisan', 'careersArtisan'],
+      ['Beggar', 'careersBeggar'],
+      ['Criminal', 'careersCriminal'],
+      ['Disciple', 'careersDisciple'],
+      ['Explorer', 'careersExplorer'],
+      ['Farmer', 'careersFarmer'],
+      ['Gladiator', 'careersGladiator'],
+      ['Laborer', 'careersLaborer'],
+      [`Mage's Apprentice`, 'careersMagesApprentice'],
+      ['Performer', 'careersPerformer'],
+      ['Politician', 'careersPolitician'],
+      ['Sage', 'careersSage'],
+      ['Sailor', 'careersSailor'],
+      ['Soldier', 'careersSoldier'],
+      ['Warden', 'careersWarden'],
+      ['Watch Officer', 'careersWatchOfficer'],
     ];
 </script>
 
@@ -164,7 +182,6 @@
       <RouterView />
     </v-main>
   </v-app>
-
 </template>
 
 <style scoped>

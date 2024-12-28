@@ -42,7 +42,26 @@ import CultureLanguageView from '@/views/CulturesOptions/CultureLanguageView.vue
 import CultureEnvironmentView from '@/views/CulturesOptions/CultureEnvironmentView.vue'
 import CultureOrganizationView from '@/views/CulturesOptions/CultureOrganizationView.vue'
 import CultureUpbringingView from '@/views/CulturesOptions/CultureUpbringingView.vue'
+// CareersOptions
 import CareersOverviewView from '@/views/CareersOptions/CareersOverviewView.vue'
+import CareersAgentView from '@/views/CareersOptions/CareersAgentView.vue'
+import CareersAristocratView from '@/views/CareersOptions/CareersAristocratView.vue'
+import CareersArtisanView from '@/views/CareersOptions/CareersArtisanView.vue'
+import CareersBeggarView from '@/views/CareersOptions/CareersBeggarView.vue'
+import CareersCriminalView from '@/views/CareersOptions/CareersCriminalView.vue'
+import CareersDiscipleView from '@/views/CareersOptions/CareersDiscipleView.vue'
+import CareersExplorerView from '@/views/CareersOptions/CareersExplorerView.vue'
+import CareersFarmerView from '@/views/CareersOptions/CareersFarmerView.vue'
+import CareersGladiatorView from '@/views/CareersOptions/CareersGladiatorView.vue'
+import CareersLaborerView from '@/views/CareersOptions/CareersLaborerView.vue'
+import CareersMagesApprenticeView from '@/views/CareersOptions/CareersMagesApprenticeView.vue'
+import CareersPerformerView from '@/views/CareersOptions/CareersPerformerView.vue'
+import CareersPoliticianView from '@/views/CareersOptions/CareersPoliticianView.vue'
+import CareersSageView from '@/views/CareersOptions/CareersSageView.vue'
+import CareersSailorView from '@/views/CareersOptions/CareersSailorView.vue'
+import CareersSoldierView from '@/views/CareersOptions/CareersSoldierView.vue'
+import CareersWardenView from '@/views/CareersOptions/CareersWardenView.vue'
+import CareersWatchOfficerView from '@/views/CareersOptions/CareersWatchOfficerView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -241,6 +260,96 @@ const router = createRouter({
       path: '/careersOverview',
       name: 'careersOverview',
       component: CareersOverviewView,
+    },
+    {
+      path: '/careersAgent',
+      name: 'careersAgent',
+      component: CareersAgentView,
+    },
+    {
+      path: '/careersAristocrat',
+      name: 'careersAristocrat',
+      component: CareersAristocratView,
+    },
+    {
+      path: '/careersArtisan',
+      name: 'careersArtisan',
+      component: CareersArtisanView,
+    },
+    {
+      path: '/careersBeggar',
+      name: 'careersBeggar',
+      component: CareersBeggarView,
+    },
+    {
+      path: '/careersCriminal',
+      name: 'careersCriminal',
+      component: CareersCriminalView,
+    },
+    {
+      path: '/careersDisciple',
+      name: 'careersDisciple',
+      component: CareersDiscipleView,
+    },
+    {
+      path: '/careersExplorer',
+      name: 'careersExplorer',
+      component: CareersExplorerView,
+    },
+    {
+      path: '/careersFarmer',
+      name: 'careersFarmer',
+      component: CareersFarmerView,
+    },
+    {
+      path: '/careersGladiator',
+      name: 'careersGladiator',
+      component: CareersGladiatorView,
+    },
+    {
+      path: '/careersLaborer',
+      name: 'careersLaborer',
+      component: CareersLaborerView,
+    },
+    {
+      path: '/careersMagesApprentice',
+      name: 'careersMagesApprentice',
+      component: CareersMagesApprenticeView,
+    },
+    {
+      path: '/careersPerformer',
+      name: 'careersPerformer',
+      component: CareersPerformerView,
+    },
+    {
+      path: '/careersPolitician',
+      name: 'careersPolitician',
+      component: CareersPoliticianView,
+    },
+    {
+      path: '/careersSage',
+      name: 'careersSage',
+      component: CareersSageView,
+    },
+    {
+      path: '/careersSailor',
+      name: 'careersSailor',
+      component: CareersSailorView,
+    },
+    {
+      path: '/careersSoldier',
+      name: 'careersSoldier',
+      component: CareersSoldierView,
+    },
+    {
+      path: '/careersWarden',
+      name: 'careersWarden',
+      component: CareersWardenView,
+    },
+    {
+      path: '/careersWatchOfficer',
+      name: 'careersWatchOfficer',
+      component: CareersWatchOfficerView,
     },
   ],
 })

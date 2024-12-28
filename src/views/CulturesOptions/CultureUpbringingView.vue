@@ -34,7 +34,7 @@
                 academic culture learn how to wield the power that is
                 knowledge.
                 <br>
-                <b>Skill Options</b>: One skill from the <i>Lore</i> Skill Group. (Quick
+                <b>Skill Options</b>: One skill from the <i>Lore</i> skill group. (Quick
                 Build: History)
             </v-expansion-panel-text>
         </v-expansion-panel>
@@ -52,7 +52,7 @@
                 detail.
                 <br>
                 <b>Skill Options</b>: The <i>Music</i> or <i>Perform</i> skill, or one skill from
-                the <i>Crafting</i> Skill Group. (Quick Build: Perform)
+                the <i>Crafting</i> skill group. (Quick Build: Perform)
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -69,7 +69,7 @@
                 suits them—and are good at making sure no one finds out
                 they did.
                 <br>
-                <b>Skill Options</b>: One skill from the <i>Intrigue</i> Skill Group. (Quick
+                <b>Skill Options</b>: One skill from the <i>Intrigue</i> skill group. (Quick
                 Build: Sneak)
             </v-expansion-panel-text>
         </v-expansion-panel>
@@ -87,7 +87,7 @@
                 hard work.
                 <br>
                 <b>Skill Options</b>: One of the <i>Blacksmithing</i> or <i>Handle Animals</i>
-                skills, or one skill from the <i>Exploration</i> Skill Group. (Quick
+                skills, or one skill from the <i>Exploration</i> skill group. (Quick
                 Build: Lift)
             </v-expansion-panel-text>
         </v-expansion-panel>
@@ -121,7 +121,7 @@
                 understand why the whispered words in the right ear can
                 sometimes be more powerful than any army.
                 <br>
-                <b>Skill Options</b>: One skill from the <i>Interpersonal</i> Skill Group.
+                <b>Skill Options</b>: One skill from the <i>Interpersonal</i> skill group.
                 (Quick Build: Lead)
             </v-expansion-panel-text>
         </v-expansion-panel>

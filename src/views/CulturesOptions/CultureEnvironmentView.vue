@@ -33,7 +33,7 @@
                 wilderness and interact with others.
                 <br>
                 <b>Skill Options</b>: One skill from the <i>Exploration</i> or
-                <i>Interpersonal</i> Skill Groups. (Quick Build: Navigate)
+                <i>Interpersonal</i> skill groups. (Quick Build: Navigate)
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -97,7 +97,7 @@
                 and the political machinations that can come with city life.
                 <br>
                 <b>Skill Options</b>: One skill from the <i>Interpersonal</i> or <i>Intrigue</i>
-                Skill Groups. (Quick Build: Alertness)
+                skill groups. (Quick Build: Alertness)
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -118,7 +118,7 @@
                 more.
                 <br>
                 <b>Skill Options</b>: One skill from the <i>Crafting</i> or <i>Exploration</i>
-                Skill Groups. (Quick Build: Endurance)
+                skill groups. (Quick Build: Endurance)
             </v-expansion-panel-text>
         </v-expansion-panel>
     </v-expansion-panels>
