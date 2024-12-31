@@ -1,4 +1,8 @@
 <script setup lang="ts">
+    import { useDisplay } from 'vuetify';
+
+    const { smAndDown } = useDisplay();
+
     const gameIntroOptions = [
       ['What Draw Steel IS NOT', 'whatTheGameIs'],
       ['What Draw Steel IS', 'whatTheGameIsNot'],
@@ -71,13 +75,19 @@
     const classesOptions = [
       ['Class Overview', 'classesOverview'],
       ['Abilities', 'classesAbilities']
-    ]
+    ];
+    const kitsOptions = [
+      ['Kit Overview', 'kitsOverview'],
+      ['Equipment', 'kitsEquipment'],
+      ['Bonuses', 'kitsBonuses'],
+      ['Signature Ability', 'kitsSignatureAbility'],
+    ];
 </script>
 
 <template>
   <v-app>
     <v-main>
-      <v-navigation-drawer permanent >
+      <v-navigation-drawer permanent :rail=smAndDown :rail-width="100">
         <v-list open-strategy="multiple">
           <v-list-group value="Game">
             <template v-slot:activator="{ props }">
@@ -191,6 +201,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in classesOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Kits">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Kits"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in kitsOptions"
                 :key="i"
                 :title="title"
                 :value="title"
