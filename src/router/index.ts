@@ -62,6 +62,11 @@ import CareersSailorView from '@/views/CareersOptions/CareersSailorView.vue'
 import CareersSoldierView from '@/views/CareersOptions/CareersSoldierView.vue'
 import CareersWardenView from '@/views/CareersOptions/CareersWardenView.vue'
 import CareersWatchOfficerView from '@/views/CareersOptions/CareersWatchOfficerView.vue'
+// ClassesOptions
+import ClassesOverviewView from '@/views/ClassesOptions/ClassesOverviewView.vue'
+import ClassesAbilitiesView from '@/views/ClassesOptions/ClassesAbilitiesView.vue'
+// Conditions
+import ConditionsView from '@/views/ConditionsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -350,6 +355,21 @@ const router = createRouter({
       path: '/careersWatchOfficer',
       name: 'careersWatchOfficer',
       component: CareersWatchOfficerView,
+    },
+    {
+      path: '/classesOverview',
+      name: 'classesOverview',
+      component: ClassesOverviewView,
+    },
+    {
+      path: '/classesAbilities',
+      name: 'classesAbilities',
+      component: ClassesAbilitiesView,
+    },
+    {
+      path: '/conditions',
+      name: 'conditions',
+      component: ConditionsView,
     },
   ],
 })

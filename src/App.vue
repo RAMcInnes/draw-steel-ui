@@ -68,6 +68,10 @@
       ['Warden', 'careersWarden'],
       ['Watch Officer', 'careersWatchOfficer'],
     ];
+    const classesOptions = [
+      ['Class Overview', 'classesOverview'],
+      ['Abilities', 'classesAbilities']
+    ]
 </script>
 
 <template>
@@ -176,6 +180,29 @@
                 :to="location"
               ></v-list-item>
           </v-list-group>
+
+          <v-list-group value="Classes">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Classes"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in classesOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-item
+            title="Conditions"
+            value="Conditions"
+            to="conditions">
+          </v-list-item>
         </v-list>
       </v-navigation-drawer>
 
