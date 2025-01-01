@@ -155,7 +155,7 @@
         </v-card-text>
     </v-card>
     <br>
-    <v-table density="compact">
+    <v-table density="compact" hover>
         <thead>
         <tr>
             <th class="text-left">Ancestry</th>

@@ -67,6 +67,11 @@ import ClassesOverviewView from '@/views/ClassesOptions/ClassesOverviewView.vue'
 import ClassesAbilitiesView from '@/views/ClassesOptions/ClassesAbilitiesView.vue'
 // Conditions
 import ConditionsView from '@/views/ConditionsView.vue'
+// KitsOptions
+import KitOverviewView from '@/views/KitsOptions/KitsOverviewView.vue'
+import KitsEquipmentView from '@/views/KitsOptions/KitsEquipmentView.vue'
+import KitsBonusesView from '@/views/KitsOptions/KitsBonusesView.vue'
+import KitsSignatureAbilityView from '@/views/KitsOptions/KitsSignatureAbilityView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -365,6 +370,26 @@ const router = createRouter({
       path: '/classesAbilities',
       name: 'classesAbilities',
       component: ClassesAbilitiesView,
+    },
+    {
+      path: '/kitsOverview',
+      name: 'kitsOverview',
+      component: KitOverviewView,
+    },
+    {
+      path: '/kitsEquipment',
+      name: 'kitsEquipment',
+      component: KitsEquipmentView,
+    },
+    {
+      path: '/kitsBonuses',
+      name: 'kitsBonuses',
+      component: KitsBonusesView,
+    },
+    {
+      path: '/kitsSignatureAbility',
+      name: 'kitsSignatureAbility',
+      component: KitsSignatureAbilityView,
     },
     {
       path: '/conditions',

@@ -60,7 +60,7 @@
         Experience you gain is cumulative.
     </p>
     <br>
-    <v-table density="compact">
+    <v-table density="compact" hover>
         <thead>
         <tr>
             <th class="text-left">XP</th>
