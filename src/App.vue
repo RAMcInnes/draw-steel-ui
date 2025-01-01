@@ -82,6 +82,15 @@
       ['Bonuses', 'kitsBonuses'],
       ['Signature Ability', 'kitsSignatureAbility'],
     ];
+    const perkOptions = [
+      ['Perk Overview', 'perksOverview'],
+      ['Crafting Perks', 'perksCrafting'],
+      ['Exploration Perks', 'perksExploration'],
+      ['Interpersonal Perks', 'perksInterpersonal'],
+      ['Intrigue Perks', 'perksIntrigue'],
+      ['Lore Perks', 'perksLore'],
+      ['Supernatural Perks', 'perksSupernatural'],
+    ];
 </script>
 
 <template>
@@ -218,6 +227,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in kitsOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Perks">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Perks"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in perkOptions"
                 :key="i"
                 :title="title"
                 :value="title"

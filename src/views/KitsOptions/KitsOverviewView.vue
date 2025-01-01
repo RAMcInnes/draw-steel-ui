@@ -277,7 +277,7 @@
 </script>
 
 <template>
-    <h1>Kits</h1>
+    <h1>Kits Overview</h1>
     <p>
         The knight in shining armor. The warrior priest. The
         sniper. Censors, furies, shadows, tacticians, and

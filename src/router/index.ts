@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/BasicOptions/HomeView.vue'
-// GameIntroOptions
+// #region GameIntroOptions imports
 import WhatTheGameIsView from '@/views/GameIntroOptions/WhatTheGameIsView.vue'
 import WhatTheGameIsNotView from '@/views/GameIntroOptions/WhatTheGameIsNotView.vue'
 import ComingFromD20View from '@/views/GameIntroOptions/ComingFromD20View.vue'
-// BasicOptions
+// #endregion
+// #region BasicOptions imports
 import CharacteristicsView from '@/views/BasicOptions/CharacteristicsView.vue'
 import PotenciesView from '@/views/BasicOptions/PotenciesView.vue'
 import DiceView from '@/views/BasicOptions/DiceView.vue'
@@ -16,13 +17,15 @@ import RecoveriesView from '@/views/BasicOptions/RecoveriesView.vue'
 import RespiteView from '@/views/BasicOptions/RespiteView.vue'
 import MiscRulesView from '@/views/BasicOptions/MiscRulesView.vue'
 import EchelonsView from '@/views/BasicOptions/EchelonsView.vue'
-// MakingAHeroOptions
+// #endregion
+// #region MakingAHeroOptions imports
 import FirstSessionView from '@/views/MakingAHeroOptions/FirstSessionView.vue'
 import HeroMakingView from '@/views/MakingAHeroOptions/HeroMakingView.vue'
 import AdventuringGearView from '@/views/MakingAHeroOptions/AdventuringGearView.vue'
 import ChangingOptionsView from '@/views/MakingAHeroOptions/ChangingOptionsView.vue'
 import HeroicAdvancementView from '@/views/MakingAHeroOptions/HeroicAdvancementView.vue'
-// AncestriesOptions
+// #endregion
+// #region AncestriesOptions imports
 import AncestriesOverviewView from '@/views/AncestriesOptions/AncestriesOverviewView.vue'
 import AncestryDevilView from '@/views/AncestriesOptions/AncestryDevilView.vue'
 import AncestryDragonKnightView from '@/views/AncestriesOptions/AncestryDragonKnightView.vue'
@@ -36,13 +39,15 @@ import AncestryOrkView from '@/views/AncestriesOptions/AncestryOrkView.vue'
 import AncestryPolderView from '@/views/AncestriesOptions/AncestryPolderView.vue'
 import AncestryRevenantView from '@/views/AncestriesOptions/AncestryRevenantView.vue'
 import AncestryTimeRaiderView from '@/views/AncestriesOptions/AncestryTimeRaiderView.vue'
-// CulturesOptions
+// #endregion
+// #region CulturesOptions imports
 import CultureOverviewView from '@/views/CulturesOptions/CultureOverviewView.vue'
 import CultureLanguageView from '@/views/CulturesOptions/CultureLanguageView.vue'
 import CultureEnvironmentView from '@/views/CulturesOptions/CultureEnvironmentView.vue'
 import CultureOrganizationView from '@/views/CulturesOptions/CultureOrganizationView.vue'
 import CultureUpbringingView from '@/views/CulturesOptions/CultureUpbringingView.vue'
-// CareersOptions
+// #endregion
+// #region CareersOptions imports
 import CareersOverviewView from '@/views/CareersOptions/CareersOverviewView.vue'
 import CareersAgentView from '@/views/CareersOptions/CareersAgentView.vue'
 import CareersAristocratView from '@/views/CareersOptions/CareersAristocratView.vue'
@@ -62,17 +67,28 @@ import CareersSailorView from '@/views/CareersOptions/CareersSailorView.vue'
 import CareersSoldierView from '@/views/CareersOptions/CareersSoldierView.vue'
 import CareersWardenView from '@/views/CareersOptions/CareersWardenView.vue'
 import CareersWatchOfficerView from '@/views/CareersOptions/CareersWatchOfficerView.vue'
-// ClassesOptions
+// #endregion
+// #region ClassesOptions imports
 import ClassesOverviewView from '@/views/ClassesOptions/ClassesOverviewView.vue'
 import ClassesAbilitiesView from '@/views/ClassesOptions/ClassesAbilitiesView.vue'
-// Conditions
-import ConditionsView from '@/views/ConditionsView.vue'
-// KitsOptions
+// #endregion
+// #region KitsOptions imports
 import KitOverviewView from '@/views/KitsOptions/KitsOverviewView.vue'
 import KitsEquipmentView from '@/views/KitsOptions/KitsEquipmentView.vue'
 import KitsBonusesView from '@/views/KitsOptions/KitsBonusesView.vue'
 import KitsSignatureAbilityView from '@/views/KitsOptions/KitsSignatureAbilityView.vue'
-
+// #endregion
+// #region PerksOptions imports
+import PerksOverviewView from '@/views/PerksOptions/PerksOverviewView.vue'
+// #endregion
+// Conditions
+import ConditionsView from '@/views/ConditionsView.vue'
+import PerksCraftingView from '@/views/PerksOptions/PerksCraftingView.vue'
+import PerksExplorationView from '@/views/PerksOptions/PerksExplorationView.vue'
+import PerksInterpersonalView from '@/views/PerksOptions/PerksInterpersonalView.vue'
+import PerksIntrigueView from '@/views/PerksOptions/PerksIntrigueView.vue'
+import PerksLoreView from '@/views/PerksOptions/PerksLoreView.vue'
+import PerksSupernaturalView from '@/views/PerksOptions/PerksSupernaturalView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -81,6 +97,7 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
+    // #region GameIntroOptions
     {
       path: '/whatTheGameIs',
       name: 'whatTheGameIs',
@@ -96,6 +113,8 @@ const router = createRouter({
       name: 'comingFromD20',
       component: ComingFromD20View
     },
+    // #endregion
+    // #region BasicOptions
     {
       path: '/characteristics',
       name: 'characteristics',
@@ -151,6 +170,8 @@ const router = createRouter({
       name: 'echelons',
       component: EchelonsView,
     },
+    // #endregion
+    // #region MakingAHeroOptions
     {
       path: '/firstSession',
       name: 'firstSession',
@@ -176,6 +197,8 @@ const router = createRouter({
       name: 'heroicAdvancement',
       component: HeroicAdvancementView,
     },
+    // #endregion
+    // #region Ancestries
     {
       path: '/ancestriesOverview',
       name: 'ancestriesOverview',
@@ -241,6 +264,8 @@ const router = createRouter({
       name: 'ancestryTimeRaider',
       component: AncestryTimeRaiderView,
     },
+    // #endregion
+    // #region Cultures
     {
       path: '/culturesOverview',
       name: 'culturesOverview',
@@ -266,6 +291,8 @@ const router = createRouter({
       name: 'culturesUpbringing',
       component: CultureUpbringingView,
     },
+    // #endregion
+    // #region Careers
     {
       path: '/careersOverview',
       name: 'careersOverview',
@@ -361,6 +388,8 @@ const router = createRouter({
       name: 'careersWatchOfficer',
       component: CareersWatchOfficerView,
     },
+    // #endregion
+    // #region Classes
     {
       path: '/classesOverview',
       name: 'classesOverview',
@@ -371,6 +400,8 @@ const router = createRouter({
       name: 'classesAbilities',
       component: ClassesAbilitiesView,
     },
+    // #endregion
+    // #region Kits
     {
       path: '/kitsOverview',
       name: 'kitsOverview',
@@ -391,6 +422,44 @@ const router = createRouter({
       name: 'kitsSignatureAbility',
       component: KitsSignatureAbilityView,
     },
+    // #endregion
+    // #region Perks
+    {
+      path: '/perksOverview',
+      name: 'perksOverview',
+      component: PerksOverviewView,
+    },
+    {
+      path: '/perksCrafting',
+      name: 'perksCrafting',
+      component: PerksCraftingView,
+    },
+    {
+      path: '/perksExploration',
+      name: 'perksExploration',
+      component: PerksExplorationView,
+    },
+    {
+      path: '/perksInterpersonal',
+      name: 'perksInterpersonal',
+      component: PerksInterpersonalView,
+    },
+    {
+      path: '/perksIntrigue',
+      name: 'perksIntrigue',
+      component: PerksIntrigueView,
+    },
+    {
+      path: '/perksLore',
+      name: 'perksLore',
+      component: PerksLoreView,
+    },
+    {
+      path: '/perksSupernatural',
+      name: 'perksSupernatural',
+      component: PerksSupernaturalView,
+    },
+    // #endregion
     {
       path: '/conditions',
       name: 'conditions',
