@@ -16,7 +16,6 @@
       ['Recoveries', 'recoveries'],
       ['Respite', 'respite'],
       ['Hero Tokens', 'heroTokens'],
-      // ['Heroic Resources', 'heroicResources'],
       ['Misc. Rules', 'miscRules'],
       ['Echelons of Play', 'echelons']
     ];
@@ -91,8 +90,7 @@
     ];
     const complicationsOptions = [
       ['Complication Overview', 'complicationsOverview'],
-      
-    ]
+    ];
 
     let navOpen = ref(null);
 </script>

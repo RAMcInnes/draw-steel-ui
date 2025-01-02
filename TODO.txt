@@ -1,0 +1,20 @@
+TO DO LIST
+
+- What is the purpose of this app? Is it a resource for how to learn the game? Or is it a digital version of all of the rules?
+    - If it is a digital version of the rules, then it should have everything.
+    - If it is to learn how to play the game, then it should NOT list out every option for (Ancestry, Career, Class, Perk, Complication, etc.)
+
+- Search
+    - Add searchbar to top of navigation drawer.
+    - Combine all arrays in App.vue, that will be what is searched (results in new array).
+    - Either show searchResultsArray or list how it is now.
+
+- Add links
+    - When something says "See ___", link to it.
+
+- Replace all Ancestry, Career, and Perk options with something like "Kit Signature Ability"
+    - Just show the reader what page(s) the appropriate info is on.
+
+- Color
+    - Lot of white (space).
+    - Add Dark theme or v-card color?

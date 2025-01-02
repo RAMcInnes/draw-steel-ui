@@ -42,7 +42,18 @@
             <v-expansion-panel-text>
                 Some abilities have a Heroic Resource cost to use them.
                 When you use one of these abilities, you spend your Heroic
-                Resource, then activate the ability
+                Resource, then activate the ability.
+                <br>
+                <h2>Heroic Resource</h2>
+                <p>
+                    Your hero has a Heroic Resource determined by your class,
+                    and which you manage during play. Earning resources can
+                    increase your hero’s power, and Resources are spent to
+                    activate your most powerful abilities.
+                    <br>
+                    Your hero’s class description has more information about
+                    how to use your Heroic Resource.
+                </p>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
