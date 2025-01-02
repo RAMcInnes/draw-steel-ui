@@ -20,7 +20,7 @@
         written off to the side in a virtual tabletop.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Earning Hero Tokens
         </v-card-title>

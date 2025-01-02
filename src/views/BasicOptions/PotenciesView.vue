@@ -11,15 +11,12 @@
         lacking in that characteristic.
     </p>
     <br>
-    <v-expansion-panels>
-        <v-expansion-panel color="grey-lighten-2">
-            <v-expansion-panel-title>
-                <h2>
-                    Resisting Potencies
-                </h2>
-            </v-expansion-panel-title>
-            <v-expansion-panel-text>
-                <p>
+    <v-card color="grey-lighten-2">
+        <v-card-title>
+            Resisting Potencies
+        </v-card-title>
+        <v-card-text>
+            <p>
                     These effects have a potency and only take hold of the
                     target if the effect’s potency value is higher than the
                     target’s indicated characteristic scores.
@@ -35,6 +32,7 @@
                         the target needs to beat the effect.
                     </b>
                 </p>
+                <br>
                 <p>
                     For example, a 1st-level conduit’s Punishing Smite ability
                     has the following power roll outcomes:
@@ -51,55 +49,50 @@
                     bandit prone and mean the bandit couldn’t get up until
                     they succeed on a saving throw.
                 </p>
-            </v-expansion-panel-text>
-        </v-expansion-panel>
-        <v-expansion-panel color="grey-lighten-1">
-            <v-expansion-panel-title>
-                <h2>
-                    Your Potency
-                </h2>
-            </v-expansion-panel-title>
-            <v-expansion-panel-text>
-                <p>
-                    Many of your abilities have a potency. The characteristic a
-                    target uses to resist is based on the ability used, and the
-                    value of your potency is based on one of your
-                    characteristics and determined by your choice of class
-                    during character creation.
-                </p>
-                <p>
-                    You have <b>weak</b>, <b>average</b>, and <b>strong</b> potency values. All of
-                    these values increase as your hero advances in level and
-                    gains power.
-                </p>
-                <ul>
-                    <li>Your <b>weak</b> potency value is equal to your highest characteristic score - 2.</li>
-                    <li>Your <b>average</b> potency value is equal to your highest characteristic score - 1.</li>
-                    <li>Your <b>strong</b> potency value is your highest characteristic value.</li>
-                </ul>
-            </v-expansion-panel-text>
-        </v-expansion-panel>
-        <v-expansion-panel color="grey-lighten-2">
-            <v-expansion-panel-title>
-                <h2>
-                    Adjusting Potencies
-                </h2>
-            </v-expansion-panel-title>
-            <v-expansion-panel-text>
-                <p>
-                    Potencies are made for quick resolution at the table, but
-                    there are some triggered actions and other abilities that
-                    allow you to manipulate their value. If you build a hero
-                    who can adjust a potency, pay attention during battle!
-                </p>
-                <p>
-                    You might be able to help out a friend who needs a little boost
-                    to make their ability take full effect or an enemy about to
-                    lock down one of your allies who has a potency that needs
-                    some dampening. As the saying goes, “Teamwork makes
-                    the potencies dynamic.” Yeah, that’s the saying.
-                </p>
-            </v-expansion-panel-text>
-        </v-expansion-panel>
-    </v-expansion-panels>
+        </v-card-text>
+    </v-card>
+    <br>
+    <v-card>
+        <v-card-title>
+            Your Potency
+        </v-card-title>
+        <v-card-text>
+            <p>
+                Many of your abilities have a potency. The characteristic a
+                target uses to resist is based on the ability used, and the
+                value of your potency is based on one of your
+                characteristics and determined by your choice of class
+                during character creation.
+            </p>
+            <p>
+                You have <b>weak</b>, <b>average</b>, and <b>strong</b> potency values. All of
+                these values increase as your hero advances in level and
+                gains power.
+            </p>
+            <br>• Your <b>weak</b> potency value is equal to your highest characteristic score - 2.
+            <br>• Your <b>average</b> potency value is equal to your highest characteristic score - 1.
+            <br>• Your <b>strong</b> potency value is your highest characteristic value.
+        </v-card-text>
+    </v-card>
+    <br>
+    <v-card color="grey-lighten-2">
+        <v-card-title>
+            Adjusting Potencies
+        </v-card-title>
+        <v-card-text>
+            <p>
+                Potencies are made for quick resolution at the table, but
+                there are some triggered actions and other abilities that
+                allow you to manipulate their value. If you build a hero
+                who can adjust a potency, pay attention during battle!
+            </p>
+            <p>
+                You might be able to help out a friend who needs a little boost
+                to make their ability take full effect or an enemy about to
+                lock down one of your allies who has a potency that needs
+                some dampening. As the saying goes, “Teamwork makes
+                the potencies dynamic.” Yeah, that’s the saying.
+            </p>
+        </v-card-text>
+    </v-card>
 </template>

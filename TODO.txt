@@ -3,6 +3,8 @@ TO DO LIST
 - What is the purpose of this app? Is it a resource for how to learn the game? Or is it a digital version of all of the rules?
     - If it is a digital version of the rules, then it should have everything.
     - If it is to learn how to play the game, then it should NOT list out every option for (Ancestry, Career, Class, Perk, Complication, etc.)
+    -- ** I'm leaning on Option 2. That is to say, I want this to be a resource for learning the game.
+    -- ** As such, it will NOT contain every bit of information for creating a character. It will explain how the rules work.
 
 - Search
     - Add searchbar to top of navigation drawer.

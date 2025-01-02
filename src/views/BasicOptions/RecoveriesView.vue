@@ -17,7 +17,7 @@
         maximum</b>.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Spending Recoveries
         </v-card-title>

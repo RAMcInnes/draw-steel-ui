@@ -82,7 +82,7 @@
         their game uses different advancement. Check with your
         Director to see what method of advancement they plan to use.
     </p>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Adjusted XP Advancement
         </v-card-title>
@@ -93,9 +93,10 @@
             or half the usual pace. Directors can also create their own
             customized pace for XP-based advancement.
             <br>
-            SEE ADJUSTED XP ADVANCEMENT TABLE
+            See ADJUSTED XP ADVANCEMENT Table on Page 16.
         </v-card-text>
     </v-card>
+    <br>
     <v-card>
         <v-card-title>
             Milestone
@@ -122,7 +123,8 @@
             anything else that thwarts their evil plans.
         </v-card-text>
     </v-card>
-    <v-card>
+    <br>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Director Says So
         </v-card-title>

@@ -3,7 +3,7 @@
 
 <template>
     <h1>Miscellaneous Rules</h1>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Game of Exceptions
         </v-card-title>
@@ -35,7 +35,7 @@
         </v-card-text>
     </v-card>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Creatures and Objects
         </v-card-title>
@@ -78,7 +78,7 @@
         </v-card-text>
     </v-card>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             PCs and NPCs
         </v-card-title>

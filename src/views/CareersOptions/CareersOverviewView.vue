@@ -11,7 +11,7 @@
         save lives and slay monsters.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Career Questions
         </v-card-title>
@@ -118,7 +118,7 @@
         </v-expansion-panels>
     </v-card>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Inciting Incident
         </v-card-title>

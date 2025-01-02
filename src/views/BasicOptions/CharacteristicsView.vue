@@ -19,7 +19,7 @@
         Power Rolls).
     </p>
     <br>
-    <v-card color="blue-grey-lighten-3">
+    <v-card color="grey-lighten-2">
         <v-card-title>
             MIGHT
         </v-card-title>
@@ -30,7 +30,8 @@
             determined by Might.
         </v-card-text>
     </v-card>
-    <v-card color="blue-grey-lighten-4">
+    <br>
+    <v-card>
         <v-card-title>
             AGILITY
         </v-card-title>
@@ -41,7 +42,8 @@
             guard’s belt is determined by Agility.
         </v-card-text>
     </v-card>
-    <v-card color="blue-grey-lighten-3">
+    <br>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             REASON
         </v-card-title>
@@ -52,7 +54,8 @@
             or blast a foe with psionic power is determined by Reason.
         </v-card-text>
     </v-card>
-    <v-card color="blue-grey-lighten-4">
+    <br>
+    <v-card>
         <v-card-title>
             INTUITION
         </v-card-title>
@@ -64,7 +67,8 @@
             across the tundra is determined by Intuition.
         </v-card-text>
     </v-card>
-    <v-card color="blue-grey-lighten-3">
+    <br>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             PRESENCE
         </v-card-title>
