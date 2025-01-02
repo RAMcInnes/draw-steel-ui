@@ -1,7 +1,5 @@
 <script setup lang="ts">
-    import { useDisplay } from 'vuetify';
-
-    const { smAndDown } = useDisplay();
+    import { ref } from 'vue';
 
     const gameIntroOptions = [
       ['What Draw Steel IS NOT', 'whatTheGameIs'],
@@ -91,12 +89,24 @@
       ['Lore Perks', 'perksLore'],
       ['Supernatural Perks', 'perksSupernatural'],
     ];
+
+    let navOpen = ref(null);
 </script>
 
 <template>
   <v-app>
+    <v-app-bar>
+      <template v-slot:prepend>
+        <button @click="navOpen = !navOpen">
+          <v-app-bar-nav-icon>
+          </v-app-bar-nav-icon>
+        </button>
+      </template>
+
+      <v-app-bar-title>Draw Steel</v-app-bar-title>
+    </v-app-bar>
     <v-main>
-      <v-navigation-drawer permanent :rail=smAndDown :rail-width="100">
+      <v-navigation-drawer v-model="navOpen">
         <v-list open-strategy="multiple">
           <v-list-group value="Game">
             <template v-slot:activator="{ props }">
