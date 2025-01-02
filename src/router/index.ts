@@ -26,7 +26,7 @@ import ChangingOptionsView from '@/views/MakingAHeroOptions/ChangingOptionsView.
 import HeroicAdvancementView from '@/views/MakingAHeroOptions/HeroicAdvancementView.vue'
 // #endregion
 // #region AncestriesOptions imports
-import AncestriesOverviewView from '@/views/AncestriesOptions/AncestriesOverviewView.vue'
+import AncestriesOverviewView from '@/views/AncestriesOptions/AncestryOverviewView.vue'
 import AncestryDevilView from '@/views/AncestriesOptions/AncestryDevilView.vue'
 import AncestryDragonKnightView from '@/views/AncestriesOptions/AncestryDragonKnightView.vue'
 import AncestryDwarfView from '@/views/AncestriesOptions/AncestryDwarfView.vue'
@@ -80,15 +80,20 @@ import KitsSignatureAbilityView from '@/views/KitsOptions/KitsSignatureAbilityVi
 // #endregion
 // #region PerksOptions imports
 import PerksOverviewView from '@/views/PerksOptions/PerksOverviewView.vue'
-// #endregion
-// Conditions
-import ConditionsView from '@/views/ConditionsView.vue'
 import PerksCraftingView from '@/views/PerksOptions/PerksCraftingView.vue'
 import PerksExplorationView from '@/views/PerksOptions/PerksExplorationView.vue'
 import PerksInterpersonalView from '@/views/PerksOptions/PerksInterpersonalView.vue'
 import PerksIntrigueView from '@/views/PerksOptions/PerksIntrigueView.vue'
 import PerksLoreView from '@/views/PerksOptions/PerksLoreView.vue'
 import PerksSupernaturalView from '@/views/PerksOptions/PerksSupernaturalView.vue'
+// #endregion
+// #region ComplicationsOptions imports
+import ComplicationsOverviewView from '@/views/ComplicationsOptions/ComplicationsOverviewView.vue'
+// #endregion
+
+// Conditions
+import ConditionsView from '@/views/ConditionsView.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -458,6 +463,13 @@ const router = createRouter({
       path: '/perksSupernatural',
       name: 'perksSupernatural',
       component: PerksSupernaturalView,
+    },
+    // #endregion
+    // #region Complications
+    {
+      path: '/complicationsOverview',
+      name: 'complicationsOverview',
+      component: ComplicationsOverviewView,
     },
     // #endregion
     {

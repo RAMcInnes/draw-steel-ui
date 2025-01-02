@@ -70,7 +70,7 @@
 </script>
 
 <template>
-    <h1>Ancestries Overview</h1>
+    <h1>Ancestry Overview</h1>
     <p>
         Fantastic peoples inhabit the worlds of Draw Steel. Among
         them are devils, dwarves, elves, time raiders—even
