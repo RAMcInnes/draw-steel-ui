@@ -17,6 +17,10 @@ TO DO LIST
 - Replace all Ancestry, Career, and Perk options with something like "Kit Signature Ability"
     - Just show the reader what page(s) the appropriate info is on.
 
+- Grammar
+    - "Perks Overview" vs "Class Overview" (singular vs plural)
+    - Be consistent!
+
 - Color
     - Lot of white (space).
     - Add Dark theme or v-card color?

@@ -90,6 +90,15 @@ import PerksSupernaturalView from '@/views/PerksOptions/PerksSupernaturalView.vu
 // #region ComplicationsOptions imports
 import ComplicationsOverviewView from '@/views/ComplicationsOptions/ComplicationsOverviewView.vue'
 // #endregion
+// #region TestsOptions imports
+import TestsOverviewView from '@/views/TestsOptions/TestsOverviewView.vue'
+import TestsHowToMakeView from '@/views/TestsOptions/TestsHowToMakeView.vue'
+import TestsDifficultyAndOutcomesView from '@/views/TestsOptions/TestsDifficultyAndOutcomesView.vue'
+import TestsReactiveView from '@/views/TestsOptions/TestsReactiveView.vue'
+import TestsAssistView from '@/views/TestsOptions/TestsAssistView.vue'
+import TestsGroupView from '@/views/TestsOptions/TestsGroupView.vue'
+import TestsMontageView from '@/views/TestsOptions/TestsMontageView.vue'
+// #endregion
 
 // Conditions
 import ConditionsView from '@/views/ConditionsView.vue'
@@ -470,6 +479,43 @@ const router = createRouter({
       path: '/complicationsOverview',
       name: 'complicationsOverview',
       component: ComplicationsOverviewView,
+    },
+    // #endregion
+    // #region Tests
+    {
+      path: '/testsOverview',
+      name: 'testsOverview',
+      component: TestsOverviewView,
+    },
+    {
+      path: '/testsHowToMake',
+      name: 'testsHowToMake',
+      component: TestsHowToMakeView,
+    },
+    {
+      path: '/testsDifficultyAndOutcomes',
+      name: 'testsDifficultyAndOutcomes',
+      component: TestsDifficultyAndOutcomesView,
+    },
+    {
+      path: '/testsReactive',
+      name: 'testsReactive',
+      component: TestsReactiveView,
+    },
+    {
+      path: '/testsAssist',
+      name: 'testsAssist',
+      component: TestsAssistView,
+    },
+    {
+      path: '/testsGroup',
+      name: 'testsGroup',
+      component: TestsGroupView,
+    },
+    {
+      path: '/testsMontage',
+      name: 'testsMontage',
+      component: TestsMontageView,
     },
     // #endregion
     {

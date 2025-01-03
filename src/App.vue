@@ -92,6 +92,17 @@
       ['Complication Overview', 'complicationsOverview'],
     ];
 
+    const testsOptions = [
+      ['Test Overview', 'testsOverview'],
+      ['How to Make a Test', 'testsHowToMake'],
+      ['Difficulty and Outcomes', 'testsDifficultyAndOutcomes'],
+      ['Assist a Test', 'testsAssist'],
+      ['Reactive Tests', 'testsReactive'],
+      ['Group Tests', 'testsGroup'],
+      ['Montage Tests', 'testsMontage'],
+      ['Hide and Sneak', 'testsHideAndSneak'],
+    ];
+
     let navOpen = ref(null);
 </script>
 
@@ -273,6 +284,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in complicationsOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Tests">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Tests"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in testsOptions"
                 :key="i"
                 :title="title"
                 :value="title"
