@@ -88,10 +88,6 @@
       // ['Lore Perks', 'perksLore'],
       // ['Supernatural Perks', 'perksSupernatural'],
     ];
-    const complicationsOptions = [
-      ['Complication Overview', 'complicationsOverview'],
-    ];
-
     const testsOptions = [
       ['Test Overview', 'testsOverview'],
       ['How to Make a Test', 'testsHowToMake'],
@@ -102,7 +98,14 @@
       ['Montage Tests', 'testsMontage'],
       ['Hide and Sneak', 'testsHideAndSneak'],
     ];
+    const skillsOptions = [
+      ['Skill Overview', 'skillsOverview'],
+      ['Skill Groups', 'skillsGroups'],
+    ];
 
+    const complicationsOptions = [
+      ['Complication Overview', 'complicationsOverview'],
+    ];
     let navOpen = ref(null);
 </script>
 
@@ -301,6 +304,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in testsOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Skills">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Skills"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in skillsOptions"
                 :key="i"
                 :title="title"
                 :value="title"

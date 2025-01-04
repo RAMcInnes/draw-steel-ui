@@ -99,6 +99,10 @@ import TestsAssistView from '@/views/TestsOptions/TestsAssistView.vue'
 import TestsGroupView from '@/views/TestsOptions/TestsGroupView.vue'
 import TestsMontageView from '@/views/TestsOptions/TestsMontageView.vue'
 // #endregion
+// #region SkillsOptions imports
+import SkillsOverviewView from '@/views/SkillsOptions/SkillsOverviewView.vue'
+import SkillsGroupsView from '@/views/SkillsOptions/SkillsGroupsView.vue'
+// #endregion
 
 // Conditions
 import ConditionsView from '@/views/ConditionsView.vue'
@@ -516,6 +520,18 @@ const router = createRouter({
       path: '/testsMontage',
       name: 'testsMontage',
       component: TestsMontageView,
+    },
+    // #endregion
+    // #region Skills
+    {
+      path: '/skillsOverview',
+      name: 'skillsOverview',
+      component: SkillsOverviewView,
+    },
+    {
+      path: '/skillsGroups',
+      name: 'skillsGroups',
+      component: SkillsGroupsView,
     },
     // #endregion
     {
