@@ -3,7 +3,7 @@
 
 <template>
     <h1>Dice</h1>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             D10s
         </v-card-title>
@@ -27,7 +27,7 @@
         </v-card-text>
     </v-card>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             D3s
         </v-card-title>

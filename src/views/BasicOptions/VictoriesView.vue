@@ -10,7 +10,7 @@
         has 0 Victories.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Victories For Combat
         </v-card-title>
@@ -32,11 +32,11 @@
             Victory. Such challenges can include things like a
             particularly complicated and deadly trap, a negotiation, a
             montage test, a complicated puzzle, or the execution of a
-            clever idea that avoids a battle. 
+            clever idea that avoids a battle.
         </v-card-text>
     </v-card>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Victories Reset
         </v-card-title>

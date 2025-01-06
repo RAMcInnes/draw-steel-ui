@@ -102,6 +102,27 @@
       ['Skill Overview', 'skillsOverview'],
       ['Skill Groups', 'skillsGroups'],
     ];
+    const combatOptions = [
+      ['Combat Overview', 'combatOverview'],
+      ['Combat Round', 'combatRound'],
+      ['Taking a Turn', 'combatTakingATurn'],
+      ['Movement', 'combatMovement'],
+      ['Move Action', 'combatMoveAction'],
+      ['Maneuvers', 'combatManeuvers'],
+      ['Actions', 'combatActions'],
+      ['Free Strikes', 'combatFreeStrikes'],
+      ['Flanking', 'combatFlanking'],
+      ['Cover and Concealment', 'combatCoverAndConcealment'],
+      ['Damage', 'combatDamage'],
+      ['Stamina', 'combatStamina'],
+      ['Underwater Combat', 'combatUnderwater'],
+      ['Mounted Combat', 'combatMounted'],
+      ['End of Combat', 'combatEndOfCombat'],
+    ];
+    const negotiationOptions = [
+      ['Negotiation Overview', 'negotiationOverview'],
+
+    ];
 
     const complicationsOptions = [
       ['Complication Overview', 'complicationsOverview'],
@@ -321,6 +342,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in skillsOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Combat">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Combat"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in combatOptions"
                 :key="i"
                 :title="title"
                 :value="title"

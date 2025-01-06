@@ -14,12 +14,17 @@ TO DO LIST
 - Add links
     - When something says "See ___", link to it.
 
+- Glossary with list of all terms (and links to them)
+
 - Replace all Ancestry, Career, and Perk options with something like "Kit Signature Ability"
     - Just show the reader what page(s) the appropriate info is on.
 
 - Grammar
     - "Perks Overview" vs "Class Overview" (singular vs plural)
     - Be consistent!
+
+- Flanking (imgs)
+    - Make them look nice on PC and Mobile
 
 - Color
     - Lot of white (space).

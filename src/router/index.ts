@@ -98,10 +98,28 @@ import TestsReactiveView from '@/views/TestsOptions/TestsReactiveView.vue'
 import TestsAssistView from '@/views/TestsOptions/TestsAssistView.vue'
 import TestsGroupView from '@/views/TestsOptions/TestsGroupView.vue'
 import TestsMontageView from '@/views/TestsOptions/TestsMontageView.vue'
+import TestsHideAndSneakView from '@/views/TestsOptions/TestsHideAndSneakView.vue'
 // #endregion
 // #region SkillsOptions imports
 import SkillsOverviewView from '@/views/SkillsOptions/SkillsOverviewView.vue'
 import SkillsGroupsView from '@/views/SkillsOptions/SkillsGroupsView.vue'
+// #endregion
+// #region CombatOptions imports
+import CombatOverviewView from '@/views/CombatOptions/CombatOverviewView.vue'
+import CombatRoundView from '@/views/CombatOptions/CombatRoundView.vue'
+import CombatTakeingATurnView from '@/views/CombatOptions/CombatTakeingATurnView.vue'
+import CombatMovementView from '@/views/CombatOptions/CombatMovementView.vue'
+import CombatMoveActionView from '@/views/CombatOptions/CombatMoveActionView.vue'
+import CombatManeuversView from '@/views/CombatOptions/CombatManeuversView.vue'
+import CombatActionsView from '@/views/CombatOptions/CombatActionsView.vue'
+import CombatFreeStrikesView from '@/views/CombatOptions/CombatFreeStrikesView.vue'
+import CombatFlankingView from '@/views/CombatOptions/CombatFlankingView.vue'
+import CombatCoverAndConcealmentView from '@/views/CombatOptions/CombatCoverAndConcealmentView.vue'
+import CombatDamageView from '@/views/CombatOptions/CombatDamageView.vue'
+import CombatStaminaView from '@/views/CombatOptions/CombatStaminaView.vue'
+import CombatUnderwaterView from '@/views/CombatOptions/CombatUnderwaterView.vue'
+import CombatMountedView from '@/views/CombatOptions/CombatMountedView.vue'
+import CombatEndOfCombatView from '@/views/CombatOptions/CombatEndOfCombatView.vue'
 // #endregion
 
 // Conditions
@@ -521,6 +539,11 @@ const router = createRouter({
       name: 'testsMontage',
       component: TestsMontageView,
     },
+    {
+      path: '/testsHideAndSneak',
+      name: 'testsHideAndSneak',
+      component: TestsHideAndSneakView,
+    },
     // #endregion
     // #region Skills
     {
@@ -532,6 +555,83 @@ const router = createRouter({
       path: '/skillsGroups',
       name: 'skillsGroups',
       component: SkillsGroupsView,
+    },
+    // #endregion
+    // #region Combat
+    {
+      path: '/combatOverview',
+      name: 'combatOverview',
+      component: CombatOverviewView,
+    },
+    {
+      path: '/combatRound',
+      name: 'combatRound',
+      component: CombatRoundView,
+    },
+    {
+      path: '/combatTakingATurn',
+      name: 'combatTakingATurn',
+      component: CombatTakeingATurnView,
+    },
+    {
+      path: '/combatMovement',
+      name: 'combatMOvement',
+      component: CombatMovementView,
+    },
+    {
+      path: '/combatMoveAction',
+      name: 'combatMoveAction',
+      component: CombatMoveActionView,
+    },
+    {
+      path: '/combatManeuvers',
+      name: 'combatManeuvers',
+      component: CombatManeuversView,
+    },
+    {
+      path: '/combatActions',
+      name: 'combatActions',
+      component: CombatActionsView,
+    },
+    {
+      path: '/combatFreeStrikes',
+      name: 'combatFreeStrikes',
+      component: CombatFreeStrikesView,
+    },
+    {
+      path: '/combatFlanking',
+      name: 'combatFlanking',
+      component: CombatFlankingView,
+    },
+    {
+      path: '/combatCoverAndConcealment',
+      name: 'combatCoverAndConcealment',
+      component: CombatCoverAndConcealmentView,
+    },
+    {
+      path: '/combatDamage',
+      name: 'combatDamage',
+      component: CombatDamageView,
+    },
+    {
+      path: '/combatStamina',
+      name: 'combatStamina',
+      component: CombatStaminaView,
+    },
+    {
+      path: '/combatUnderwater',
+      name: 'combatUnderwater',
+      component: CombatUnderwaterView,
+    },
+    {
+      path: '/combatMounted',
+      name: 'combatMounted',
+      component: CombatMountedView,
+    },
+    {
+      path: '/combatEndOfCombat',
+      name: 'combatEndOfCombat',
+      component: CombatEndOfCombatView,
     },
     // #endregion
     {
