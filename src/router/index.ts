@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/BasicOptions/HomeView.vue'
 // #region GameIntroOptions imports
-import WhatTheGameIsView from '@/views/GameIntroOptions/WhatTheGameIsView.vue'
 import WhatTheGameIsNotView from '@/views/GameIntroOptions/WhatTheGameIsNotView.vue'
+import WhatTheGameIsView from '@/views/GameIntroOptions/WhatTheGameIsView.vue'
 import ComingFromD20View from '@/views/GameIntroOptions/ComingFromD20View.vue'
 // #endregion
 // #region BasicOptions imports
@@ -121,7 +121,16 @@ import CombatUnderwaterView from '@/views/CombatOptions/CombatUnderwaterView.vue
 import CombatMountedView from '@/views/CombatOptions/CombatMountedView.vue'
 import CombatEndOfCombatView from '@/views/CombatOptions/CombatEndOfCombatView.vue'
 // #endregion
-
+// #region NegotiationOptions imports
+import NegotiationOverviewView from '@/views/NegotiationOptions/NegotiationOverviewView.vue'
+import NegotiationStatsView from '@/views/NegotiationOptions/NegotiationStatsView.vue'
+import NegotiationMotivationsAndPitfallsView from '@/views/NegotiationOptions/NegotiationMotivationsAndPitfallsView.vue'
+import NegotiationOpeningANegotiationView from '@/views/NegotiationOptions/NegotiationOpeningANegotiationView.vue'
+import NegotiationUncoveringMotivationsView from '@/views/NegotiationOptions/NegotiationUncoveringMotivationsView.vue'
+import NegotiationMakingArgumentsView from '@/views/NegotiationOptions/NegotiationMakingArgumentsView.vue'
+import NegotiationResponseAndOfferView from '@/views/NegotiationOptions/NegotiationResponseAndOfferView.vue'
+import NegotiationKeepGoingOrStopView from '@/views/NegotiationOptions/NegotiationKeepGoingOrStopView.vue'
+// #endregion
 // Conditions
 import ConditionsView from '@/views/ConditionsView.vue'
 
@@ -634,6 +643,50 @@ const router = createRouter({
       component: CombatEndOfCombatView,
     },
     // #endregion
+    // #region Negotiation
+    {
+      path: '/negotiationOverview',
+      name: 'negotiationOverview',
+      component: NegotiationOverviewView,
+    },
+    {
+      path: '/negotiationStats',
+      name: 'negotiationStats',
+      component: NegotiationStatsView,
+    },
+    {
+      path: '/negotiationMotivationsAndPitfalls',
+      name: 'negotiationMotivationsAndPitfalls',
+      component: NegotiationMotivationsAndPitfallsView,
+    },
+    {
+      path: '/negotiationOpeningANegotiation',
+      name: 'negotiationOpeningANegotiation',
+      component: NegotiationOpeningANegotiationView,
+    },
+    {
+      path: '/negotiationUncoveringMotivations',
+      name: 'negotiationUncoveringMotivations',
+      component: NegotiationUncoveringMotivationsView,
+    },
+    {
+      path: '/negotiationMakingArguments',
+      name: 'negotiationMakingArguments',
+      component: NegotiationMakingArgumentsView,
+    },
+    {
+      path: '/negotiationResponseAndOffer',
+      name: 'negotiationResponseAndOffer',
+      component: NegotiationResponseAndOfferView,
+    },
+    {
+      path: '/negotiationKeepGoingOrStop',
+      name: 'negotiationKeepGoingOrStop',
+      component: NegotiationKeepGoingOrStopView,
+    },
+    // #endregion
+
+    // #region Conditions
     {
       path: '/conditions',
       name: 'conditions',

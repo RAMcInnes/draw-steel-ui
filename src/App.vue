@@ -2,8 +2,8 @@
     import { ref } from 'vue';
 
     const gameIntroOptions = [
-      ['What Draw Steel IS NOT', 'whatTheGameIs'],
-      ['What Draw Steel IS', 'whatTheGameIsNot'],
+      ['What Draw Steel IS NOT', 'whatTheGameIsNot'],
+      ['What Draw Steel IS', 'whatTheGameIs'],
       ['Coming from D20 Fantasy', 'ComingFromD20']
     ];
     const basicOptions = [
@@ -121,12 +121,19 @@
     ];
     const negotiationOptions = [
       ['Negotiation Overview', 'negotiationOverview'],
-
+      ['Negotiation Stats', 'negotiationStats'],
+      ['Motivations and Pitfalls', 'negotiationMotivationsAndPitfalls'],
+      ['Opening A Negotiation', 'negotiationOpeningANegotiation'],
+      ['Uncovering Motivations', 'negotiationUncoveringMotivations'],
+      ['Making Arguments', 'negotiationMakingArguments'],
+      ['Response And Offer', 'negotiationResponseAndOffer'],
+      ['Keep Going or Stop', 'negotiationKeepGoingOrStop'],
     ];
 
     const complicationsOptions = [
       ['Complication Overview', 'complicationsOverview'],
     ];
+
     let navOpen = ref(null);
 </script>
 
@@ -359,6 +366,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in combatOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Negotiation">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Negotiation"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in negotiationOptions"
                 :key="i"
                 :title="title"
                 :value="title"
