@@ -134,7 +134,38 @@
       ['Complication Overview', 'complicationsOverview'],
     ];
 
+    const combinedArray = [
+      gameIntroOptions,
+      basicOptions,
+      makingAHeroOptions,
+      ancestriesOption,
+      culturesOptions,
+      careersOptions,
+      classesOptions,
+      kitsOptions,
+      perksOptions,
+      testsOptions,
+      skillsOptions,
+      combatOptions,
+      negotiationOptions,
+      complicationsOptions
+    ];
+
+    const allSectionsArray = combinedArray.flatMap(arr => arr.map(section => section[0]));
+
     let navOpen = ref(null);
+
+    let filteredSections = ref();
+
+    function updateShownSections(searchTerm: string) {
+      if (searchTerm === '') {
+        console.log('searchTerm is empty');
+        filteredSections.value = undefined;
+        return;
+      }
+      filteredSections.value = allSectionsArray.filter(section => section.toLowerCase().includes(searchTerm.toLowerCase()));
+      console.log('updateShownSections');
+    }
 </script>
 
 <template>
@@ -142,8 +173,7 @@
     <v-app-bar>
       <template v-slot:prepend>
         <button @click="navOpen = !navOpen">
-          <v-app-bar-nav-icon>
-          </v-app-bar-nav-icon>
+          <v-app-bar-nav-icon />
         </button>
       </template>
 
@@ -151,7 +181,15 @@
     </v-app-bar>
     <v-main>
       <v-navigation-drawer v-model="navOpen">
-        <v-list open-strategy="multiple">
+        <div style="display: flex">
+          <v-text-field
+            label="Search Section Titles"
+            density="compact"
+            variant="underlined"
+            @update:modelValue="updateShownSections"
+          />
+        </div>
+        <v-list v-if="!filteredSections" open-strategy="multiple">
           <v-list-group value="Game">
             <template v-slot:activator="{ props }">
               <v-list-item
@@ -395,6 +433,16 @@
             value="Conditions"
             to="conditions">
           </v-list-item>
+        </v-list>
+
+        <v-list v-if="filteredSections" open-strategy="multiple">
+          <v-list-item
+            v-for="(section, i) in filteredSections"
+            :key="i"
+            :title="section"
+            :value="section"
+            to="conditions"
+          ></v-list-item>
         </v-list>
       </v-navigation-drawer>
 
