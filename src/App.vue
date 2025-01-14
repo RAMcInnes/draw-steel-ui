@@ -129,7 +129,13 @@
       ['Response And Offer', 'negotiationResponseAndOffer'],
       ['Keep Going or Stop', 'negotiationKeepGoingOrStop'],
     ];
-
+    const downTimeOptions = [
+      ['Downtime Overview', 'downtimeOverview'],
+      ['Project Roll', 'downtimeProjectRoll'],
+      ['Crafting Projects', 'downtimeCraftingProjects'],
+      ['Research Projects', 'downtimeResearchProjects'],
+      ['Other Projects', 'downtimeOtherProjects'],
+    ];
     const complicationsOptions = [
       ['Complication Overview', 'complicationsOverview'],
     ];
@@ -148,6 +154,7 @@
       skillsOptions,
       combatOptions,
       negotiationOptions,
+      downTimeOptions,
       complicationsOptions
     ];
 
@@ -421,6 +428,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in negotiationOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Downtime Projects">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Downtime Projects"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in downTimeOptions"
                 :key="i"
                 :title="title"
                 :value="title"

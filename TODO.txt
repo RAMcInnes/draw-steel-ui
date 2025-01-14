@@ -16,6 +16,9 @@ TO DO LIST
 
 - Glossary with list of all terms (and links to them)
 
+- Add extra space between paragraphs (<br><br>) to match PDF
+    - While longer, this should help with readability.
+
 - Replace all Ancestry, Career, and Perk options with something like "Kit Signature Ability"
     - Just show the reader what page(s) the appropriate info is on.
 

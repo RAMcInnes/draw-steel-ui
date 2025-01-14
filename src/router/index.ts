@@ -131,6 +131,14 @@ import NegotiationMakingArgumentsView from '@/views/NegotiationOptions/Negotiati
 import NegotiationResponseAndOfferView from '@/views/NegotiationOptions/NegotiationResponseAndOfferView.vue'
 import NegotiationKeepGoingOrStopView from '@/views/NegotiationOptions/NegotiationKeepGoingOrStopView.vue'
 // #endregion
+// #region DowntimeOptions imports
+import DowntimeOverviewView from '@/views/DowntimeOptions/DowntimeOverviewView.vue'
+import DowntimeProjectRollView from '@/views/DowntimeOptions/DowntimeProjectRollView.vue'
+import DowntimeCraftingProjectsView from '@/views/DowntimeOptions/DowntimeCraftingProjectsView.vue'
+import DowntimeResearchProjectsView from '@/views/DowntimeOptions/DowntimeResearchProjectsView.vue'
+import DowntimeOtherProjectsView from '@/views/DowntimeOptions/DowntimeOtherProjectsView.vue'
+// #endregion
+
 // Conditions
 import ConditionsView from '@/views/ConditionsView.vue'
 
@@ -685,7 +693,33 @@ const router = createRouter({
       component: NegotiationKeepGoingOrStopView,
     },
     // #endregion
-
+    // #region Downtime Projects
+    {
+      path: '/downtimeOverview',
+      name: 'downtimeOverview',
+      component: DowntimeOverviewView,
+    },
+    {
+      path: '/downtimeProjectRoll',
+      name: 'downtimeProjectRoll',
+      component: DowntimeProjectRollView,
+    },
+    {
+      path: '/downtimeCraftingProjects',
+      name: 'downtimeCraftingProjects',
+      component: DowntimeCraftingProjectsView,
+    },
+    {
+      path: '/downtimeResearchProjects',
+      name: 'downtimeResearchProjects',
+      component: DowntimeResearchProjectsView,
+    },
+    {
+      path: '/downtimeOtherProjects',
+      name: 'downtimeOtherProjects',
+      component: DowntimeOtherProjectsView,
+    },
+    // #endregion
     // #region Conditions
     {
       path: '/conditions',
