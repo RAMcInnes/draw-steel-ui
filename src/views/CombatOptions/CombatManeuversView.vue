@@ -1,4 +1,33 @@
 <script setup lang="ts">
+    import Ability from '@/components/Ability.vue';
+    import type { AbilityInterface } from '@/types';
+
+    const grabAbility: AbilityInterface = {
+        keywords: ['Melee'],
+        type: 'Maneuver',
+        distance: 'Melee 1',
+        target: '1 creature no more than 1 size larger than you',
+        abilityRoll: {
+            characteristic: 'Might',
+            tierOne: 'No effect.',
+            tierTwo: 'You can grab the target, but if you do, they can make a melee free strike against you right before they become grabbed by you.',
+            tierThree: 'The target is grabbed by you.'
+        },
+        effect: 'You gain an edge on the power roll if the creature’s size is smaller than yours. You can grab only one creature at a time this way.',
+    };
+    const knockbackAbility: AbilityInterface = {
+        keywords: ['Melee', 'Weapon'],
+        type: 'Maneuver',
+        distance: 'Melee 1',
+        target: '1 creature no more than 1 size larger than you',
+        abilityRoll: {
+            characteristic: 'Might',
+            tierOne: 'Push 1',
+            tierTwo: ' Push 2',
+            tierThree: 'Push 3'
+        },
+        effect: 'You gain an edge on the power roll if the creature’s size is smaller than yours.',
+    };
 </script>
 
 <template>
@@ -62,7 +91,7 @@
             Grab
        </v-card-title>
         <v-card-text>
-            [PAGE 176]
+            <Ability :ability=grabAbility />
         </v-card-text>
     </v-card>
     <br>
@@ -82,7 +111,7 @@
             Knockback
        </v-card-title>
         <v-card-text>
-            [PAGE 176]
+            <Ability :ability=knockbackAbility />
         </v-card-text>
     </v-card>
     <br>

@@ -1,8 +1,8 @@
 TO DO LIST
 
-- What is the purpose of this app? Is it a resource for how to learn the game? Or is it a digital version of all of the rules?
+[DONE] - What is the purpose of this app? Is it a resource for how to learn the game? Or is it a digital version of all of the rules?
     - If it is a digital version of the rules, then it should have everything.
-    - If it is to learn how to play the game, then it should NOT list out every option for (Ancestry, Career, Class, Perk, Complication, etc.)
+    [DONE] - If it is to learn how to play the game, then it should NOT list out every option for (Ancestry, Career, Class, Perk, Complication, etc.)
     -- ** I'm leaning on Option 2. That is to say, I want this to be a resource for learning the game.
     -- ** As such, it will NOT contain every bit of information for creating a character. It will explain how the rules work.
 
@@ -14,14 +14,14 @@ TO DO LIST
 
 - Glossary with list of all terms (and links to them)
 
-- Add extra space between paragraphs (<br><br>) to match PDF
-    - While longer, this should help with readability.
+[DONE] - Add extra space between paragraphs (<br><br>) to match PDF
+    [DONE] - While longer, this should help with readability.
 
-- Make sure all v-cards are using v-card-text (helps with spacing)
-    - Add left-right margins to <p> (better view on mobile)
+[DONE] - Make sure all v-cards are using v-card-text (helps with spacing)
+    [DONE] - Add left-right margins to <p> (better view on mobile)
 
-- Remove references to Page Numbers
-    - Backer Packet and Pateron packets have different pages
+[DONE] - Remove references to Page Numbers
+    [DONE] - Backer Packet and Pateron packets have different pages
 
 - Grammar
     - "Perks Overview" vs "Class Overview" (singular vs plural)
