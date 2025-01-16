@@ -3,7 +3,7 @@
 
 <template>
     <h1>Stamina</h1>
-    <p>
+    <p class="mx-3">
         Your hero’s survivability is represented by your Stamina.
         Think of Stamina as a combination of a creature’s physical
         vitality and their overall energy for dodging and resisting
@@ -16,7 +16,7 @@
         pain. Eventually, though, this draining of energy leaves you
         open for bigger blows that can truly harm your body—or
         possibly kill you.
-        <br>
+        <br><br>
         After any damage you take is reduced by damage
         immunity or other effects, your Stamina is reduced by an
         amount equal to the remaining damage. Some effects can
@@ -53,7 +53,7 @@
             value, you are winded.</b> Although being winded has no
             effects on its own, certain ancestry, class, item, and title
             abilities affect winded creatures.
-            <br>
+            <br><br>
             You can tell when other creatures are winded and vice
             versa.
         </v-card-text>
@@ -70,7 +70,7 @@
             can’t be removed in any way until you are no longer dying.</b> While
             you are dying, your allies can help you spend Recoveries in combat,
             and you can spend Recoveries out of combat as usual.
-            <br>
+            <br><br>
             <b>While your Stamina is lower than 0, if it reaches the
             negative of your winded value, you die.</b> When you die, you
             can’t be brought back to life without the use of a special
@@ -108,7 +108,7 @@
             them, you can choose to instead knock them unconscious.</b>
             If a creature takes damage while unconscious in this way,
             they die.
-            <br>
+            <br><br>
             Director-controlled creatures remain unconscious for 1
             hour if no one does anything to end that condition. They
             then gain 1 Stamina and their unconsciousness ends.
@@ -140,14 +140,14 @@
             creature’s recovery value or winded value.</b> If you have
             temporary Stamina while winded, dying, or dead, the
             temporary Stamina doesn’t change those states.
-            <br>
+            <br><br>
             Whenever you take damage while you have temporary
             Stamina, the temporary Stamina decreases first, and any
             leftover damage is applied to your Stamina as usual. For
             instance, if you have 10 temporary Stamina and take 16
             damage, you lose the temporary Stamina and then lose
             another 6 Stamina.
-            <br>
+            <br><br>
             There is no maximum to how much temporary Stamina
             you can have. Regaining Stamina can’t restore temporary
             Stamina. <b>If you have temporary Stamina and then gain
@@ -171,6 +171,7 @@
             reduced to 0, the object is destroyed. Objects have damage
             immunity all to poison and psychic damage. Objects made
             of common materials have stamina as follows:
+            <br>
             <br>• A size 1 object or 1 square of a larger object made of
             glass has 1 Stamina.
             <br>• A size 1 object or 1 square of a larger object made of

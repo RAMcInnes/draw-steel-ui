@@ -3,7 +3,7 @@
 
 <template>
     <h1>NPC Response And Offer</h1>
-    <p>
+    <p class="mx-3">
         After a hero makes an argument, the NPC responds in one
         of three ways:
         <br>• An NPC responds positively if the heroes increase the
@@ -27,10 +27,10 @@
         refusal to make an offer) based on the NPC’s current
         interest. If a hero’s argument reduces an NPC’s patience to
         0, the NPC lets the heroes know that this is their final offer.
+        <br>
     </p>
-    <br>
-    <h3>FOR THE DIRECTOR: REASONS FOR DECEPTION</h3>
-    <p>
+    <h3 class="mx-3">FOR THE DIRECTOR: REASONS FOR DECEPTION</h3>
+    <p class="mx-3">
         Under certain circumstances, an NPC might not want to show the
         heroes how well their arguments are working. For example, if an
         NPC’s interest has dropped so low that they now intend to harm
@@ -57,14 +57,14 @@
             NPC might hold the heroes to any offers they made and
             instead offer an extra service or item on top of what was
             asked for.
-            <br>
+            <br><br>
             For example, if the heroes asked the boss of a thieves guild
             for that organization’s help in standing against Lord
             Saxton, the guildmaster might pledge to send a unit of elite
             assassins to aid in the battle against that tyrannical noble,
             and then offer the heroes a quiver filled with explosive
             arrows to give them an additional advantage in the fight.
-            <br>
+            <br><br>
             The NPC should let the heroes know that this is the best
             offer they can make.
         </v-card-text>
@@ -79,7 +79,7 @@
             they asked for but won’t sweeten the deal. The NPC also
             accepts anything the heroes have offered as part of the
             deal with this result.
-            <br>
+            <br><br>
             For example, if the heroes offered to help spring a guild
             thief from prison in exchange for the thieves guild’s elite
             assassins standing against Lord Saxton, the guildmaster
@@ -151,7 +151,7 @@
             making their lives difficult. If the heroes don’t want to be
             at odds with the NPC, they’ll need to offer an valuable gift
             or undertake a quest just to make amends.
-            <br>
+            <br><br>
             It is impossible to continue a negotiation when an NPC’s
             interest drops to 0.
         </v-card-text>

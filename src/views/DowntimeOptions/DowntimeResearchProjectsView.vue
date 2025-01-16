@@ -3,7 +3,7 @@
 
 <template>
     <h1>Research Projects</h1>
-    <p>
+    <p class="mx-3">
         Heroes can undertake the following research projects,
         which require the study of documents, spycraft, or
         interviewing experts. Unless a project has a complication
@@ -25,20 +25,18 @@
                 information can’t be discovered through a regular test, or
                 you could do so because you failed a test to recall
                 information and now want to learn it through research.
-                <br>
+                <br><br>
                 When you start a project to discover lore, you choose the
                 lore you want investigated and the questions you want
                 answered. The Director tells you if the lore you seek
                 amounts to common, obscure, lost, or forbidden
                 knowledge. The more esoteric the knowledge, the more
                 project points are required to find the answers you seek.
-                <br>
+                <br><br>
                 When you begin a Discover Lore project, other creatures
                 can also work on the project, using their respite activity to
                 contribute a project roll to it in order to get the work done
                 faster.
-                <br>
-                <b>Details found on page 206.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -58,7 +56,7 @@
                 in order to begin this project. Additionally, the Director
                 can decide that the knowledge you seek may not be gained
                 through this project but rather through adventuring.
-                <br>
+                <br><br>
                 <b>Complications:</b> This project has its own special
                 complications. The first time you complete this project
                 within an organization, you have a 25% chance of being
@@ -68,12 +66,10 @@
                 and the project goal increases by 30. If you are caught
                 going undercover, you are ruthlessly pursued by the
                 organization you were infiltrating.
-                <br>
+                <br><br>
                 While your secret is safe, you may be called upon by the
                 organization to complete a task you may not want to do.
                 Failure to complete the task leads to you being caught.
-                <br>
-                <b>Details found on page 207.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -85,8 +81,6 @@
                 experience it provided you. When the project is complete,
                 you have an edge on tests made with the skills provided by
                 your career.
-                <br>
-                <b>Details found on page 207.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -101,8 +95,6 @@
                 Alternatively, you may stumble upon the left behind
                 teachings of a master, and learning from them may fit into
                 one of the following goals.
-                <br>
-                <b>Details found on page 207.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -113,8 +105,6 @@
                 When you start this project, choose a language taught by
                 the project source. When the project is complete, you
                 understand the language.
-                <br>
-                <b>Details found on page 208.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -133,8 +123,6 @@
                 gain its benefits until they take another respite. A creature
                 can only benefit from one recipe at a time and can’t benefit
                 from more than one serving of a recipe at a time.
-                <br>
-                <b>Details found on page 208.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
     </v-expansion-panels>

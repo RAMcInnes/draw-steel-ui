@@ -3,7 +3,7 @@
 
 <template>
     <h1>Class Overview</h1>
-    <p>
+    <p class="mx-3">
         While all your character creation decisions bear narrative
         weight, none influences the way you play the game like
         your choice of class. Your class determines how your hero

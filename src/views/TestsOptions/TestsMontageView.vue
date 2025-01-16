@@ -20,7 +20,7 @@
 
 <template>
     <h1>Montage Tests</h1>
-    <p>
+    <p class="mx-3">
         <b>When a group of heroes works together over time to
         accomplish a common goal that requires more than a
         single characteristic, the Director can call for a montage
@@ -30,13 +30,13 @@
         against a tyrannical leader, and performing a ritual to
         open a magically sealed gate can all be accomplished with
         montage tests.
-        <br>
+        <br><br>
         <b>In a montage test, the players take turns making tests as
         their characters tackle a task together in a montage test
         round.</b> Each hero has a chance to make a test (or to assist
         another hero’s test) intended to influence the outcome of
         the task (see Assist a Test).
-        <br>
+        <br><br>
         A hero can also spend their turn using an item, ability, or
         other option they have available that they believe can help
         in the montage test. For example, if a group of heroes
@@ -47,7 +47,7 @@
         automatic successes in the montage test, with no
         individual tests necessary (see Total Successes and
         Failures).
-        <br>
+        <br><br>
         <b>Once a hero makes a test, assists with a test, or uses an
         ability or other option, they can’t do anything else as part
         of the montage test until each other hero involved in the
@@ -72,7 +72,7 @@
             heroes. Combat encounters, negotiations, and other
             challenges and scenes can break up a montage test (see
             Sample Montage Test below).
-            <br>
+            <br><br>
             <b>The Director should deploy montage tests only when the
             players are engaged in overcoming a goal that has stakes
             for the story and some sort of pressure, such as a looming
@@ -124,14 +124,14 @@
             Another hero wants to train the untested farmers of the
             village in the ways of war, and the Director decides this is
             a hard Reason test.
-            <br>
+            <br><br>
             The same rules and guidelines that apply to all individual
             tests apply here. If a hero has a clever, out-of-the-box idea
             that the Director thinks should automatically succeed
             without rolling dice, it does. If the circumstances of the
             test should grant an edge or a bane, they do. <b>Individual
             test outcomes shouldn’t halt the story.</b>
-            <br>
+            <br><br>
             <b>The Director should couch each success or failure as it
             relates to the overall goal of the montage test.</b> If the heroes
             are trying to reach an ancient temple, failing a Might test
@@ -140,7 +140,7 @@
             that failing to cross the river in a timely manner gives a
             rival group of villains the chance to beat the party to the
             temple.
-            <br>
+            <br><br>
             <b>The rewards and consequences of individual tests made
             during a montage test should be handled on an individual
             basis.</b> The Director can use the default additional Malice in
@@ -178,7 +178,7 @@
             with a deft hand and a piece of meat, additional tests made
             to distract the animals don’t count toward the result of the
             montage test.
-            <br>
+            <br><br>
             When it fits the scenario, the Director can adjust this
             restriction. If part of a montage test involves searching for
             people trapped in a burning building, the Director is likely
@@ -242,37 +242,35 @@
         <v-card-title>
             Montage Test Difficulty
         </v-card-title>
-        <p>
+        <v-card-text>
             The Director determines the success limit and failure limit
             of a montage test. They can share this information or keep
             it secret, depending on what feels the most fun and
             dramatic for the situation and the players.
-            <br>
+            <br><br>
             In general, the higher the success limit, the harder and
             more complicated it is for the heroes to overcome the
             montage test , since a hero can’t make the same test twice.
             The Montage Test Difficulty table gives a recommended
             success limit and failure limit for easy, moderate, and hard
             montage tests for groups with five heroes.
-        </p>
-        <v-table density="compact" hover>
-            <thead>
-                <tr>
-                    <th class="text-left">Difficulty</th>
-                    <th class="text-left">Success Limit</th>
-                    <th class="text-left">Failure Limit</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr v-for="item in difficultyOutcomes" :key="item.result">
-                    <td>{{ item.result }}</td>
-                    <td>{{ item.success }}</td>
-                    <td>{{ item.failure }}</td>
-                </tr>
-            </tbody>
-        </v-table>
-        <br>
-        <p>
+            <v-table density="compact" hover>
+                <thead>
+                    <tr>
+                        <th class="text-left">Difficulty</th>
+                        <th class="text-left">Success Limit</th>
+                        <th class="text-left">Failure Limit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="item in difficultyOutcomes" :key="item.result">
+                        <td>{{ item.result }}</td>
+                        <td>{{ item.success }}</td>
+                        <td>{{ item.failure }}</td>
+                    </tr>
+                </tbody>
+            </v-table>
+            <br><br>
             For larger or smaller groups, you can make the following
             adjustments to keep montage tests achievable but
             challenging:
@@ -283,7 +281,7 @@
             failure limit of 3.
             <br>• For six or more heroes, increase the success and failure
             limits by 1 for every hero more than five.
-        </p>
+        </v-card-text>
     </v-card>
     <br>
     <v-card>
@@ -302,39 +300,57 @@
             they <u>don’t</u> have at least two more successes than
             failures, they suffer <b>TOTAL FAILURE</b>.
             <br><br>
-            <h2>TOTAL SUCCESS</h2>
-            If the heroes earn a total success, they achieve what they
-            set out to do without complication. For instance, if the
-            heroes engaged in a montage test to see if they can cross a
-            desert to reach a city before a tyrant’s army arrived there
-            and leveled the place, a total success sees them arrive at
-            the city gates with plenty of time to warn people of the
-            impending assault. The heroes earn 1 Victory when they
-            achieve total success on an easy or moderate montage test,
-            and 2 Victories on a hard montage test.
-
-            <h2>PARTIAL SUCCESS</h2>
-            If the heroes earn a partial success, they succeed at what
-            they set out to do, but there is a complication or a cost
-            involved. For instance, when crossing the desert to reach
-            and warn the city of the tyrant’s army, a mixed success
-            sees the characters arrive at the city gates with the enemy
-            forces just behind them. Alternatively, the Director might
-            allow the heroes to arrive well before the army, but they
-            don’t cover their movements well enough. The tyrant
-            realizes the city has been warned and decides to call in a
-            favor to have a powerful dragon join the siege. The heroes
-            earn 1 Victory when they achieve partial success on a hard
-            or moderate montage test.
-
-            <h2>TOTAL FAILURE</h2>
-            If the heroes suffer total failure, they don’t achieve what
-            they set out to do. Just as with standard tests, failure on a
-            group test shouldn’t bring a story to a halt. Total failure
-            should make things more interesting and challenging!
-            With a total failure in a montage test to cross the desert
-            and warn the city, the characters arrive at the city to find it
-            already under siege by the tyrant.
+            <v-expansion-panels>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        TOTAL SUCCESS
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        If the heroes earn a total success, they achieve what they
+                        set out to do without complication. For instance, if the
+                        heroes engaged in a montage test to see if they can cross a
+                        desert to reach a city before a tyrant’s army arrived there
+                        and leveled the place, a total success sees them arrive at
+                        the city gates with plenty of time to warn people of the
+                        impending assault. The heroes earn 1 Victory when they
+                        achieve total success on an easy or moderate montage test,
+                        and 2 Victories on a hard montage test.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        PARTIAL SUCCESS
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        If the heroes earn a partial success, they succeed at what
+                        they set out to do, but there is a complication or a cost
+                        involved. For instance, when crossing the desert to reach
+                        and warn the city of the tyrant’s army, a mixed success
+                        sees the characters arrive at the city gates with the enemy
+                        forces just behind them. Alternatively, the Director might
+                        allow the heroes to arrive well before the army, but they
+                        don’t cover their movements well enough. The tyrant
+                        realizes the city has been warned and decides to call in a
+                        favor to have a powerful dragon join the siege. The heroes
+                        earn 1 Victory when they achieve partial success on a hard
+                        or moderate montage test.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        TOTAL FAILURE
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        If the heroes suffer total failure, they don’t achieve what
+                        they set out to do. Just as with standard tests, failure on a
+                        group test shouldn’t bring a story to a halt. Total failure
+                        should make things more interesting and challenging!
+                        With a total failure in a montage test to cross the desert
+                        and warn the city, the characters arrive at the city to find it
+                        already under siege by the tyrant.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+            </v-expansion-panels>
         </v-card-text>
     </v-card>
 </template>

@@ -3,16 +3,14 @@
 
 <template>
     <h1>Characteristics</h1>
-    <p>
+    <p class="mx-3">
         Each creature in the game has five characteristics that represent their physical and mental prowess.
-    </p>
-    <p>
+        <br>
         Each characteristic has a score that runs from −5 to +5.
         The higher a score, the more impact the creature has with
         that characteristic. The average human has a score of 0 in all
         their characteristics.
-    </p>
-    <p>
+        <br>
         Characteristic scores are added to
         power rolls—the dice rolls you make whenever your
         character attempts a task with an uncertain outcome (see

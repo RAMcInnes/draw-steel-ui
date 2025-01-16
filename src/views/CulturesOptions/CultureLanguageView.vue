@@ -95,18 +95,19 @@
 
 <template>
     <h1>Language</h1>
-    <p>
+    <p class="mx-3">
         When you create your hero, you’ll be able to select the
-    languages they know. The following section details the
-    languages of Orden, the baseline world of the game, but
-    the Director can use these languages in their own
-    campaign world or can swap this list with their own list of
-    languages.
-    <br>
-    If your hero knows a language, they can speak, read, write,
-    and understand it.
+        languages they know. The following section details the
+        languages of Orden, the baseline world of the game, but
+        the Director can use these languages in their own
+        campaign world or can swap this list with their own list of
+        languages.
+        <br><br>
+        If your hero knows a language, they can speak, read, write,
+        and understand it.
     </p>
-    <v-card>
+    <br>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Caelian Empire
         </v-card-title>
@@ -123,7 +124,7 @@
             empire are enjoying a resurgence. Still, the Caelian tongue
             is spoken by most humans in most regions to one extent or
             another.
-            <br>
+            <br><br>
             Most people in Orden can speak and understand some
             Caelian, simply because the empire was so powerful and
             so widespread. Anyone trading with the empire or living
@@ -149,7 +150,7 @@
             languages from being preserved. And many languages that
             were preserved in writing left no related descendants, so
             that no one knows what sounds that writing represented.
-            <br>
+            <br><br>
             The languages on the Vasloria Languages by Ancestry
             table are the most common languages in that region,
             actively spoken by significant populations of people. Most
@@ -159,7 +160,7 @@
             language is tied to. For example, if your orc hero was
             raised in a culture of elves, you probably speak one of the
             elf languages, and might never have learned Kalliak.
-            <br>
+            <br><br>
             Most languages have colloquial or casual names. For
             instance, many people in Orden call Kalliak “Orcish” and
             Hyrallic “Elvish,” but any sage knows there are lots of
@@ -168,7 +169,7 @@
         </v-card-text>
     </v-card>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Language Usage
         </v-card-title>
@@ -183,18 +184,18 @@
             from many cultures’ point of view, while Hyrallic as a
             language for diplomacy is considered cultured and
             traditional.
-            <br>
+            <br><br>
             <b>Yllyric</b> is the cultural language of wode elves, and also the
             common language among those who defend and protect
             the natural forests of Orden.
-            <br>
+            <br><br>
             Within any document concerning the workings of
             machines, masonry, or geology, you are likely to find a
             healthy supply of jargon using <b>Zaliac</b>, the most popular
             dwarf language. Even when such texts aren’t fully written
             in Zaliac, they use a lot of dwarf language when describing
             esoteric, complex ideas.
-            <br>
+            <br><br>
             Just as Zaliac is used in engineering, contract law isn’t
             written purely in <b>Anjali</b>, the dominant language of the
             Seven Cities of Hell. But a lot of the legal jargon in any
@@ -202,7 +203,7 @@
             features many Anjali words. People are sticklers for detail
             in the Seven Cities, and this makes their language popular
             among lawyers.
-            <br>
+            <br><br>
             In the same way that intelligent creatures in Orden who
             live near or trade with other cultures use Caelian as a
             common language, the denizens of the World Below, the
@@ -228,7 +229,7 @@
         </tbody>
     </v-table>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Dead Language
         </v-card-title>
@@ -238,7 +239,7 @@
             read ancient writing. Much deep lore is attested only in
             ancient tomes and scrolls written in languages that no
             modern culture uses.
-            <br>
+            <br><br>
             Most of these ancient writings were written by people
             who expected other people to read it. The lore might have
             been kept secret by not sharing it with anyone outside the
@@ -246,14 +247,14 @@
             actual writing was not intended to be difficult to read or
             understand. It wasn’t written in code—just in a language
             that people stopped speaking long ago.
-            <br>
+            <br><br>
             Sages can reconstruct many of these languages by learning
             which modern languages descended from them, then
             comparing them to related languages from the same time
             period that might have survived. Translating such ancient
             languages has been extremely useful for the purposes of
             crafting and research.
-            <br>
+            <br><br>
             The Dead Languages table shows some of the dead
             languages of Orden, and the modern languages related to
             those ancient languages.

@@ -3,9 +3,11 @@
 
 <template>
     <h1>Skill Groups</h1>
-    Skills are broken down into five groups: Crafting,
-    Exploration, Interpersonal, Intrigue, and Lore.
-    <br><br>
+    <p class="mx-3">
+        Skills are broken down into five groups: Crafting,
+        Exploration, Interpersonal, Intrigue, and Lore.
+    </p>
+    <br>
     <v-card color="grey-lighten-2">
         <v-card-title>
             Crafting Skills
@@ -20,7 +22,7 @@
             process, knowing a buyer willing to pay extra for goods or
             items you’re appraising, or making a jury-rigged device so
             amazing that it lasts for more uses than it should.
-            <br>
+            <br><br>
             Failure consequences for tests made with crafting skills
             typically include wasting rare materials used in the
             creation process, greatly overestimating or
@@ -46,7 +48,7 @@
             engaged in the same task, reaching a destination faster
             than you anticipated, and learning about or avoiding an
             upcoming hazard.
-            <br>
+            <br><br>
             Failure consequences for tests made with exploration
             skills include harming yourself, your gear, or your allies,
             becoming lost, or stumbling headlong into a hazard or a
@@ -69,7 +71,7 @@
             Rewards for tests made with interpersonal skills typically
             include gaining an extra favor, item, or piece of
             information from the person or people you interact with.
-            <br>
+            <br><br>
             Failure consequences for tests made with interpersonal
             skills include making the person you’re interacting with
             angry, sad, embarrassed, offended, or otherwise upset or
@@ -95,7 +97,7 @@
             in addition to what you set out to learn, and performing an
             extra bit of clandestine activity in addition to what you set
             out to do.
-            <br>
+            <br><br>
             Failure consequences for tests made with intrigue skills
             include getting caught in the act or failing to notice a detail
             that places you in danger, such as triggering a trap or
@@ -114,7 +116,7 @@
             <br><br>
             Rewards for tests made with lore skills typically include
             learning an extra piece of useful information.
-            <br>
+            <br><br>
             Failure consequences for tests made with lore skills
             typically include learning an incorrect piece of information
             that seems useful, but which actually makes things worse

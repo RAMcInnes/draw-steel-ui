@@ -3,11 +3,11 @@
 
 <template>
     <h1>Group Tests</h1>
-    <p>
+    <p class="mx-3">
         Whenever two or more heroes attempt to overcome a
         single, simple task together that calls for them to make the
         same test, the Director can call for a group test.
-        <br>
+        <br><br>
         For example, if several heroes are all attempting to climb the
         outside of a tower at the same time, giving each other
         boosts and advice, they could be asked to make a Might

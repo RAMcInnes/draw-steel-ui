@@ -21,13 +21,13 @@
 
 <template>
     <h1>Project Roll</h1>
-    <p>
+    <p class="mx-3">
         As a respite activity, you can make a project roll for one of
         your own projects. You can also make a project roll to
         contribute to another hero’s project, with their permission.
         A project roll is a test with a special outcome. The
         characteristic used in the test is determined by the project.
-        <br>
+        <br><br>
         <b>When you make a project roll, the result—no matter how
         low—becomes project points that are accrued by the
         project.</b> Even if you have a penalty on a project roll, the
@@ -35,12 +35,12 @@
         20 on the roll, this is called a breakthrough, and you can
         make another project roll for the same project as part of
         the same respite activity.
-        <br>
+        <br><br>
         A project is complete when it accrues project points equal
         to or greater than its project goal—the number of points it
         takes to complete the project, noted in each project’s
         description.
-        <br>
+        <br><br>
         As you work on a project, the Director can add events that
         help form the narrative of your research, crafting, or other
         activities. These events might provide unexpected benefits
@@ -110,7 +110,7 @@
             project.</b> The guide can’t be used with that specific instance
             of the project again, though it can be used for a different
             project of the same type.
-            <br>
+            <br><br>
             Guides are awarded at the Director’s discretion, usually as
             a tool that can be used to increase the speed of complex
             projects for campaigns with little downtime. For example,
@@ -120,7 +120,7 @@
             grants them 500 or more project points toward the Craft
             Automaton project, the crafting time can be significantly
             reduced.
-            <br>
+            <br><br>
             A guide must provide its information in a language you
             understand for you to gain its full benefit. If it’s written in
             a language related to one you know, you gain only half the
@@ -181,7 +181,7 @@
                         hero wants to make a project roll. This approach works
                         well if you want to plan your event in detail before it
                         occurs.
-                        <br>
+                        <br><br>
                         You can use the Suggested Event Milestones table to
                         determine when an event should occur during a project.
                         <v-table density="compact" hover>

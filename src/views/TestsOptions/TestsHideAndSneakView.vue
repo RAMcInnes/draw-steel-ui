@@ -3,7 +3,7 @@
 
 <template>
     <h1>Hide and Sneak</h1>
-    <p>
+    <p class="mx-3">
         Hiding and sneaking are important tools for heroes and
         their foes. You might want to avoid another creatures’
         notice to eavesdrop on conversations, steal items, set up
@@ -29,14 +29,14 @@
             where the dragon can’t observe you, such as turning a
             sharp corner into a tunnel full of giant stalagmites before
             the dragon does. You then make your hide attempt.
-            <br>
+            <br><br>
             <b>When you use the Hide maneuver to hide during combat
             while you have cover or concealment from a creature who
             isn’t observing you, you are automatically hidden from
             them unless the Director deems otherwise.</b> If you hide
             outside of combat, the Director might ask you to make a
             test using the Hide skill to see how well hidden you are.
-            <br>
+            <br><br>
             <b>While you are hidden from another creature, you gain an
             edge on ability power rolls made against them, and the
             creature can’t target you with abilities that don’t have the
@@ -47,7 +47,7 @@
             use an ability against them and still gain the benefit of
             being hidden as long as you use the ability before the end
             of the turn in which you moved out of hiding.
-            <br>
+            <br><br>
             You are no longer hidden from a creature if you don’t have
             cover or concealment from them. If you use an ability,
             interact with an enemy creature, move without sneaking,

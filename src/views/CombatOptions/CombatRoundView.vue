@@ -3,7 +3,7 @@
 
 <template>
     <h1>Combat Round</h1>
-    <p>
+    <p class="mx-3">
         Combat takes place over a series of rounds. During a
         round, each creature in the battle takes a turn. Once every
         creature has taken a turn, a new round begins.
@@ -32,7 +32,7 @@
             surprised until the end of the first round of combat. A
             surprised creature can’t take triggered or free triggered
             actions and ability power rolls against them gain an edge.
-            <br>
+            <br><br>
             For example, if the heroes sneak up unnoticed on a camp
             of marauders and attack, each marauder is surprised.
             Likewise, if the heroes fail to notice that all the cloaked
@@ -80,7 +80,7 @@
             the table, or some kind of flag they set on their virtual
             tabletop token, once they’ve taken a turn. That way, all the
             players know who has already acted and who hasn’t.
-            <br>
+            <br><br>
             In many encounters, a point comes when one side has
             creatures who haven’t acted yet but all the creatures on
             the other side have. The creatures who have yet to act get
@@ -90,7 +90,7 @@
             taken their turns and four of the enemies have taken theirs,
             the two enemies who are left take their turns one after the
             other to end the round.
-            <br>
+            <br><br>
             Once all creatures on both sides of a battle have acted, the
             round ends and a new one begins. The side whose
             members acted first during the starting round of combat
@@ -104,7 +104,7 @@
             next isn’t obvious, leading to debate. That’s fine.
             Deliberating about what the group should do next is
             classic roleplaying.
-            <br>
+            <br><br>
             In general, though, most groups find that it’s usually only
             one or two players in a given round who think it best if
             they act next. And as soon as those players explain why

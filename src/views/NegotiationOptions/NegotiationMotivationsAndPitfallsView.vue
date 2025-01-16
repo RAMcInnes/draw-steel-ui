@@ -3,7 +3,7 @@
 
 <template>
     <h1>List of Motivations and Pitfalls</h1>
-    <p>
+    <p class="mx-3">
         An NPC can have any of the following twelve motivations
         or pitfalls.
     </p>
@@ -19,7 +19,7 @@
                 involved in a negotiation must be limited in their
                 benevolence, so that they don’t just give the heroes what
                 they need.
-                <br>
+                <br><br>
                 Sometimes an NPC’s benevolence might extend only to a
                 specific group of people, so that a benevolent pirate
                 captain might share their plunder freely with the rest of
@@ -29,14 +29,14 @@
                 give the heroes help because they believe their limited
                 resources are more necessary or could do more good
                 somewhere else.
-                <br>
+                <br><br>
                 An NPC with the benevolence pitfall has a cynical view of
                 the world, believing that no creature has a right to
                 anything just by being alive. The idea of helping others
                 because it’s the right thing to do is a preposterous,
                 immature, or inexperienced idea to be laughed off or
                 snuffed out.
-                <br>
+                <br><br>
                 Arguments that appeal to a benevolence motivation
                 contend that if the NPC strikes a deal with the heroes, the
                 people the NPC cares about will benefit from the deal.
@@ -63,14 +63,14 @@
                 a portal to a specific far-off world. Or it could be that they
                 are a naturally inquisitive person who just wants to
                 understand all they can about the timescape.
-                <br>
+                <br><br>
                 An NPC with the discovery pitfall has no interest in finding
                 new places, peoples, or ideas. It might be that the
                 unknown scares them or makes them so uncomfortable
                 that they’d rather remain ignorant. Alternatively, a
                 previous pursuit of discovery might have turned out
                 poorly for them.
-                <br>
+                <br><br>
                 Arguments that appeal to a discovery motivation contend
                 that striking a deal with the heroes will allow the NPC to
                 gain new knowledge or acquire unique property. Example
@@ -94,13 +94,13 @@
                 might already have personal freedom and wish to
                 maintain that status quo, or they might wish to liberate
                 themself or others from someone else’s authority.
-                <br>
+                <br><br>
                 An NPC with the freedom pitfall believes that a world
                 without authority is one in turmoil and chaos. They might
                 even believe that they are the right person to rule, and that
                 their ideals should be the ones that become the law of the
                 land.
-                <br>
+                <br><br>
                 Arguments that appeal to a freedom motivation contend
                 that helping the heroes will maintain or grant freedom to
                 the NPC or other people. Example arguments include the
@@ -123,19 +123,19 @@
                 NPCs are misers, much like wyrms who hoard coins and
                 gems but never spend or donate them. Others flaunt their
                 wealth, viewing it as a sign of their station in life.
-                <br>
+                <br><br>
                 Greed-driven NPCs might share their wealth with a select
                 group of people they love, such as a noble lord who
                 indulges his children’s every desire. Some NPCs might be
                 greedy for resources other than money, such as a demon
                 who wants to collect and devour souls, or a troll lord who
                 hungers endlessly for the flesh of others.
-                <br>
+                <br><br>
                 An NPC with the greed pitfall has no interest in
                 accumulating wealth or other resources, and becomes
                 offended if anyone tries to buy their participation. They
                 hold their ideals above material desires.
-                <br>
+                <br><br>
                 Arguments that appeal to a greed motivation contend that
                 helping the heroes will increase the NPC’s wealth or assets.
                 Example arguments include the following:
@@ -160,12 +160,12 @@
                 force the NPC might not fully understand, or a person the
                 NPC sees as an informal authority figure (an older sibling,
                 a personal hero, and so forth).
-                <br>
+                <br><br>
                 An NPC with the higher authority pitfall scoffs at the idea
                 of serving another. The NPC might not believe that all
                 people should be free, but they certainly believe that they
                 personally shouldn’t have to answer to anyone.
-                <br>
+                <br><br>
                 Arguments that appeal to a higher authority motivation
                 contend that it’s in the interest of the higher authority for
                 the NPC to strike a deal with the heroes. A hero might even
@@ -193,13 +193,13 @@
                 who harvest natural resources as miners and lumberjacks
                 do must die. Having a justice motivation doesn’t
                 necessarily make an NPC a kind or charitable person.
-                <br>
+                <br><br>
                 An NPC with the justice pitfall doesn’t believe that the
                 timescape is an inherently just place, and has no interest
                 in making it one. The world is eternal conflict, there is no
                 such thing as justice, and anyone who thinks otherwise is a
                 naive fool.
-                <br>
+                <br><br>
                 Arguments that appeal to a justice motivation position the
                 heroes on the good side of an NPC’s sense of right and
                 wrong. Example arguments include the following:
@@ -227,11 +227,11 @@
                 through deification or undeath, so that the eventual
                 shedding of their mortal coil doesn’t prevent them from
                 continuing to make history.
-                <br>
+                <br><br>
                 An NPC with a legacy pitfall cares nothing about leaving a
                 personal mark on the world. To them, such vain thinking is
                 nothing but a waste of time.
-                <br>
+                <br><br>
                 Arguments that appeal to a legacy motivation contend that
                 striking a deal with the heroes increases the likelihood
                 that people will talk about the NPC for centuries to come.
@@ -257,11 +257,11 @@
                 whatever small slice of the timescape is theirs. Some such
                 NPCs don’t have peace and need help obtaining it, while
                 others want their peaceful status quo to be maintained.
-                <br>
+                <br><br>
                 An NPC with the peace pitfall hates being bored. They
                 want excitement, drama, and danger in their life. For them,
                 there’s nothing worse than the status quo.
-                <br>
+                <br><br>
                 Arguments that appeal to a peace motivation contend that
                 helping the heroes will earn the NPC some peace, at least
                 for a little while. Example arguments include the
@@ -293,12 +293,12 @@
                 such NPCs are world-traversing tyrants, but the petty
                 administrators of village organizations and shrines can
                 covet power just as hungrily.
-                <br>
+                <br><br>
                 An NPC with the power pitfall has no interest in authority
                 for themself. They might respect the authority of others,
                 but they hate the thought of ruling over other people and
                 roundly reject any suggestion of the idea.
-                <br>
+                <br><br>
                 Arguments that appeal to a power motivation contend that
                 working with the heroes will increase or protect the NPC’s
                 power. Example arguments include the following:
@@ -323,13 +323,13 @@
                 people have friends or family they wish to protect, but an
                 NPC with the protection motivation believes in doing so
                 above all else.
-                <br>
+                <br><br>
                 An NPC with the protection pitfall is happy to leave others
                 to fend for themselves. They don’t believe that it’s their
                 responsibility to protect anyone other than themself, and
                 might be outright disgusted at the thought of risking
                 themself or their property to protect others.
-                <br>
+                <br><br>
                 Arguments that appeal to a protection motivation contend
                 that helping the heroes allows an NPC to better protect
                 their charge. Example arguments include the following:
@@ -358,13 +358,13 @@
                 indulging in other hedonistic activities. Getting pleasure
                 out of life while spending time with people they like is
                 paramount to such NPCs.
-                <br>
+                <br><br>
                 An NPC with the revelry pitfall sees social encounters and
                 hedonism as a waste of time. They take pleasure only in
                 work or in building their own skills and character. Others
                 who suggest immature debauchery are not worth their
                 time.
-                <br>
+                <br><br>
                 Arguments that appeal to the revelry motivation contend
                 that striking a deal with the heroes will allow the NPC to
                 get back to reveling sooner, longer, or harder. Example
@@ -395,12 +395,12 @@
                 the death of another, but an NPC might wish to pay back
                 their own suffering with embarrassment, career failure, or
                 some other less permanent pain.
-                <br>
+                <br><br>
                 An NPC with the vengeance pitfall believes that revenge
                 solves nothing. They might have gained this belief first
                 hand, or they might simply not have the ambition to seek
                 revenge—and they take a dim view of others who do.
-                <br>
+                <br><br>
                 Arguments that appeal to the vengeance motivation
                 contend that the NPC can gain payback for their pain by
                 helping the heroes. Example arguments include the

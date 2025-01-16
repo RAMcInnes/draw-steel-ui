@@ -82,7 +82,7 @@
 
 <template>
     <h1>Culture Overview</h1>
-    <p>
+    <p class="mx-3">
         A hero’s culture describes the beliefs, customs, values, and
         way of life held by the community in which they were
         raised. This community provides life experiences that give a
@@ -91,7 +91,7 @@
         their early development and way of life. In fact, some
         people become heroes primarily from the rejection of the
         ways of their culture.
-        <br>
+        <br><br>
         For our purposes, a hero’s culture represents people, not a
         place. Yes, you might have grown up in the city of Capital,
         but your culture is more specific than that. One hero’s
@@ -106,7 +106,7 @@
     </p>
     <br>
     <h3>Why Build a Culture?</h3>
-    <p>
+    <p class="mx-3">
         Building a character is about more than adding up your
         stats, picking skills and abilities, and recording that
         information on a character sheet. You’re building a hero—a
@@ -118,7 +118,7 @@
         as complex and intricate characters.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Using Culture
         </v-card-title>
@@ -129,7 +129,7 @@
             culture for their character, working with the Director to
             find a right place for that culture within the world of the
             campaign’s world.
-            <br>
+            <br><br>
             In many worlds, at least some cultures have a majority
             ancestry. The people of Bedegar, a duchy in Vasloria, are
             mostly humans. The folk dwelling in the Great Wode, a
@@ -140,7 +140,7 @@
             knows a lot about nature, while a dwarf raised in the dwarf
             thanedom of Kal Kalavar speaks Zaliac and might know a
             good deal about smithing.
-            <br>
+            <br><br>
             You can build your culture one aspect at a time or use the
             following tables if you want to make something quick or see
             an example. If you want to quickly create an archetypical
@@ -176,13 +176,14 @@
         </tbody>
     </v-table>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Culture Benefits
         </v-card-title>
         <v-card-text>
             The culture you choose or create grants you the following
             benefits:
+            <br>
             <br>• You know the language of your culture, in addition to
             knowing Caelian.
             <br>• From the environment, organization, and upbringing

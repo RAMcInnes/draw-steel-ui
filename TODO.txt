@@ -7,9 +7,7 @@ TO DO LIST
     -- ** As such, it will NOT contain every bit of information for creating a character. It will explain how the rules work.
 
 - Search
-    - Add searchbar to top of navigation drawer.
-    - Combine all arrays in App.vue, that will be what is searched (results in new array).
-    - Either show searchResultsArray or list how it is now.
+    - Ensure Search works on Mobile
 
 - Add links
     - When something says "See ___", link to it.
@@ -19,8 +17,11 @@ TO DO LIST
 - Add extra space between paragraphs (<br><br>) to match PDF
     - While longer, this should help with readability.
 
-- Replace all Ancestry, Career, and Perk options with something like "Kit Signature Ability"
-    - Just show the reader what page(s) the appropriate info is on.
+- Make sure all v-cards are using v-card-text (helps with spacing)
+    - Add left-right margins to <p> (better view on mobile)
+
+- Remove references to Page Numbers
+    - Backer Packet and Pateron packets have different pages
 
 - Grammar
     - "Perks Overview" vs "Class Overview" (singular vs plural)

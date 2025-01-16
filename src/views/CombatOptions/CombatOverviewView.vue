@@ -45,7 +45,7 @@
 
 <template>
     <h1>Combat Overview</h1>
-    <p>
+    <p class="mx-3">
         When the heroes face a problem that can be solved only
         with action, or when they come up against creatures who
         want to harm them, it’s time to throw down!
@@ -86,7 +86,7 @@
             medium humans, and large hakaan, each of which occupy
             of a space 1 square in combat. These sizes in order from
             smallest to largest are 1T, 1S, 1M, and 1L.
-            <br>
+            <br><br>
             Objects can also have a size rating. If an object has an O (an
             abbreviation for oblong) next to its size, it indicates that
             the object’s size isn’t the number of squares the object
@@ -94,7 +94,7 @@
             creature of equivalent size. If an ability or feature allows
             you to interact with objects of a certain size that rule
             includes all objects of that size, oblong or otherwise.
-            <br>
+            <br><br>
             The Creature and Object Sizes table shows examples sizes
             of creatures and objects up to size 5, but there is no limit
             to what a creature or object’s size could be.

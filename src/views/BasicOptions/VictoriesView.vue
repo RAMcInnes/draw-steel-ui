@@ -3,7 +3,7 @@
 
 <template>
     <h1>Victories</h1>
-    <p>
+    <p class="mx-3">
         Victories measure your hero’s increasing power over the
         course of an adventure, as they overcome battles and
         other challenges. At the start of an adventure, your hero

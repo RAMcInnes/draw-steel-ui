@@ -105,18 +105,18 @@
 
 <template>
     <h1>Complications Overview</h1>
-    <p>
+    <p class="mx-3">
         Beyond your abilities and features, your hero might have
         something else that makes them … unusual. Perhaps an
         earth elemental lives in your body. Maybe your eldritch
         blade devastates enemies but feeds on your own vitality.
-        <br>
+        <br><br>
         A complication is an optional feature you can take to
         enrich your hero’s backstory, with any complication
         providing you both a positive benefit and a negative
         drawback. Because complications are optional, check with
         your Director before taking one.
-        <br>
+        <br><br>
         While you may get to determine your hero’s complication,
         it’s your Director’s right to determine how your complication
         affects the story, and you should be okay with that. Maybe
@@ -128,7 +128,7 @@
         the Director when you take a complication. The story will be richer for it!
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Benefit And Drawback
         </v-card-title>
@@ -140,7 +140,7 @@
             game deeper and more interesting, and provides hooks to
             let the Director better draw your hero into the campaign’s
             story.
-            <br>
+            <br><br>
             Not all complication benefits and drawbacks are created
             equal, but each benefit is balanced by its drawback. If you
             have a powerful positive side to your complication, be
@@ -159,7 +159,7 @@
             it entirely. For instance, if you choose Devil Deal as a
             complication, you can have your hero instead make that
             deal with an archfey or an undead general!
-            <br>
+            <br><br>
             Many of the details of each complication are purposefully
             left vague, so that you can connect it to the rest of your
             backstory. If your complication took place during “an
@@ -169,27 +169,32 @@
         </v-card-text>
     </v-card>
     <br>
-    <h2>Determine Complication</h2>
-    <p>
-        You can choose your character’s complication, or you can
-        roll on the Complications table.
-    </p>
-    <v-table density="compact" hover height="300px" fixed-header>
-        <thead>
-            <tr>
-                <th class="text-left">d100</th>
-                <th class="text-left">Complication</th>
-                <th class="text-left">d100</th>
-                <th class="text-left">Complication</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr v-for="(item, index) in complicationList.slice(0, complicationList.length / 2)" :key="item.roll">
-                <td>{{ item.roll }}</td>
-                <td>{{ item.complication }}</td>
-                <td>{{ complicationList[index + complicationList.length / 2].roll }}</td>
-                <td>{{ complicationList[index + complicationList.length / 2].complication }}</td>
-            </tr>
-        </tbody>
-    </v-table>
+    <v-card>
+        <v-card-title>
+            Determining Complication
+        </v-card-title>
+        <v-card-text>
+            You can choose your character’s complication, or you can
+            roll on the Complications table.
+            <br>
+            <v-table density="compact" hover height="300px" fixed-header>
+                <thead>
+                    <tr>
+                        <th class="text-left">d100</th>
+                        <th class="text-left">Complication</th>
+                        <th class="text-left">d100</th>
+                        <th class="text-left">Complication</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="(item, index) in complicationList.slice(0, complicationList.length / 2)" :key="item.roll">
+                        <td>{{ item.roll }}</td>
+                        <td>{{ item.complication }}</td>
+                        <td>{{ complicationList[index + complicationList.length / 2].roll }}</td>
+                        <td>{{ complicationList[index + complicationList.length / 2].complication }}</td>
+                    </tr>
+                </tbody>
+            </v-table>
+        </v-card-text>
+    </v-card>
 </template>

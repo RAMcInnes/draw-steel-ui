@@ -3,7 +3,7 @@
 
 <template>
     <h1>Other Projects</h1>
-    <p>
+    <p class="mx-3">
         Not all heroes want to craft or research during their time
         between adventures. Some wish to build organizations,
         reconnect with family, or just simply go fishing.
@@ -20,7 +20,7 @@
                 that place each time you make a project roll for the project.
                 You can undertake several Community Service projects,
                 each one in a different community.
-                <br>
+                <br><br>
                 While undertaking this project, you provide help to people
                 in need, doing odd jobs, tutoring life skills, cleaning statues,
                 finding lost valuables, or the like. The Director determines
@@ -28,8 +28,6 @@
                 the activities you undertake. When you complete this
                 project, you receive a random consumable of the
                 Director’s choice as thanks for your hard work.
-                <br>
-                <b>Details on page 209.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -52,8 +50,6 @@
                 When you finish rolling, you can spend the points you
                 earned on a reward from the Tackle table. Any points you
                 don’t spend during this respite activity are lost.
-                <br>
-                <b>Details on page 209.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -69,8 +65,6 @@
                 by 12 + your level until the end of your next respite. You
                 can’t start another Spend Time with Loved Ones project
                 for 1 month.
-                <br>
-                <b>Details on page 210.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
     </v-expansion-panels>

@@ -3,7 +3,7 @@
 
 <template>
     <h1>Hero Tokens</h1>
-    <p>
+    <p class="mx-3">
         In all great heroic stories, luck favors the protagonists,
         giving them that little bit of extra fortune they need to win
         the day. In these stories, fate is often on the side of the
@@ -28,7 +28,7 @@
             At the start of a new game session, the heroes have a
             number of hero tokens equal to the number of heroes in
             the party.
-            <br>
+            <br><br>
             The heroes can earn more tokens through play by taking
             big risks to save others. A hero who leaps off a cliff to get
             the bottom and aid a friend, who crosses a burning bridge
@@ -36,7 +36,7 @@
             treasure as part of a negotiation to get shelter for a group
             of refugees earns a hero token for the group. The Director
             has the final say in what acts earn hero tokens.
-            <br>
+            <br><br>
             Players can also be awarded hero tokens as part of a test’s
             outcome when they succeed in a task with a reward (see
             Tests).

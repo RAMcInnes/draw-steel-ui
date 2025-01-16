@@ -41,7 +41,7 @@
 
 <template>
     <h1>Opening A Negotiation</h1>
-    <p>
+    <p class="mx-3">
         A negotiation begins when the heroes ask something of an
         NPC and the Director deems that the circumstances
         require a negotiation. Those circumstances always involve
@@ -52,7 +52,7 @@
         be the ones to willingly start a negotiation. They must
         want something from the NPC, otherwise they have no
         reason to negotiate!
-        <br>
+        <br><br>
         The Director can decide that an NPC who has something
         the players want could show up at their door and ask if the
         heroes want to negotiate, but it’s always okay for the
@@ -80,32 +80,32 @@
         <v-card-title>
             Starting Stats
         </v-card-title>
-        <p>
+        <v-card-text>
             An NPC’s starting negotiation stats depend on their
             attitude toward the heroes, as shown on the Negotiation
             Starting Attitudes table, and can be adjusted by the
             Director as they see fit. A naturally irascible NPC might
             have lower patience, while a hostile NPC with a greater-than-expected
             stake in the negotiation topic might have a higher-than-typical interest.
-        </p>
-        <br>
-        <v-table density="compact" hover>
-        <thead>
-            <tr>
-                <th class="text-left">Attitude</th>
-                <th class="text-left">Description</th>
-                <th class="text-left">Interest</th>
-                <th class="text-left">Patience</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr v-for="item in startingAttitudes" :key="item.attitude">
-                <td>{{ item.attitude }}</td>
-                <td>{{ item.description }}</td>
-                <td>{{ item.interest }}</td>
-                <td>{{ item.patience }}</td>
-            </tr>
-        </tbody>
-    </v-table>
+            <br><br>
+            <v-table density="compact" hover>
+                <thead>
+                    <tr>
+                        <th class="text-left">Attitude</th>
+                        <th class="text-left">Description</th>
+                        <th class="text-left">Interest</th>
+                        <th class="text-left">Patience</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="item in startingAttitudes" :key="item.attitude">
+                        <td>{{ item.attitude }}</td>
+                        <td>{{ item.description }}</td>
+                        <td>{{ item.interest }}</td>
+                        <td>{{ item.patience }}</td>
+                    </tr>
+                </tbody>
+            </v-table>
+        </v-card-text>
     </v-card>
 </template>

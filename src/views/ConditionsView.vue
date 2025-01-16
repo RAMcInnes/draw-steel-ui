@@ -3,7 +3,7 @@
 
 <template>
     <h1>Conditions</h1>
-    <p>
+    <p class="mx-3">
         Some abilities and other effects apply specific negative
         effects called conditions to a creature. The following
         conditions show up regularly in the game and can be
@@ -63,10 +63,10 @@
             bring you with them. If the creature’s size is equal to or less
             than yours, their speed is halved while they have you
             grabbed.
-            <br>
+            <br><br>
             The creature grabbing you can use a maneuver to move you
             into an unoccupied space adjacent to them.
-            <br>
+            <br><br>
             The creature grabbing you can end the grab at any time (no
             action required). You can also attempt to escape being
             grabbed using the Escape Grab maneuver (see Maneuvers
@@ -88,7 +88,7 @@
             square you crawl. You can’t climb, jump, swim, or fly while
             prone. If you are climbing, flying, or jumping while you are
             knocked prone, you fall.
-            <br>
+            <br><br>
             While prone, you can stand up as a maneuver (see
             Maneuvers in Combat), unless the ability or effect that
             imposed the condition says otherwise. You can use a
@@ -105,7 +105,7 @@
             Stand Up maneuver, and you can’t be force moved. Your
             ability power rolls take a bane, abilities against you gain an
             edge, and you have a bane on Might and Agility tests.
-            <br>
+            <br><br>
             If you teleport while restrained, the condition ends.
         </v-card-text>
     </v-card>

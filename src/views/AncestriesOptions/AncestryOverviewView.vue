@@ -71,7 +71,7 @@
 
 <template>
     <h1>Ancestry Overview</h1>
-    <p>
+    <p class="mx-3">
         Fantastic peoples inhabit the worlds of Draw Steel. Among
         them are devils, dwarves, elves, time raiders—even
         humans with their ability to sense the supernatural.
@@ -190,7 +190,7 @@
         </v-expansion-panel>
     </v-expansion-panels>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Measurements
         </v-card-title>
@@ -201,10 +201,12 @@
             the ancestries in this chapter. These measurements are
             just average, and many folks in the world exist outside of
             them, so your hero can too!
+            <br><br>
             Revenants are not on the table, since they live until
             destroyed or moving on after completing their unfinished
             business and their height and weight is based on their
             previous ancestry.
+            <br><br>
             Humans have the potential to live a little longer on Orden
             than they do in the real world thanks to the presence of
             magic.
@@ -230,7 +232,7 @@
         </tbody>
     </v-table>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Starting Size and Speed
         </v-card-title>
@@ -251,13 +253,13 @@
             hero gets for free if they take the ancestry. This is a
             defining feature that other heroes of your ancestry also
             possess.
-            <br>
+            <br><br>
             There are also purchased traits. You don’t get every
             purchased trait your ancestry has to offer. Instead, your
             ancestry details a budget of ancestry points you can use to
             purchase traits. Each trait has a point cost that you pay to
             grant the benefit to your hero.
-            <br>
+            <br><br>
             For example, the devil ancestry has the signature trait
             Silver Tongue and 3 ancestry points to spend on seven
             different traits. A player creating a devil hero could buy

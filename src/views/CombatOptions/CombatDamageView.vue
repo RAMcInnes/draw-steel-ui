@@ -3,7 +3,7 @@
 
 <template>
     <h1>Damage</h1>
-    <p>
+    <p class="mx-3">
         Whenever you take damage, you reduce your Stamina by
         an amount equal to the damage taken
     </p>
@@ -31,7 +31,7 @@
             the amount of harm caused by being run through with a
             pike, dropped from a height onto a stone floor, slashed by
             a pendulum scythe, or skewered on a minotaur’s horns.
-            <br>
+            <br><br>
             However, when it comes to elemental and magical damage
             sources, some creatures might have an immunity or
             weakness to that damage. As such, abilities and effects
@@ -49,23 +49,23 @@
             Damage immunity means that a creature can ignore some
             or all of the damage they would usually take from certain
             attacks or effects.
-            <br>
+            <br><br>
             Damage immunity might have a damage type associated
             with it, expressed as “[damage type] immunity.” Damage
             immunity often has a value associated with it, so that one
             creature’s stat block notes “fire immunity 5,” while
             another creature has “lightning immunity 5.”
-            <br>
+            <br><br>
             <b>Whenever a target with damage immunity takes damage
             of the indicated type, they can reduce the damage by the
             value of the immunity (to a minimum of 0 damage).</b> If the
             value of the immunity is “all,” then the target can take no
             damage of the indicated type.
-            <br>
+            <br><br>
             Certain creatures also have forced move damage immunity.
             Whenever they take damage from forced movement, that
             damage is reduced by a number equal to their immunity.
-            <br>
+            <br><br>
             <b>Damage immunity should be the last thing applied when
             calculating damage.</b> For instance, if your hero has fire
             immunity 5 and takes 8 fire damage, you would take 3
@@ -73,7 +73,7 @@
             triggered action, you would take 4 damage from the attack
             before immunity is applied, with immunity then reducing
             the damage to 0.
-            <br>
+            <br><br>
             If multiple damage immunities apply to a source of
             damage, only the immunity with the highest value applies.
         </v-card-text>
@@ -89,11 +89,11 @@
             damage of the indicated type.</b> For instance, if a creature
             has fire weakness 5 and is dealt 10 fire damage, they take
             15 fire damage instead.
-            <br>
+            <br><br>
             A creature who has “damage weakness X” with no specific
             type or keyword indicated has weakness of the indicated
             amount when they take damage of any type.
-            <br>
+            <br><br>
             If you have both damage immunity and weakness applied
             to a source of damage, apply both. First apply weakness,
             then immunities.

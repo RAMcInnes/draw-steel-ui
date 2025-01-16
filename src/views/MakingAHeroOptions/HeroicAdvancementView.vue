@@ -45,12 +45,12 @@
 
 <template>
     <h1>Heroic Advancement</h1>
-    <p>
+    <p class="mx-3">
         Your character’s heroic advancement is marked by level.
         Each time you gain a new level in your class, your Stamina
         increases, and you gain new features or abilities according
         to your class’s advancement, as detailed in Classes.
-        <br>
+        <br><br>
         In the standard setup for the game, heroes gain Experience
         each time they finish a respite. When you gain sufficient
         Experience, you gain a level during the same respite (see
@@ -76,12 +76,13 @@
     </v-table>
     <br>
     <h2>Alternative Advancement</h2>
-    <p>
+    <p class="mx-3">
         Though many games might advance using the standard
         setup for heroic advancement, the Director can decide that
         their game uses different advancement. Check with your
         Director to see what method of advancement they plan to use.
     </p>
+    <br>
     <v-card color="grey-lighten-2">
         <v-card-title>
             Adjusted XP Advancement
@@ -92,8 +93,8 @@
             table is set up for campaigns where heroes advance at double
             or half the usual pace. Directors can also create their own
             customized pace for XP-based advancement.
-            <br>
-            See ADJUSTED XP ADVANCEMENT Table on Page 16.
+            <br><br>
+            See <i>ADJUSTED XP ADVANCEMENT</i> Table for more details.
         </v-card-text>
     </v-card>
     <br>
@@ -108,7 +109,7 @@
             villain of an adventure and foils their dastardly plot,
             each hero gains a level for achieving this objective,
             no matter how many or few obstacles they faced along the way.
-            <br>
+            <br><br>
             For many Directors using milestone advancement, the end
             of each adventure within a campaign serves as a milestone
             for leveling up. The Director can share these milestones

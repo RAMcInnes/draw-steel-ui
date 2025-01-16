@@ -27,18 +27,6 @@ import HeroicAdvancementView from '@/views/MakingAHeroOptions/HeroicAdvancementV
 // #endregion
 // #region AncestriesOptions imports
 import AncestriesOverviewView from '@/views/AncestriesOptions/AncestryOverviewView.vue'
-import AncestryDevilView from '@/views/AncestriesOptions/AncestryDevilView.vue'
-import AncestryDragonKnightView from '@/views/AncestriesOptions/AncestryDragonKnightView.vue'
-import AncestryDwarfView from '@/views/AncestriesOptions/AncestryDwarfView.vue'
-import AncestryWodeElfView from '@/views/AncestriesOptions/AncestryWodeElfView.vue'
-import AncestryHighElfView from '@/views/AncestriesOptions/AncestryHighElfView.vue'
-import AncestryHakaanView from '@/views/AncestriesOptions/AncestryHakaanView.vue'
-import AncestryHumanView from '@/views/AncestriesOptions/AncestryHumanView.vue'
-import AncestryMemonekView from '@/views/AncestriesOptions/AncestryMemonekView.vue'
-import AncestryOrkView from '@/views/AncestriesOptions/AncestryOrkView.vue'
-import AncestryPolderView from '@/views/AncestriesOptions/AncestryPolderView.vue'
-import AncestryRevenantView from '@/views/AncestriesOptions/AncestryRevenantView.vue'
-import AncestryTimeRaiderView from '@/views/AncestriesOptions/AncestryTimeRaiderView.vue'
 // #endregion
 // #region CulturesOptions imports
 import CultureOverviewView from '@/views/CulturesOptions/CultureOverviewView.vue'
@@ -49,28 +37,11 @@ import CultureUpbringingView from '@/views/CulturesOptions/CultureUpbringingView
 // #endregion
 // #region CareersOptions imports
 import CareersOverviewView from '@/views/CareersOptions/CareersOverviewView.vue'
-import CareersAgentView from '@/views/CareersOptions/CareersAgentView.vue'
-import CareersAristocratView from '@/views/CareersOptions/CareersAristocratView.vue'
-import CareersArtisanView from '@/views/CareersOptions/CareersArtisanView.vue'
-import CareersBeggarView from '@/views/CareersOptions/CareersBeggarView.vue'
-import CareersCriminalView from '@/views/CareersOptions/CareersCriminalView.vue'
-import CareersDiscipleView from '@/views/CareersOptions/CareersDiscipleView.vue'
-import CareersExplorerView from '@/views/CareersOptions/CareersExplorerView.vue'
-import CareersFarmerView from '@/views/CareersOptions/CareersFarmerView.vue'
-import CareersGladiatorView from '@/views/CareersOptions/CareersGladiatorView.vue'
-import CareersLaborerView from '@/views/CareersOptions/CareersLaborerView.vue'
-import CareersMagesApprenticeView from '@/views/CareersOptions/CareersMagesApprenticeView.vue'
-import CareersPerformerView from '@/views/CareersOptions/CareersPerformerView.vue'
-import CareersPoliticianView from '@/views/CareersOptions/CareersPoliticianView.vue'
-import CareersSageView from '@/views/CareersOptions/CareersSageView.vue'
-import CareersSailorView from '@/views/CareersOptions/CareersSailorView.vue'
-import CareersSoldierView from '@/views/CareersOptions/CareersSoldierView.vue'
-import CareersWardenView from '@/views/CareersOptions/CareersWardenView.vue'
-import CareersWatchOfficerView from '@/views/CareersOptions/CareersWatchOfficerView.vue'
 // #endregion
 // #region ClassesOptions imports
 import ClassesOverviewView from '@/views/ClassesOptions/ClassesOverviewView.vue'
 import ClassesAbilitiesView from '@/views/ClassesOptions/ClassesAbilitiesView.vue'
+import ConditionsView from '@/views/ConditionsView.vue'
 // #endregion
 // #region KitsOptions imports
 import KitOverviewView from '@/views/KitsOptions/KitsOverviewView.vue'
@@ -80,12 +51,6 @@ import KitsSignatureAbilityView from '@/views/KitsOptions/KitsSignatureAbilityVi
 // #endregion
 // #region PerksOptions imports
 import PerksOverviewView from '@/views/PerksOptions/PerksOverviewView.vue'
-import PerksCraftingView from '@/views/PerksOptions/PerksCraftingView.vue'
-import PerksExplorationView from '@/views/PerksOptions/PerksExplorationView.vue'
-import PerksInterpersonalView from '@/views/PerksOptions/PerksInterpersonalView.vue'
-import PerksIntrigueView from '@/views/PerksOptions/PerksIntrigueView.vue'
-import PerksLoreView from '@/views/PerksOptions/PerksLoreView.vue'
-import PerksSupernaturalView from '@/views/PerksOptions/PerksSupernaturalView.vue'
 // #endregion
 // #region ComplicationsOptions imports
 import ComplicationsOverviewView from '@/views/ComplicationsOptions/ComplicationsOverviewView.vue'
@@ -131,16 +96,13 @@ import NegotiationMakingArgumentsView from '@/views/NegotiationOptions/Negotiati
 import NegotiationResponseAndOfferView from '@/views/NegotiationOptions/NegotiationResponseAndOfferView.vue'
 import NegotiationKeepGoingOrStopView from '@/views/NegotiationOptions/NegotiationKeepGoingOrStopView.vue'
 // #endregion
-// #region DowntimeOptions imports
+// #region DowntimeProjectsOptions imports
 import DowntimeOverviewView from '@/views/DowntimeOptions/DowntimeOverviewView.vue'
 import DowntimeProjectRollView from '@/views/DowntimeOptions/DowntimeProjectRollView.vue'
 import DowntimeCraftingProjectsView from '@/views/DowntimeOptions/DowntimeCraftingProjectsView.vue'
 import DowntimeResearchProjectsView from '@/views/DowntimeOptions/DowntimeResearchProjectsView.vue'
 import DowntimeOtherProjectsView from '@/views/DowntimeOptions/DowntimeOtherProjectsView.vue'
 // #endregion
-
-// Conditions
-import ConditionsView from '@/views/ConditionsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -257,66 +219,6 @@ const router = createRouter({
       name: 'ancestriesOverview',
       component: AncestriesOverviewView,
     },
-    {
-      path: '/ancestryDevil',
-      name: 'ancestryDevil',
-      component: AncestryDevilView,
-    },
-    {
-      path: '/ancestryDragonKnight',
-      name: 'ancestryDragonKnight',
-      component: AncestryDragonKnightView,
-    },
-    {
-      path: '/ancestryDwarf',
-      name: 'ancestryDwarf',
-      component: AncestryDwarfView,
-    },
-    {
-      path: '/ancestryWodeElf',
-      name: 'ancestryWodeElf',
-      component: AncestryWodeElfView,
-    },
-    {
-      path: '/ancestryHighElf',
-      name: 'ancestryHighElf',
-      component: AncestryHighElfView,
-    },
-    {
-      path: '/ancestryHakaan',
-      name: 'ancestryHakaan',
-      component: AncestryHakaanView,
-    },
-    {
-      path: '/ancestryHuman',
-      name: 'ancestryHuman',
-      component: AncestryHumanView,
-    },
-    {
-      path: '/ancestryMemonek',
-      name: 'ancestryMemonek',
-      component: AncestryMemonekView,
-    },
-    {
-      path: '/ancestryOrc',
-      name: 'ancestryOrc',
-      component: AncestryOrkView,
-    },
-    {
-      path: '/ancestryPolder',
-      name: 'ancestryPolder',
-      component: AncestryPolderView,
-    },
-    {
-      path: '/ancestryRevenant',
-      name: 'ancestryRevenant',
-      component: AncestryRevenantView,
-    },
-    {
-      path: '/ancestryTimeRaider',
-      name: 'ancestryTimeRaider',
-      component: AncestryTimeRaiderView,
-    },
     // #endregion
     // #region Cultures
     {
@@ -351,96 +253,6 @@ const router = createRouter({
       name: 'careersOverview',
       component: CareersOverviewView,
     },
-    {
-      path: '/careersAgent',
-      name: 'careersAgent',
-      component: CareersAgentView,
-    },
-    {
-      path: '/careersAristocrat',
-      name: 'careersAristocrat',
-      component: CareersAristocratView,
-    },
-    {
-      path: '/careersArtisan',
-      name: 'careersArtisan',
-      component: CareersArtisanView,
-    },
-    {
-      path: '/careersBeggar',
-      name: 'careersBeggar',
-      component: CareersBeggarView,
-    },
-    {
-      path: '/careersCriminal',
-      name: 'careersCriminal',
-      component: CareersCriminalView,
-    },
-    {
-      path: '/careersDisciple',
-      name: 'careersDisciple',
-      component: CareersDiscipleView,
-    },
-    {
-      path: '/careersExplorer',
-      name: 'careersExplorer',
-      component: CareersExplorerView,
-    },
-    {
-      path: '/careersFarmer',
-      name: 'careersFarmer',
-      component: CareersFarmerView,
-    },
-    {
-      path: '/careersGladiator',
-      name: 'careersGladiator',
-      component: CareersGladiatorView,
-    },
-    {
-      path: '/careersLaborer',
-      name: 'careersLaborer',
-      component: CareersLaborerView,
-    },
-    {
-      path: '/careersMagesApprentice',
-      name: 'careersMagesApprentice',
-      component: CareersMagesApprenticeView,
-    },
-    {
-      path: '/careersPerformer',
-      name: 'careersPerformer',
-      component: CareersPerformerView,
-    },
-    {
-      path: '/careersPolitician',
-      name: 'careersPolitician',
-      component: CareersPoliticianView,
-    },
-    {
-      path: '/careersSage',
-      name: 'careersSage',
-      component: CareersSageView,
-    },
-    {
-      path: '/careersSailor',
-      name: 'careersSailor',
-      component: CareersSailorView,
-    },
-    {
-      path: '/careersSoldier',
-      name: 'careersSoldier',
-      component: CareersSoldierView,
-    },
-    {
-      path: '/careersWarden',
-      name: 'careersWarden',
-      component: CareersWardenView,
-    },
-    {
-      path: '/careersWatchOfficer',
-      name: 'careersWatchOfficer',
-      component: CareersWatchOfficerView,
-    },
     // #endregion
     // #region Classes
     {
@@ -452,6 +264,11 @@ const router = createRouter({
       path: '/classesAbilities',
       name: 'classesAbilities',
       component: ClassesAbilitiesView,
+    },
+    {
+      path: '/conditions',
+      name: 'conditions',
+      component: ConditionsView,
     },
     // #endregion
     // #region Kits
@@ -481,36 +298,6 @@ const router = createRouter({
       path: '/perksOverview',
       name: 'perksOverview',
       component: PerksOverviewView,
-    },
-    {
-      path: '/perksCrafting',
-      name: 'perksCrafting',
-      component: PerksCraftingView,
-    },
-    {
-      path: '/perksExploration',
-      name: 'perksExploration',
-      component: PerksExplorationView,
-    },
-    {
-      path: '/perksInterpersonal',
-      name: 'perksInterpersonal',
-      component: PerksInterpersonalView,
-    },
-    {
-      path: '/perksIntrigue',
-      name: 'perksIntrigue',
-      component: PerksIntrigueView,
-    },
-    {
-      path: '/perksLore',
-      name: 'perksLore',
-      component: PerksLoreView,
-    },
-    {
-      path: '/perksSupernatural',
-      name: 'perksSupernatural',
-      component: PerksSupernaturalView,
     },
     // #endregion
     // #region Complications
@@ -720,12 +507,6 @@ const router = createRouter({
       component: DowntimeOtherProjectsView,
     },
     // #endregion
-    // #region Conditions
-    {
-      path: '/conditions',
-      name: 'conditions',
-      component: ConditionsView,
-    },
   ],
 })
 

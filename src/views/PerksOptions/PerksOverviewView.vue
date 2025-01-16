@@ -3,7 +3,7 @@
 
 <template>
     <h1>Perks Overview</h1>
-    <p>
+    <p class="mx-3">
         Heroes don’t just fight monsters. They engage in
         exploration, investigation, negotiation and more. Perks are
         features you can use to customize your heroes and give
@@ -12,17 +12,18 @@
         character more than a monster fighter. While these
         features are designed to be used outside of combat, many
         are versatile enough that they can also be used in combat.
-        <br>
+        <br><br>
         You get one perk from your career and can choose others
         from your class as your level increases.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Perk Types
         </v-card-title>
         <v-card-text>
             There are six types of perks:
+            <br>
             <br>• <b>Crafting perks</b> let you better craft materials and
             become an expert in the things you create.
             <br>• <b>Exploration perks</b> let you better traverse and explore

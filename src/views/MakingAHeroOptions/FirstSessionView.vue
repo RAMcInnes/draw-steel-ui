@@ -3,7 +3,7 @@
 
 <template>
     <h1>Your First Session</h1>
-    <p>
+    <p class="mx-3">
         Getting together with your friends to make characters can
         be a lot of fun. Many groups spend most of their first
         session talking about the campaign’s story, making heroes,
@@ -11,7 +11,7 @@
         to kick off a long-term campaign.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-text>
             The Director should make an agenda for a campaign’s first
             session—often called “session zero”—which can include

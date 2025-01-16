@@ -3,7 +3,7 @@
 
 <template>
     <h1>Downtime Project Overview</h1>
-    <p>
+    <p class="mx-3">
         As a team, you and your fellow heroes can achieve great
         things. But the time between adventures gives you a
         chance to pursue your own goals: uncover forbidden lore
@@ -25,7 +25,7 @@
             project at a time during a respite. Eventually, you’ll be able
             to hire creatures who can work on additional projects for
             you.
-            <br>
+            <br><br>
             You can track project progress on your character sheet. As
             you work on a project, you might look over old books that
             you’ve found in your travels, perform experiments,
@@ -61,11 +61,12 @@
                 schematic, and so forth), an expert tutor with wisdom to
                 share, a master artisan with skills to teach, a magical
                 manifestation of the project’s scope and secrets, or any
-                other form of the Director’s determination. This project focused lore is referred to as a project source. Not only do
+                other form of the Director’s determination. This project
+                focused lore is referred to as a project source. Not only do
                 you need project sources to start a project, you must have
                 access to them whenever you make a project roll for that
                 particular project (see Project Roll).
-                <br>
+                <br><br>
                 Some project sources can be relatively easy to find.
                 Building a castle doesn’t require tomes filled with ancient
                 lore, but it’s also not something every stonemason knows
@@ -73,12 +74,12 @@
                 the mummified protector of one hundred slumbering
                 sorcerer-sovereigns, might exist only in a single tome that
                 requires an accompanying adventure to unearth.
-                <br>
+                <br><br>
                 The language with which project sources are set down or
                 can be shared is chosen by the Director. The sample
                 projects below have suggestions, though you might be able
                 to find a version of a source in other languages as well.
-                <br>
+                <br><br>
                 Whenever the Director determines that a creature with
                 needed knowledge can be used as a project source,
                 another hero can serve as this source of knowledge.

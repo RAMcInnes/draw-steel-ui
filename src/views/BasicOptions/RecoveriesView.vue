@@ -3,7 +3,7 @@
 
 <template>
     <h1>Recoveries</h1>
-    <p>
+    <p class="mx-3">
         Recoveries represent the number of times your hero can
         take a breather and keep fighting. Running out of
         Recoveries means your hero has reached their uttermost
@@ -29,7 +29,7 @@
             Some heroes have abilities that allow them or their allies
             to spend more Recoveries without using the Catch Breath
             maneuver.
-            <br>
+            <br><br>
             Outside of combat and other dangerous situations, you can
             spend Recoveries freely.
         </v-card-text>

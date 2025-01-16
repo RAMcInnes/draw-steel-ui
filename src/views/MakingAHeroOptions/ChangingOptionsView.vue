@@ -3,7 +3,7 @@
 
 <template>
     <h1>Changing Character Options</h1>
-    <p>
+    <p class="mx-3">
         If you pick a skill, ability, class, or any other option that
         you end up not liking after using it in the game—even your
         character’s ancestry—you can always freely change that
@@ -12,7 +12,7 @@
         fine to swap that option out for something else, go for it.
         You shouldn’t be stuck with an option that makes the
         game less fun for you.
-        <br>
+        <br><br>
         If you’re changing an option out for some reason other
         than fun, such as changing a kit out because you think the
         next adventure is going to require you to have better
@@ -24,7 +24,7 @@
         Director.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Optional: Respite Ability Changes
         </v-card-title>

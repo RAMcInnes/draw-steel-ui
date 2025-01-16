@@ -3,7 +3,7 @@
 
 <template>
     <h1>Actions</h1>
-    <p>
+    <p class="mx-3">
         When you take an action on your turn, you most often do
         so to use a unique ability defined on your character sheet
         (see <i>Abilities</i>). These abilities are the most unique,

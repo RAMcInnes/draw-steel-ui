@@ -3,7 +3,7 @@
 
 <template>
     <h1>Assist a Test</h1>
-    <p>
+    <p class="mx-3">
         You can attempt to assist another creature with a test they
         make, provided you have a skill that applies to the test, the
         other creature isn’t using that same skill on the test, and
@@ -32,14 +32,12 @@
             their test.
             <br>• <b>17+</b>: Your help gives the other creature a double edge on
             their test.
+            <br><br>
+            For example, if you want to use the Flirt skill to help
+            another hero pick a jailor’s pocket, the Director might ask
+            you to make a Presence test using Flirt. The outcome of
+            that test determines the bonus you provide to the other
+            hero’s Agility test to pick the pocket.
         </v-card-text>
     </v-card>
-    <br>
-    <p>
-        For example, if you want to use the Flirt skill to help
-        another hero pick a jailor’s pocket, the Director might ask
-        you to make a Presence test using Flirt. The outcome of
-        that test determines the bonus you provide to the other
-        hero’s Agility test to pick the pocket.
-    </p>
 </template>

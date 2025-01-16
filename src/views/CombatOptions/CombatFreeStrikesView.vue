@@ -3,7 +3,7 @@
 
 <template>
     <h1>Free Strikes</h1>
-    <p>
+    <p class="mx-3">
         Every creature can use a free strike ability as an action on
         their turn, though doing so typically isn’t the most
         effective choice. Most of the time, you’ll use free strikes
@@ -12,7 +12,7 @@
         something else impactful, such as how the Charge action
         lets you move and use a melee free strike in one action
         (see <i>Charge (Action)</i>).
-        <br>
+        <br><br>
         Many rules and abilities allow heroes to make free strikes
         when it isn’t their turn, such as the tactician’s Overwatch
         ability. As well, all characters can make an opportunity
@@ -41,7 +41,7 @@
             advantage of their movement to quickly make a melee free
             strike against them as a free triggered action. This is called
             an opportunity attack.
-            <br>
+            <br><br>
             If you have a bane or double bane on the power roll
             against the creature, you can’t make the free strike.
         </v-card-text>
@@ -56,7 +56,7 @@
             to them. Your class might give you additional free strike
             options, and your kit can improve the standard options
             (see <i>Kits</i>).
-            <br>
+            <br><br>
             A melee weapon free strike is a melee strike made with an
             unarmed strike or an improvised weapon. A ranged
             weapon free strike is a ranged strike made with an
@@ -64,10 +64,6 @@
             damage type of an improvised weapon can change based
             on the object used. For example, if you use a burning torch
             as an improvised weapon, it could deal fire damage.
-            <br><br>
-            <b>Melee Weapon Free Strike</b>: [SEE PAGE 177]
-            <br>
-            <b>Ranged Weapon Free Strike</b>: [SEE PAGE 177]
         </v-card-text>
     </v-card>
 </template>

@@ -3,7 +3,7 @@
 
 <template>
     <h1>Uncovering Motivations</h1>
-    <p>
+    <p class="mx-3">
         If a hero wishes to figure out an NPC’s motivations, they
         can begin by simply asking, “What do you want out of this
         deal?” In response, the NPC can willingly hint at or reveal
@@ -16,7 +16,7 @@
         might offer up similar suggestions without the heroes
         asking, provided the NPC already has an interest of at least
         3.
-        <br>
+        <br><br>
         If an NPC isn’t as forthcoming, or if the heroes want to
         learn one of the NPC’s pitfalls, a hero can make a Reason,
         Intuition, or Presence test while interacting with the NPC
@@ -37,8 +37,8 @@
         they make an argument to the NPC or the negotiation ends.
     </p>
     <br>
-    <h3>OUTSIDE OF NEGOTIATION</h3>
-    <p>
+    <h3 class="mx-3">OUTSIDE OF NEGOTIATION</h3>
+    <p class="mx-3">
         While the heroes can discover an NPC’s motivations or
         pitfalls through tests made during negotiation, they can
         employ other methods of investigating motivations or

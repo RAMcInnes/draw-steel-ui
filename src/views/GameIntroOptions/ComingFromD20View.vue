@@ -3,7 +3,7 @@
 
 <template>
 <h1>IF YOU’RE COMING FROM D20 FANTASY ...</h1>
-  <p>
+  <p class="mx-3">
       We know many folks are coming to this game having only
     experienced d20 fantasy RPGs. Here are a few key
     distinctions between this game and typical d20 fantasy

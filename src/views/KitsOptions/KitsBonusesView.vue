@@ -3,7 +3,7 @@
 
 <template>
     <h1>Kits Bonuses and Traits</h1>
-    <p>
+    <p class="mx-3">
         A kit can increase your Stamina, speed, and stability, as
         well as the damage and distance of your weapon abilities.
         Kit bonuses are applied to free strikes.
@@ -43,21 +43,41 @@
         </v-card-title>
         <v-card-text>
             Kits can grant you a bonus to damage with certain types of abilities.
-            <br>
-            <h3>MELEE DAMAGE BONUS</h3>
-            Kits can have a melee damage bonus. This bonus is added
-            to the rolled damage of abilities with both the Melee and
-            Weapon keywords that deal damage.
-            <h3>RANGED DAMAGE BONUS</h3>
-            Kits can have a ranged damage bonus. This bonus is added
-            to the rolled damage of abilities with both the Ranged and
-            Weapon keywords that deal damage.
-            <h3>BONUSES ACROSS TIERS</h3>
-            Kit damage bonuses are presented as “+X/+Y/+Z.” The X
-            bonus is added to qualifying tier 1 power roll results, the Y
-            bonus is added to qualifying tier 2 power roll results, and
-            the Z bonus is added to qualifying tier 3 power roll results.
-            <br>
+            <br><br>
+            <v-expansion-panels>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        MELEE DAMAGE BONUS
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Kits can have a melee damage bonus. This bonus is added
+                        to the rolled damage of abilities with both the Melee and
+                        Weapon keywords that deal damage.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        RANGED DAMAGE BONUS
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Kits can have a ranged damage bonus. This bonus is added
+                        to the rolled damage of abilities with both the Ranged and
+                        Weapon keywords that deal damage.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        BONUSES ACROSS TIERS
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Kit damage bonuses are presented as “+X/+Y/+Z.” The X
+                        bonus is added to qualifying tier 1 power roll results, the Y
+                        bonus is added to qualifying tier 2 power roll results, and
+                        the Z bonus is added to qualifying tier 3 power roll results.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+            </v-expansion-panels>
+            <br><br>
             For example, the Shining Armor Kit has a +2/+2/+2 melee
             damage bonus, increasing the damage of your abilities
             with the Melee and Weapon keywords across all tier
@@ -77,7 +97,7 @@
             your abilities with the Ranged and Weapon keywords.
             Your kits melee distance bonus increase the distance of
             your abilities with the Melee and Weapon keywords.
-            <br>
+            <br><br>
             A distance bonus doesn’t increase the size of any ability’s
             area of effect.
         </v-card-text>

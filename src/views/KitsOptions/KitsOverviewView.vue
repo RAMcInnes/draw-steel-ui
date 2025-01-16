@@ -278,7 +278,7 @@
 
 <template>
     <h1>Kits Overview</h1>
-    <p>
+    <p class="mx-3">
         The knight in shining armor. The warrior priest. The
         sniper. Censors, furies, shadows, tacticians, and
         troubadours can tap into these and many more archetypal
@@ -287,7 +287,7 @@
         martial heroes for battle.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Changing Your Kit
         </v-card-title>

@@ -71,7 +71,8 @@
     ];
     const classesOptions = [
       ['Class Overview', 'classesOverview'],
-      ['Abilities', 'classesAbilities']
+      ['Abilities', 'classesAbilities'],
+      ['Conditions', 'conditions']
     ];
     const kitsOptions = [
       ['Kit Overview', 'kitsOverview'],
@@ -81,12 +82,9 @@
     ];
     const perksOptions = [
       ['Perk Overview', 'perksOverview'],
-      // ['Crafting Perks', 'perksCrafting'],
-      // ['Exploration Perks', 'perksExploration'],
-      // ['Interpersonal Perks', 'perksInterpersonal'],
-      // ['Intrigue Perks', 'perksIntrigue'],
-      // ['Lore Perks', 'perksLore'],
-      // ['Supernatural Perks', 'perksSupernatural'],
+    ];
+    const complicationsOptions = [
+      ['Complication Overview', 'complicationsOverview'],
     ];
     const testsOptions = [
       ['Test Overview', 'testsOverview'],
@@ -136,9 +134,6 @@
       ['Research Projects', 'downtimeResearchProjects'],
       ['Other Projects', 'downtimeOtherProjects'],
     ];
-    const complicationsOptions = [
-      ['Complication Overview', 'complicationsOverview'],
-    ];
 
     const combinedArray = [
       gameIntroOptions,
@@ -150,12 +145,12 @@
       classesOptions,
       kitsOptions,
       perksOptions,
+      complicationsOptions,
       testsOptions,
       skillsOptions,
       combatOptions,
       negotiationOptions,
       downTimeOptions,
-      complicationsOptions
     ];
 
     const allSectionsArray = combinedArray.flatMap(arr => arr.map(section => section[0]));
@@ -451,12 +446,6 @@
                 :to="location"
               ></v-list-item>
           </v-list-group>
-
-          <v-list-item
-            title="Conditions"
-            value="Conditions"
-            to="conditions">
-          </v-list-item>
         </v-list>
 
         <v-list v-if="filteredSections" open-strategy="multiple">

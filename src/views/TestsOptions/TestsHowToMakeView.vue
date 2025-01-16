@@ -2,23 +2,25 @@
 </script>
 
 <template>
-    <h1> How to Make a Test</h1>
-    Each test has the following steps:
+    <h1>How to Make a Test</h1>
+    <p class="mx-3">
+        Each test has the following steps:
+        <br>
+        <br>• The Director decides that a hero’s actions call for a test
+        and asks the hero’s player to make a power roll using an
+        appropriate characteristic. The Director then selects a
+        difficulty for the power roll, either secretly or publicly
+        (see <i>Difficulty and Outcomes</i>).
+        <br>• The player makes the power roll. If the character has a
+        skill that applies to the test (see Skills), they can ask the
+        Director if the skill applies. The player must justify the
+        use of the skill to the Director. If the Director agrees the
+        skill applies, the hero gains a +2 bonus (<u>not an edge but
+        a bonus</u>) to the roll.
+        <br>• The player reports the result, and the Director
+        interprets the success or failure of the roll.
+    </p>
     <br>
-    <br>• The Director decides that a hero’s actions call for a test
-    and asks the hero’s player to make a power roll using an
-    appropriate characteristic. The Director then selects a
-    difficulty for the power roll, either secretly or publicly
-    (see <i>Difficulty and Outcomes</i>).
-    <br>• The player makes the power roll. If the character has a
-    skill that applies to the test (see Skills), they can ask the
-    Director if the skill applies. The player must justify the
-    use of the skill to the Director. If the Director agrees the
-    skill applies, the hero gains a +2 bonus (<u>not an edge but
-    a bonus</u>) to the roll.
-    <br>• The player reports the result, and the Director
-    interprets the success or failure of the roll.
-    <br><br>
     <v-card>
         <v-card-title>
             Characteristics and Tests

@@ -3,13 +3,13 @@
 
 <template>
     <h1>Step-By-Step Hero Making</h1>
-    <p>
+    <p class="mx-3">
         Use the following step-by-step guide to create a hero.
         These steps are presented in what we believe is the best
         way to approach making your first hero for Draw Steel.
         That said, the order of the steps is still a suggestion, not a
         hard and fast rule.
-        <br>
+        <br><br>
         Many players like to build a hero from the backstory up,
         making ancestry and culture ideal first choices. However,
         some players like to start more in the present, choosing an
@@ -19,7 +19,7 @@
         hero came from. There’s no wrong way to do it!
         You’ll want a character sheet to fill out while you make
         your hero.
-        <br>
+        <br><br>
         Each option you can select for your hero at 1st level
         includes a parenthetical option labeled “Quick Build.” This
         is for players who want to build a hero faster without
@@ -63,7 +63,7 @@
                     polder, revenant, time raider, or wode elf. Future
                     supplements will introduce additional ancestries you can
                     choose from.
-                    <br>
+                    <br><br>
                     See <b>Ancestries</b> for more information.
                 </v-expansion-panel-text>
             </v-expansion-panel>
@@ -76,7 +76,7 @@
                     hero a number of physiological benefits, your culture
                     describes the community that raised you and gives you
                     languages and skills. 
-                    <br>
+                    <br><br>
                     See <b>Culture</b> for more information. 
                 </v-expansion-panel-text>
             </v-expansion-panel>
@@ -89,7 +89,7 @@
                     for a living before you became a hero. Your career gives
                     you skills and a title, and might also give you languages,
                     Renown, or knowledge for crafting and research.
-                    <br>
+                    <br><br>
                     See <b>Careers</b> for more information.
                 </v-expansion-panel-text>
             </v-expansion-panel>
@@ -105,7 +105,8 @@
                     skills, several abilities, and other benefits. You can be a
                     censor, conduit, elementalist, fury, null, shadow, tactician,
                     talent, or troubadour.
-                    <br> See <b>Classes</b> for more information.
+                    <br><br>
+                    See <b>Classes</b> for more information.
                 </v-expansion-panel-text>
             </v-expansion-panel>
             <v-expansion-panel>
@@ -117,7 +118,7 @@
                     Your kit provides you with equipment and a fighting style
                     that grants a signature ability and bonuses to one or more
                     of your game statistics.
-                    <br>
+                    <br><br>
                     See <b>Kits</b> for more information.
                 </v-expansion-panel-text>
             </v-expansion-panel>
@@ -135,14 +136,14 @@
                     your kit or class) and it’s up to you to decide what exactly
                     these strikes are. A thrown dagger? A punch? The design is
                     intended to let you use your imagination.
-                    <br>
+                    <br><br>
                     Free strikes also let you make strikes on your turn even if
                     your hero isn’t otherwise themed to do so. A bow-using
                     wode elf can still stab an enemy with a dagger as a free
                     strike, and a greataxe wielding orc fury can still pull out a
                     hand axe and hurl it at a flying enemy staying annoyingly
                     out of melee range as a free strike.
-                    <br>
+                    <br><br>
                     See <b>Free Strikes (Action)</b> for more information.
                 </v-expansion-panel-text>
             </v-expansion-panel>
@@ -159,7 +160,7 @@
                     can make a character more three dimensional, but they are
                     not necessary for making a great hero. Check with your
                     Director to make sure your game is using them.
-                    <br>
+                    <br><br>
                     See <b>Complications</b> for more information.
                 </v-expansion-panel-text>
             </v-expansion-panel>
@@ -188,7 +189,7 @@
                     and build some connections between your heroes. If you
                     like, you can use the following prompts to make those
                     connections, or to come up with prompts of your own:
-                    <br>
+                    <br><br>
                     <br>• While fighting a monster, another hero saved your life.
                     What were you battling and who saved you?
                     <br>• In your group, who looks after everyone’s health and

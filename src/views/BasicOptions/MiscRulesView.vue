@@ -13,7 +13,7 @@
             game elements that let you break those rules. This is on
             purpose! Breaking the rules allows heroes to feel special
             and makes their foes seem extra dangerous.
-            <br>
+            <br><br>
             If you’re not sure what to do when two rules come into
             conflict with each other, remember that a specific
             exception always beats a more general rule. The Director
@@ -72,7 +72,7 @@
         <v-card-text>
             The word "Supernatural" is used to describe abilities,
             creatures, and objects that are magical or psionic in nature.
-            <br>
+            <br><br>
             The word "Mundane" is used to describe abilities, creatures,
             and objects that aren’t magical or psionic.
         </v-card-text>

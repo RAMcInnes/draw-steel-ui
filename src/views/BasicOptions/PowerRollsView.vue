@@ -4,7 +4,7 @@
 
 <template>
     <h1>Power Rolls</h1>
-    <p>
+    <p class="mx-3">
         Whenever a hero or other creature in the game attempts a
         task with an uncertain outcome, such as attacking a foe,
         sneaking by a guard patrol without being seen, or
@@ -13,55 +13,53 @@
         actions.
     </p>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Types of Power Rolls
         </v-card-title>
-        <v-expansion-panels>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Ability Roll
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    An Ability Roll is used when you activate certain abilities to
-                    determine their impact. For instance, if a fury uses their
-                    Brutal Slam ability to strike an enemy, their ability roll
-                    determines how much damage the enemy takes and how far back the
-                    enemy is pushed.
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Tests
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    A Test is a Power Roll you make outside of using your
-                    abilities to affect or interact with the world around you. A
-                    Tactician might not have an ability that lets them climb up
-                    the face of a cliff, so climbing is an activity they can
-                    attempt with a test. An Elementalist doesn’t have an ability
-                    that lets them automatically intimidate a cultist into
-                    backing down from a fight, but they can make a Test if they
-                    want to try.
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-        </v-expansion-panels>
+        <v-card-text>
+            <v-expansion-panels>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Ability Roll
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        An Ability Roll is used when you activate certain abilities to
+                        determine their impact. For instance, if a fury uses their
+                        Brutal Slam ability to strike an enemy, their ability roll
+                        determines how much damage the enemy takes and how far back the
+                        enemy is pushed.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Tests
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        A Test is a Power Roll you make outside of using your
+                        abilities to affect or interact with the world around you. A
+                        Tactician might not have an ability that lets them climb up
+                        the face of a cliff, so climbing is an activity they can
+                        attempt with a test. An Elementalist doesn’t have an ability
+                        that lets them automatically intimidate a cultist into
+                        backing down from a fight, but they can make a Test if they
+                        want to try.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+            </v-expansion-panels>
+        </v-card-text>
     </v-card>
-
     <br>
-
     <v-card>
         <v-card-title>
             Making a Power Roll
         </v-card-title>
-        <p>
+        <v-card-text>
             When you make a power roll, you roll two ten-sided dice
             (sometimes noted as 2d10 in the rules) and add one of
             your characteristics. The characteristic you add depends
             on the kind of roll you’re making, as outlined in 
             <b>Abilities</b> and <b>Tests</b>.
-        </p>
-        <br>
         <v-expansion-panels>
             Power Roll Outcomes
             <v-expansion-panel>
@@ -144,13 +142,14 @@
             characteristic is added to the roll and whether or not the
             roll has any banes.
         </p>
+        </v-card-text>
     </v-card>
     <br>
-    <v-card>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Edges and Banes
         </v-card-title>
-        <p>
+        <v-card-text>
             An archer standing on a castle wall fires down into a
             throng of enemies, hitting the mark each time thanks to
             their high ground. A drunken bandit struggles to land
@@ -159,86 +158,86 @@
             characteristic to represent the advantages and
             disadvantages that heroes, their enemies, and their allies
             might have.
-        </p>
-        <br>
-        <v-expansion-panels>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Edge
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    An edge represents a situational advantage a hero or an
-                    enemy has when making a power roll. For example, a
-                    standing hero who makes a melee strike against a prone
-                    creature gains an edge on the power roll for their strike. A
-                    pair of magic gloves that makes your hands sticky might
-                    grant you an edge when making a power roll to climb
-                    walls!
-                    <br>
-                    When you make a Power Roll with a single edge, you add 2
-                    to the roll. If you make a Power Roll with two or more
-                    edges, you have a <b>double edge</b>. This means you don’t add
-                    anything to the power roll, but the result of the roll
-                    automatically improves one tier (to a maximum of tier 3).
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Bane
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    A bane represents a situational disadvantage a hero or an
-                    enemy has when making a power roll. For example, if you
-                    make an strike while prone, the power roll for the strike
-                    takes a bane. A rainstorm might give you a bane on a
-                    power roll made to climb an outdoor wall because the
-                    weather makes the stone surface extra slick.
-                    <br>
-                    When you make a Power Roll with a single bane, you
-                    subtract 2 from the roll. If you make a Power Roll with two
-                    or more banes, you have a <b>double bane</b>. This means you
-                    don’t subtract anything from the power roll, but the result
-                    of the roll automatically decreases one tier (to a minimum
-                    of tier 1).
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Rolling with Edges and Banes
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    Under certain circumstances, you might have one or more
-                    edges and banes on the same roll. For instance, you might
-                    take a bane when weakened by poison, even as you gain
-                    an edge for striking a prone creature. In general, edges
-                    and banes cancel each other out, resolving as follows:
-                    <br>• If you have an edge and a bane, or if you have a double
-                    edge and a double bane, the roll is made as usual
-                    without any edges or banes.
-                    <br>• If you have a double edge and just one bane, the roll is
-                    made with one edge, regardless of how many single
-                    edge instances contribute to the double edge.
-                    <br>• If you have a double bane and just one edge, the roll is
-                    made with one bane, regardless of how many single
-                    bane instances contribute to the double bane.
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    When to use Edges and Banes
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    The rules tell you when to modify a roll with an edge or a
-                    bane. The Director can also modify rolls with edges and
-                    banes as a response to narrative or environmental
-                    circumstances. For instance, no rule specifically says that
-                    rain imposes a bane on power rolls made to climb a stone
-                    wall. But it makes sense that rainy conditions should make
-                    climbing that wall harder, so a Director should absolutely
-                    do so!
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-        </v-expansion-panels>
+            <br><br>
+            <v-expansion-panels>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Edge
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        An edge represents a situational advantage a hero or an
+                        enemy has when making a power roll. For example, a
+                        standing hero who makes a melee strike against a prone
+                        creature gains an edge on the power roll for their strike. A
+                        pair of magic gloves that makes your hands sticky might
+                        grant you an edge when making a power roll to climb
+                        walls!
+                        <br><br>
+                        When you make a Power Roll with a single edge, you add 2
+                        to the roll. If you make a Power Roll with two or more
+                        edges, you have a <b>double edge</b>. This means you don’t add
+                        anything to the power roll, but the result of the roll
+                        automatically improves one tier (to a maximum of tier 3).
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Bane
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        A bane represents a situational disadvantage a hero or an
+                        enemy has when making a power roll. For example, if you
+                        make an strike while prone, the power roll for the strike
+                        takes a bane. A rainstorm might give you a bane on a
+                        power roll made to climb an outdoor wall because the
+                        weather makes the stone surface extra slick.
+                        <br><br>
+                        When you make a Power Roll with a single bane, you
+                        subtract 2 from the roll. If you make a Power Roll with two
+                        or more banes, you have a <b>double bane</b>. This means you
+                        don’t subtract anything from the power roll, but the result
+                        of the roll automatically decreases one tier (to a minimum
+                        of tier 1).
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Rolling with Edges and Banes
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Under certain circumstances, you might have one or more
+                        edges and banes on the same roll. For instance, you might
+                        take a bane when weakened by poison, even as you gain
+                        an edge for striking a prone creature. In general, edges
+                        and banes cancel each other out, resolving as follows:
+                        <br>• If you have an edge and a bane, or if you have a double
+                        edge and a double bane, the roll is made as usual
+                        without any edges or banes.
+                        <br>• If you have a double edge and just one bane, the roll is
+                        made with one edge, regardless of how many single
+                        edge instances contribute to the double edge.
+                        <br>• If you have a double bane and just one edge, the roll is
+                        made with one bane, regardless of how many single
+                        bane instances contribute to the double bane.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        When to use Edges and Banes
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        The rules tell you when to modify a roll with an edge or a
+                        bane. The Director can also modify rolls with edges and
+                        banes as a response to narrative or environmental
+                        circumstances. For instance, no rule specifically says that
+                        rain imposes a bane on power rolls made to climb a stone
+                        wall. But it makes sense that rainy conditions should make
+                        climbing that wall harder, so a Director should absolutely
+                        do so!
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+            </v-expansion-panels>
+        </v-card-text>
     </v-card>
     <br>
     <v-card>
@@ -255,14 +254,15 @@
             There is no limit to the number of bonuses or penalties
             that can apply to a power roll, and bonuses and penalties
             always add together.
-            <br>
+            <br><br>
             Though it might sound as if the math with bonuses and
             penalties can get confusing, fear not! Bonuses and
             penalties are rare except in the case of skills, which appear
             on your character sheet <i>(see Skills for more information)</i>.
         </v-card-text>
     </v-card>
-    <v-card>
+    <br>
+    <v-card color="grey-lighten-2">
         <v-card-title>
             Automatic Tier Results
         </v-card-title>
@@ -276,7 +276,7 @@
             action in combat, you can still make the roll to see if you
             achieve the natural result for an additional effect in
             addition to the automatic result.
-            <br>
+            <br><br>
             If you are under two effects that each give you automatic
             results, then they cancel each other out and all automatic
             results are ignored.

@@ -10,13 +10,11 @@
       <v-card-text>
         <p>
         Strategy is: “What are we trying to do?” Break a siege, free a prisoner, rescue a captive, steal a tome of ancient lore. Strategy is about long-term goals.
-      </p>
-      <p>
+        <br>
         Tactics is about: “How are we going to do that?” We’re going to ... surround them! Sneak around them!
         Pick them off one by one! Kill their leader first. Kill their priest first!
         “No resurrections!”
-      </p>
-      <p>
+        <br><br>
         In a tactical game, <u>positioning matters</u>. So our game is
         played on a grid. Effects and distances are measured in
         squares. This means everyone is looking at the same
@@ -26,8 +24,7 @@
         stop our tactician and fury from getting into melee with
         the hobgoblin war mage. We can all see that happening,
         and can talk about what we’re going to do to stop it.
-      </p>
-      <p>
+        <br><br>
         That means <u>teamwork matters</u>. That’s why initiative works
         the way it does—to encourage the players to plan! “Okay,
         you use Concussive Slam on that trooper, it’ll push him
@@ -42,8 +39,7 @@
         down before they could reduce yours to 0—you feel like
         you beat those hobgoblins! Through stealth and sorcery,
         coordination and ferocity!
-      </p>
-      <p>
+        <br><br>
         As you play with the same group of characters, you learn
         what they can all do. You discover synergies, “combos.”
         Some of them intended by the designers, some not! You
@@ -56,76 +52,69 @@
         push themselves right to the edge and keep fighting. “Don’t
         worry about healing Barlaca. She’s our fury. She’s happier
         with 3 Stamina.”
-    </p>
-    <p>
-      Our game is not about tactics. It’s not a war game. But it is tactical.
-    </p>
+        <br><br>
+        Our game is not about tactics. It’s not a war game. But it is tactical.
+      </p>
       </v-card-text>
   </v-card>
+  <br>
   <v-card color="yellow-darken-2">
       <v-card-title>
         HEROIC
       </v-card-title>
       <v-card-text>
         <p>
-          Our game is definitely about heroism! :D
           For us, this means a couple of things. It means we don’t
           assume your character is primarily motivated by greed.
           They might be! But we don’t assume that. Instead we
           assume you’re going to do the right thing. It might take
           some convincing, and there might be some reluctant
           heroes in your party, but that’s part of the fun!
-        </p>
-        <p>
-          You should absolutely be able to run a Chain of Acheron-
-          style campaign where the heroes are hard-bitten
+          <br><br>
+          You should absolutely be able to run a Chain of Acheronstyle
+          campaign where the heroes are hard-bitten
           mercenaries in a morally ambiguous world. But that’s not
           the baseline assumption. The fiction and adventures that
           inspire us feature epic villains trying to remake the world
           in their image, and the dashing, unyielding heroes who
           strive against them even in the face of impossible odds.
-        </p>
-        <p>
+          <br><br>
           So that’s one component of the heroic keyword. But
           another component, equally important, is what kinds of
           things happen “on-screen,” so to speak. This is very closely
           related to the cinematic keyword.
-        </p>
-        <p>
+          <br><br>
           For instance, you never see Indiana Jones having to find a
           local sporting goods store because he needs to stock up on
           ammo. You never see Katniss Everdeen have to stop and
           take a shower because she stinks.
-        </p>
-        <p>
+          <br><br>
           These things do happen. No one watching Raiders of the
           Lost Ark thinks that Indy’s gun is magical and doesn’t need
           bullets—but we just don’t need to see Indy doing that stuff.
           We don’t need to waste time on it.
-        </p>
-        <p>
+          <br><br>
           Likewise in our game, we don’t worry about stuff that
           heroes in fiction tend not to worry about. We don’t worry
           how much everything you’re carrying weighs. If you try to
           lift a bear, you might have trouble, sure. But nowhere on
           your character sheet are you tracking the weight of every
           item.
-        </p>
-        <p>
+          <br><br>
           You don’t track food such as rations, and you don’t worry
           about how many torches you have. Light might factor into
           a specific environment, because that can be a fun tactical
           challenge, but the game doesn’t expect that everyone is
           always worried about running out of light.
-        </p>
-        <p>
+          <br><br>
           Basically, we worry only about those things you’d see your
           characters doing in a movie, or a comic, or a novel about
-          their adventures. Assume all the tedious stuff happens off-
-          screen.
+          their adventures. Assume all the tedious stuff happens offscreen.
+          Speaking of things happening on-screen …
         </p>
       </v-card-text>
   </v-card>
+  <br>
   <v-card color="blue-darken-2">
     <v-card-title>
       CINEMATIC
@@ -140,16 +129,14 @@
         retreat to safety. The text of the ability says how it works,
         but the name creates a visual that explains how it’s
         working.
-      </p>
-      <p>
+        <br><br>
         When Sir Vanazor the dragon knight fury leaps onto a
         goblin war spider, cleaving through the goblins riding the
         creature in a single turn, you can see it in your mind. It
         feels like a movie. It doesn’t feel simply as if you rolled
         well, but like an epic scene, complete with slow motion
         and a Carpenter Brut soundtrack.
-      </p>
-      <p>
+        <br><br>
         You should imagine your tactician character leading the
         battle, granting your allies free strikes, extra maneuvers.
         Coordinating the battle. That’s what the name implies. And
@@ -159,6 +146,7 @@
       </p>
     </v-card-text>
   </v-card>
+  <br>
   <v-card color="purple-darken-2">
     <v-card-title>
       FANTASY
@@ -166,8 +154,7 @@
     <v-card-text>
       <p>
         Just ... you know ... it’s got dragons and stuff. :D
-        </p>
-        <p>
+        <br><br>
         It’s worth mentioning—while everyone basically already
         knows what fantasy means in this context, we do imagine
         it a little more broadly than your average classical
@@ -179,27 +166,23 @@
         Age. Vasloria is mostly humans and elves and orcs and
         dwarves, but Capital has dozens, hundreds of different
         ancestries in it.
-        </p>
-        <p>
+        <br><br>
         Looking back at movies like Star Wars and the work of
         artists like Chris Foss, that ’70s stuff now seems explicitly
         fantastical. There’s nothing scientific or even plausible
         about a lightsaber or a John Berkey spaceship. But damn,
         they look cool!
-        </p>
-        <p>
+        <br><br>
         So our setting includes the timescape—our multiverse, of
         which the world of Orden containing Capital and Vasloria
         is only one part. The timescape is more explicitly “space
         fantasy.”
-        </p>
-        <p>
+        <br><br>
         These core rules mostly cover the classic fantasy stuff. But
         we think Capital and the timescape will help us deliver a
         game where more people can see their fantasy in our
         worlds.
-        </p>
-        <p>
+        <br><br>
         For us, fantasy includes magic, like wizards casting spells,
         and psionics, the natural and focused ability some
         creatures have to manipulate and warp reality with their

@@ -3,7 +3,7 @@
 
 <template>
     <h1>Negotiation Stats</h1>
-    <p>
+    <p class="mx-3">
         During negotiation, the Director assigns NPCs four
         temporary statistics—interest, patience, motivations, and
         pitfalls. The heroes can strike a favorable deal if they
@@ -26,7 +26,7 @@
             negotiation ends (see <i>Keep Going or Stop</i>). If the
             NPC’s interest drops to 0, they end a negotiation without
             offering the heroes any deal.</b>
-            <br>
+            <br><br>
             Interest increases and decreases during the negotiation
             based on the arguments the heroes make.
         </v-card-text>
@@ -67,7 +67,7 @@
             increase the NPC’s interest. Arguments that don’t appeal
             to a motivation require a more difficult power roll.</b> (See
             <i>Making Arguments</i> for more information.)
-            <br>
+            <br><br>
             Each motivation can be successfully appealed to only once
             during a negotiation. To successfully appeal to a
             motivation, the heroes must use the motivation in an
@@ -86,7 +86,7 @@
             pitfall in an argument causes an NPC’s interest and
             patience to wane.</b> Each NPC has at least one pitfall, and
             many have two or more.
-            <br>
+            <br><br>
             Pitfalls and motivations are two sides of the same concept.
             They’re presented below as a single list, so that what
             might be a motivation for one NPC is a pitfall for another.

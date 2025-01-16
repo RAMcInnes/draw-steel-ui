@@ -3,14 +3,14 @@
 
 <template>
     <h1>Environment</h1>
-    <p>
+    <p class="mx-3">
         Your culture’s environment aspect describes where the
         people of that culture spend most of their time. Is your
         culture centered in a bustling city or a small village? Did
         you spend your early life in an isolated monastery? Or did
         you wander the wilderness, never staying in one place for
         long?
-        <br>
+        <br><br>
         When you build a culture, select its environment aspect
         from the following options: nomadic, rural, secluded, urban,
         or wilderness. You then gain skill options from your chosen
@@ -31,9 +31,9 @@
                 lifestyle full of new experiences and peoples. Those who
                 grow up in nomadic cultures learn to navigate the
                 wilderness and interact with others.
-                <br>
+                <br><br>
                 <b>Skill Options</b>: One skill from the <i>Exploration</i> or
-                <i>Interpersonal</i> skill groups. (Quick Build: Navigate)
+                <i>Interpersonal</i> skill groups.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -46,7 +46,7 @@
                 cultivate the land, trade goods or services with travelers
                 passing through, harvest fish from the sea, or mine metals
                 and gems from the earth.
-                <br>
+                <br><br>
                 Living among a small population, most folks in a rural
                 community learn a trade and are handed down bits of
                 essential knowledge to help their community survive. For
@@ -55,9 +55,9 @@
                 anvil well before that smith starts to get old. If the only
                 priest in town gets the sniffles, folks want an acolyte ready
                 to wear the fancy robes should the worst occur.
-                <br>
-                <b>Skill Options</b>: One skill from the <i>Crafting</i> or <i>Lore</i> Skill
-                Groups. (Quick Build: Nature)
+                <br><br>
+                <b>Skill Options</b>: One skill from the <i>Crafting</i> or <i>Lore</i> skill
+                groups.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -73,13 +73,13 @@
                 to leave their home or interact with other cultures on the
                 outside, but might have an awareness of those cultures and
                 of events happening outside their enclave.
-                <br>
+                <br><br>
                 When people live together in close quarters, they typically
                 learn to get along. They often spend much time in study or
                 introspection, as there is not much else to do in seclusion.
-                <br>
-                <b>Skill Options</b>: One skill from the <i>Interpersonal</i> or <i>Lore</i> Skill
-                Groups. (Quick Build: Read Person)
+                <br><br>
+                <b>Skill Options</b>: One skill from the <i>Interpersonal</i> or <i>Lore</i> skill
+                groups.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -95,9 +95,9 @@
                 together. The people of urban cultures often learn to
                 effectively misdirect others in order to navigate the crowds
                 and the political machinations that can come with city life.
-                <br>
+                <br><br>
                 <b>Skill Options</b>: One skill from the <i>Interpersonal</i> or <i>Intrigue</i>
-                skill groups. (Quick Build: Alertness)
+                skill groups.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -116,9 +116,9 @@
                 wilderness culture learn how to use the land for all they
                 need to live, typically crafting their own tools, clothing, and
                 more.
-                <br>
+                <br><br>
                 <b>Skill Options</b>: One skill from the <i>Crafting</i> or <i>Exploration</i>
-                skill groups. (Quick Build: Endurance)
+                skill groups.
             </v-expansion-panel-text>
         </v-expansion-panel>
     </v-expansion-panels>

@@ -3,7 +3,7 @@
 
 <template>
     <h1>Tests Overview</h1>
-    <p>
+    <p class="mx-3">
         When you want your hero to rifle through a desk and
         locate a specific document, scale a castle wall, negotiate a
         treaty with a monarch, or undertake any other activity
@@ -30,7 +30,7 @@
             over the wall means the pursuers can catch them, so the
             Director might decide to call for a test to determine what
             happens.
-            <br>
+            <br><br>
             The advancement of a story shouldn’t be halted by failing a
             test. For instance, the heroes might need to know the color
             of a dwarf king’s crown to solve a puzzle, with that puzzle
@@ -59,7 +59,7 @@
             giant strands of sticky spider webs, the Director might
             decide that they can climb up the wall without needing to
             make a test.
-            <br>
+            <br><br>
             That said, such clever ideas often work for free the first
             time, but the Director could decide they require tests if
             they are used again.
@@ -78,6 +78,7 @@
             maneuver or an action, while tracking a band of voiceless
             talkers through the World Below could take hours or even
             days.
+            <br><br>
             <h3>Tests During Combat</h3>
             Many (but not all) tests that a hero might make during
             combat are made as maneuvers. See <i>Make a Test</i> in
@@ -96,7 +97,7 @@
             fail, you can’t attempt to pick the lock again unless you get
             some better lockpicks, oil the lock, have someone
             demonstrate how to pick a similar lock, and so on.
-            <br>
+            <br><br>
             The Director decides when the circumstances have
             changed enough to allow a new attempt at a test.
         </v-card-text>

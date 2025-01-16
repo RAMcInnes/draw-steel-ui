@@ -3,11 +3,11 @@
 
 <template>
     <h1>Maneuvers</h1>
-    <p>
+    <p class="mx-3">
         A maneuver typically involves less focus and exertion than
         an action. It can be an opportunity to move other creatures,
         drink a potion, or undertake similar activities.
-        <br>
+        <br><br>
         Sometimes you might not have anything you can do with
         your maneuver. That’s totally fine! Often, the best thing to
         do on your turn is take an action and move on.
@@ -31,7 +31,7 @@
         <v-card-text>
             You spend a Recovery and regain Stamina in
             an amount equal to your recovery value.
-            <br>
+            <br><br>
             If you are dying (see Dying and Death in Stamina), you
             can’t take the Catch Breath maneuver, but other creatures
             can help you spend recoveries.

@@ -3,7 +3,7 @@
 
 <template>
     <h1>Move Actions</h1>
-    <p>
+    <p class="mx-3">
         A move action allows you to move around the battlefield.
         Sometimes you’ll already be exactly where you want to be
         and not need to use a move action on your turn. That’s

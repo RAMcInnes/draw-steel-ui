@@ -3,21 +3,21 @@
 
 <template>
     <h1>Taking a Turn</h1>
-    <p>
+    <p class="mx-3">
         <b>Each creature in combat—whether hero, adversary, or
         something in between—gets to take a Move Action, a
         Maneuver, and an Action on their turn.
-        <br>
+        <br><br>
         Each combatant can perform their maneuver and action
         in any order, and can break up the movement granted
         by their move action before, after, or between their
         maneuver and action however they like.
-        <br>
+        <br><br>
         You can also turn your action into a
         move action or a maneuver, so that your turn can
         alternatively consist of two move actions and a maneuver;
         or two maneuvers and a move action.</b>
-        <br>
+        <br><br>
         The Movement section breaks down how your move
         action works, while the Maneuvers and Actions sections
         break down the baseline maneuvers and actions your
@@ -40,7 +40,7 @@
             hero can use the Relentless Toss triggered action to force
             move a target, but only after an enemy has first tried to
             force move the fury or one of their allies.
-            <br>
+            <br><br>
             <b>A free triggered action follows the same rules as a
             triggered action, but it doesn’t count against your limit of
             one triggered action per round.</b> For instance, a shadow
@@ -49,14 +49,14 @@
             ending their turn. But because that ability is a free
             triggered action, the shadow can still use their In All This
             Confusion triggered action later in the round.
-            <br>
+            <br><br>
             If multiple triggered actions occur in response to the same
             trigger, any heroes and other player-controlled creatures
             taking a triggered action or a free triggered action decide
             among themselves which of those triggered actions are
             resolved first. Then the Director decides the same for
             creatures they control.
-            <br>
+            <br><br>
             Any effect that prevents you from making triggered
             actions also prevents you from making free triggered
             actions.
@@ -75,14 +75,14 @@
             activities as free maneuvers on your turn. <b>A free maneuver
             follows the same rules as a regular maneuver, but you can
             typically take as many free maneuvers as you like.</b>
-            <br>
+            <br><br>
             At the Director’s discretion, circumstances could make
             something that is typically boring more impactful and
             exciting. For instance, if you need to pick a magic arrow up
             off the ground during a violent earthquake, what would
             otherwise be a free maneuver could require a maneuver
             or an action to accomplish.
-            <br>
+            <br><br>
             Likewise, the nature of an activity might make it too
             complicated for a free maneuver. For example, picking up
             the body of an unconscious talent ally to carry them to
@@ -107,7 +107,7 @@
             requiring no action with the Director’s approval. For
             instance, shouting out a warning to an ally or dropping an
             item so another creature can pick it up require no action.
-            <br>
+            <br><br>
             The Director can limit what kinds of no-action activities
             you can attempt when it isn’t your turn. For instance,
             shouting out a warning about an unseen foe to an ally on

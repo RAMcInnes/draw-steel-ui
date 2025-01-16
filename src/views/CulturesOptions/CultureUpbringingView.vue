@@ -3,7 +3,7 @@
 
 <template>
     <h1>Upbringing</h1>
-    <p>
+    <p class="mx-3">
         Your culture’s upbringing aspect is a more specific and
         personal part of your hero’s story, describing how you were
         individually raised within your culture. Were you trained to
@@ -14,7 +14,7 @@
         build machines meant to dig faster and deeper than any
         person could alone? Whatever your culture, your
         upbringing makes you special within that culture.
-        <br>
+        <br><br>
         Pick your upbringing aspect from the following list:
         academic, creative, illegal, labor, martial, or noble. You then
         gain skill options from your chosen aspect.
@@ -33,9 +33,8 @@
                 church that teaches the word of one deity. People in an
                 academic culture learn how to wield the power that is
                 knowledge.
-                <br>
-                <b>Skill Options</b>: One skill from the <i>Lore</i> skill group. (Quick
-                Build: History)
+                <br><br>
+                <b>Skill Options</b>: One skill from the <i>Lore</i> skill group.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -50,9 +49,9 @@
                 wagons, weapons, tools, or buildings. People in such
                 cultures learn the value of quality crafting and attention to
                 detail.
-                <br>
+                <br><br>
                 <b>Skill Options</b>: The <i>Music</i> or <i>Perform</i> skill, or one skill from
-                the <i>Crafting</i> skill group. (Quick Build: Perform)
+                the <i>Crafting</i> skill group.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -68,9 +67,8 @@
                 upbringings typically don’t mind breaking the rules when it
                 suits them—and are good at making sure no one finds out
                 they did.
-                <br>
-                <b>Skill Options</b>: One skill from the <i>Intrigue</i> skill group. (Quick
-                Build: Sneak)
+                <br><br>
+                <b>Skill Options</b>: One skill from the <i>Intrigue</i> skill group.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -85,10 +83,9 @@
                 trade, such as construction, carting, loading cargo, and so
                 forth. People with a labor upbringing know the value of
                 hard work.
-                <br>
+                <br><br>
                 <b>Skill Options</b>: One of the <i>Blacksmithing</i> or <i>Handle Animals</i>
-                skills, or one skill from the <i>Exploration</i> skill group. (Quick
-                Build: Lift)
+                skills, or one skill from the <i>Exploration</i> skill group.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -102,10 +99,10 @@
                 adventurers, or any other folk whose lives revolve around
                 combat. Heroes with a martial upbringing are always ready
                 for a fight—and they know how to finish that fight.
-                <br>
+                <br><br>
                 <b>Skill Options</b>: One of the <i>Alertness</i>, <i>Blacksmithing</i>, <i>Climb</i>,
                 <i>Endurance</i>, <i>Fletching</i>, <i>Intimidate</i>, <i>Monsters</i>, <i>Ride</i>, <i>Strategy</i>,
-                or <i>Track</i> skills. (Quick Build: Intimidate)
+                or <i>Track</i> skills.
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -120,9 +117,8 @@
                 popularity. Whatever the case, heroes with this background
                 understand why the whispered words in the right ear can
                 sometimes be more powerful than any army.
-                <br>
+                <br><br>
                 <b>Skill Options</b>: One skill from the <i>Interpersonal</i> skill group.
-                (Quick Build: Lead)
             </v-expansion-panel-text>
         </v-expansion-panel>
     </v-expansion-panels>

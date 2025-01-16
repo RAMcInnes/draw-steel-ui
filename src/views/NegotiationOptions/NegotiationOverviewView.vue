@@ -3,7 +3,7 @@
 
 <template>
     <h1>Negotiation Overview</h1>
-    <p>
+    <p class="mx-3">
         Negotiation gives the heroes a chance to get what they
         want without combat … or at least without further
         combat! You might negotiate with a king to obtain military
@@ -15,7 +15,7 @@
         their secret library so you can research the location of a
         dragon-slaying axe. Negotiation covers all these scenarios
         and more.
-        <br>
+        <br><br>
         Think of negotiation as something like learning a new
         system for combat, exploration, or investigation in an RPG.
         This set of rules provides a framework for roleplaying. The
@@ -24,7 +24,7 @@
         If a player hasn’t read these rules, the Director and other
         players who have can explain them to that player during
         their first negotiation.
-        <br>
+        <br><br>
         Negotiation is a framework for important roleplaying
         encounters when the heroes want to convince an NPC to
         take a particular course of action, such as lending the
@@ -57,7 +57,7 @@
             of his soldiers defending a foreign nation while leaving
             their own people unprotected. If the heroes want the help
             of the king’s army, they need to negotiate.
-            <br>
+            <br><br>
             <b>Heroes aren’t expected to use the negotiation rules every
             time one character tries to convince an NPC to see things
             their way.</b> For instance, if a hero wants information about
@@ -66,7 +66,7 @@
             all that’s needed. A character who wants to flirt with the
             local alchemist to obtain a free Healing Potion likely just
             needs to make a Presence test using the Flirt skill.
-            <br>
+            <br><br>
             By contrast, negotiations typically involve all the heroes
             interacting with one or more important named NPCs who
             can provide information, items, or services that
@@ -79,7 +79,7 @@
             an attack on a wizard’s tower, or talking the leaders of an
             enemy army into standing down means that a negotiation
             is in order.
-            <br>
+            <br><br>
             To negotiate successfully, the heroes must make
             persuasive arguments to convince NPCs to do what they
             want. “Do it or we kill you” is a threat that might well
@@ -108,7 +108,7 @@
             <b>Negotiations only work when the heroes ask for
             something from an NPC that the NPC is willing to seriously
             consider giving them.</b>
-            <br>
+            <br><br>
             <b>Negotiation is not a process that changes an NPC’s
             character.</b> Rather, the heroes are trying to make an NPC
             understand how behaving differently would be in
@@ -118,7 +118,7 @@
             not changing their character—you’re convincing them that
             their current evil ways are out of character. “Is this who
             you are? Is this how you want to be remembered?!”
-            <br>
+            <br><br>
             <b>If some players want to use the negotiation system as a
             means to an end by having their characters say, “Just do
             what we tell you, or else!”, you can remind them that that’s
@@ -140,7 +140,7 @@
             their minds. The threat of violence is already implied.
             Everyone involved knows that the characters could draw
             steel at any moment.
-            <br>
+            <br><br>
             The Director typically assumes that the underlying
             potential for events to turn violent is already factored into
             every negotiation. However, if the heroes decide to bring
@@ -148,7 +148,7 @@
             of negotiation and have entered into a different type of
             relationship—and it’s probably time to determine
             initiative.
-            <br>
+            <br><br>
             <b>Negotiation is about persuading someone to help you
             willingly because you’ve convinced them that meeting
             your objectives is a good idea. Working with you is wise or

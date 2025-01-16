@@ -3,7 +3,7 @@
 
 <template>
     <h1>Career Overview</h1>
-    <p>
+    <p class="mx-3">
         Being a hero isn’t a job. It’s a calling. But before you
         answered that call, you had a different job or vocation that
         paid the bills. Thank the gods for that, because the
@@ -26,7 +26,7 @@
             you create?” You don’t need to answer these questions, but
             doing so can help shape a more complete picture of your
             hero.
-            <br>
+            <br><br>
             If you answer any of these questions, consider telling your
             Director the answers. It can help them work some
             dramatic moments into the game. Maybe not! Directors
@@ -39,90 +39,94 @@
         <v-card-title>
             Career Benefits
         </v-card-title>
-        <p>
+        <v-card-text>
             Your career describes what your life was before you
             became a hero. When you select a career, you gain a
             number of benefits, the details of which are specified in
             the career’s description.
-        </p>
-        <v-expansion-panels>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Skills
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    Each career grants you two or three skills. If a career
-                    grants you a skill you already have, you can select a
-                    different skill.
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Languages
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    Some careers allow you to learn extra languages, chosen
-                    from those available in <b>Languages</b>.
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Renown
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    Some careers increase your starting Renown score. See
-                    <b>Renown</b> in <i>Other Rewards</i> for more information.
-                    <br>
-                    If your career or another option doesn’t increase your
-                    Renown score, then your starting score is 0.
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Wealth
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    Some careers increase your starting Wealth score. See
-                    <b>Wealth</b> in <i>Other Rewards</i> for more information.
-                    <br>
-                    If your career or another option doesn’t increase your
-                    Wealth score, then your starting score is 1.
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Project Points
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    Some careers provide project points you can put toward
-                    crafting and research projects (see <b>Downtime Projects</b>).
-                    <br>
-                    These points can be divided among multiple projects, but
-                    they can’t be used more than once. At the Director’s
-                    discretion, your career might also let you start the game
-                    with the materials needed for one or more projects, so you
-                    can immediately put your project points toward them,
-                    possibly before the adventure begins!
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-            <v-expansion-panel>
-                <v-expansion-panel-title>
-                    Perk
-                </v-expansion-panel-title>
-                <v-expansion-panel-text>
-                    Your career provides you with a perk. You can select a
-                    perk of the type provided by the career. See <b>Perks</b> for
-                    more information.
-                </v-expansion-panel-text>
-            </v-expansion-panel>
-        </v-expansion-panels>
+            <br><br>
+            <v-expansion-panels>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Skills
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Each career grants you two or three skills. If a career
+                        grants you a skill you already have, you can select a
+                        different skill.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Languages
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Some careers allow you to learn extra languages, chosen
+                        from those available in <b>Languages</b>.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Renown
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Some careers increase your starting Renown score.
+                        <br>
+                        If your career or another option doesn’t increase your
+                        Renown score, then your starting score is 0.
+                        <br>
+                        See <b>Renown</b> in <i>Other Rewards</i> for more information.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Wealth
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Some careers increase your starting Wealth score.
+                        <br>
+                        If your career or another option doesn’t increase your
+                        Wealth score, then your starting score is 1.
+                        <br>
+                        See <b>Wealth</b> in <i>Other Rewards</i> for more information.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Project Points
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Some careers provide project points you can put toward
+                        crafting and research projects (see <i>Downtime Projects</i>).
+                        <br>
+                        These points can be divided among multiple projects, but
+                        they can’t be used more than once. At the Director’s
+                        discretion, your career might also let you start the game
+                        with the materials needed for one or more projects, so you
+                        can immediately put your project points toward them,
+                        possibly before the adventure begins!
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+                <v-expansion-panel>
+                    <v-expansion-panel-title>
+                        Perk
+                    </v-expansion-panel-title>
+                    <v-expansion-panel-text>
+                        Your career provides you with a perk. You can select a
+                        perk of the type provided by the career.
+                        <br>
+                        See <b>Perks</b> for more information.
+                    </v-expansion-panel-text>
+                </v-expansion-panel>
+            </v-expansion-panels>
+        </v-card-text>
     </v-card>
     <br>
     <v-card color="grey-lighten-2">
         <v-card-title>
             Inciting Incident
         </v-card-title>
-        <p>
+        <v-card-text>
             Each career has a list of inciting incidents, each of which
             suggests a potential reason why you gave up your career,
             turned away from a possibly comfortable and reliable
@@ -131,15 +135,13 @@
             life-changing event that might have motivated you to
             change course, becoming a person who risks it all to save
             others.
-            <br>
+            <br><br>
             You can roll for or choose an inciting incident from the
             table that accompanies each career. You can also use the
             table as inspiration and work with your Director to come
             up with a unique inciting incident of your own
-        </p>
-        <br>
-        <h3>What Was Taken From You?</h3>
-        <p>
+            <br><br>
+            <h3>What Was Taken From You?</h3>
             During your inciting incident, something was taken from
             you. It might have been a material object, such as an
             heirloom sword or a locket that proves your royal heritage.
@@ -147,7 +149,7 @@
             cursed. It might be something deeper and more abstract,
             such as a chance for happiness, belief in the future, belief
             in basic goodness, or a lifetime goal snatched away.
-            <br>
+            <br><br>
             It might be the case that you’re obsessed with getting back
             what you lost. You might be in a position where you’ll
             never recover what was taken from you, but you want to
@@ -158,6 +160,6 @@
             part of what drives you to be a hero. Record what was
             taken from you on your character sheet, and let your
             Director know.
-        </p>
+        </v-card-text>
     </v-card>
 </template>

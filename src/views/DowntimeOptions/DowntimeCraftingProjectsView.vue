@@ -3,7 +3,7 @@
 
 <template>
     <h1>Crafting Projects</h1>
-    <p>
+    <p class="mx-3">
         Crafting projects enable heroes to create vehicles, magic
         items, and more. When you begin a crafting project, other
         creatures can also work on the project, using their respite
@@ -38,8 +38,6 @@
                 (as the Director determines), as long as you have access to
                 materials that can repair the ship, you can restore it back
                 to its original condition as a respite activity.
-                <br>
-                <b>Details found on page 194.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -54,21 +52,19 @@
                 overseeing the project, which you may be able to do
                 remotely through the use of magic or psionics, provided
                 you have the means.
-                <br>
+                <br><br>
                 The project points required to complete work on the road
                 equals 10 × the road’s length in miles. The goal is cut in
                 half if you are repairing an existing road, or someone else
                 begins work on a second road project starting from the
                 second location connecting to your first location.
-                <br>
+                <br><br>
                 When you complete the project, you earn Renown with the
                 people depending on the length of the road. Time spent
                 traveling on the road is cut in half. Access to resources and
                 knowledge is improved in both locations, giving you and
                 your allies an edge on project rolls to discover lore while
                 you are in the area.
-                <br>
-                <b>Details found on page 195.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -88,8 +84,6 @@
                 1% (to a maximum of 50%). When you have access to the
                 platform, you can restore it back to its original condition
                 as a respite activity.
-                <br>
-                <b>Details found on page 196.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -100,8 +94,6 @@
                 You can craft the items found in Treasures (See <i>Treasures</i>).
                 Each item notes its prerequisites, project source, project roll
                 characteristic, and project goal.
-                <br>
-                <b>Details found on page 196.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -119,19 +111,17 @@
                 werewolf, not just the one who did the biting. The number
                 of project points it takes to complete this project is equal
                 to the creature’s level times 50.
-                <br>
+                <br><br>
                 If the affliction is created by something other than a
                 creature, such as an environmental effect, than the effect
                 lists the item prerequisite and project points required to
                 complete this project.
-                <br>
+                <br><br>
                 When you complete this project, you craft one dose of an
                 alchemical cure for that affliction. Once the project is
                 completed, you can craft subsequent doses for the same
                 affliction in half the number of project points the initial
                 project took.
-                <br>
-                <b>Details found on page 196.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
         <v-expansion-panel>
@@ -143,7 +133,7 @@
                 magic or psionic power. You must have a mundane version
                 of the item you plan to imbue, such as a sword or shield,
                 when you begin this project.
-                <br>
+                <br><br>
                 You can imbue any item three times. The first time you
                 imbue it, you pick a 1st-level enhancement. The second
                 time you imbue it, you pick a 5th-level enhancement. The
@@ -152,7 +142,7 @@
                 benefit from an enhancement unless they are using a kit
                 that includes the armor, implement, or weapon type, and
                 their level matches the enhancement’s level.
-                <br>
+                <br><br>
                 If an enhancement has a Roman numeral greater than I
                 after it, such as the Phasing III enhancement, that
                 enhancement can’t be applied unless the item has all
@@ -161,7 +151,7 @@
                 unless it has the Phasing I and Phasing II enhancements
                 first. These numbered enhancements are cumulative
                 unless otherwise noted.
-                <br>
+                <br><br>
                 Enhancements are listed by item type and level. Each item
                 type and level features a table showing the name, item
                 prerequisites, and project source language of each
@@ -169,15 +159,13 @@
                 keyword (your choice), plus any keywords appropriate to
                 the type of item (Light Armor, Implement, Medium
                 Weapon, and so forth).
-                <br>
+                <br><br>
                 Imbuing magical treasure as a project typically means you
                 undertake that project to make use of the treasure
                 yourself. As such, all the features of imbuing make
                 reference to “you” as the user of the item. However,
                 imbued items can be created for other creatures, or
                 created by other creatures and found as treasure.
-                <br>
-                <b>Details found on page 196.</b>
             </v-expansion-panel-text>
         </v-expansion-panel>
     </v-expansion-panels>

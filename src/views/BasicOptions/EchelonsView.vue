@@ -3,7 +3,7 @@
 
 <template>
     <h1>Echelons of Play</h1>
-    <p>
+    <p class="mx-3">
         The core gameplay experience of Draw Steel takes place
         over 10 levels of play. At 1st level, player characters are
         already known as heroes and have the power to save their
@@ -50,7 +50,7 @@
                 reputation and work now encompasses several different
                 neighborhoods of the enormous city. Heroes of the
                 timescape might be known for saving a planet!
-                <br>
+                <br><br>
                 Heroes in this echelon battle humanoids of great
                 supernatural power, such as draconians, devils, and
                 hobgoblins. The bosses they face possess cunning and
