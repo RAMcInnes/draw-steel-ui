@@ -27,6 +27,9 @@ TO DO LIST
     - "Perks Overview" vs "Class Overview" (singular vs plural)
     - Be consistent!
 
+- Change arrays in App.vue to be a giant object (containing title, array) that can be looped over
+    - Make 1 v-list-group that can be looped over.
+
 - Flanking (imgs)
     - Make them look nice on PC and Mobile
 

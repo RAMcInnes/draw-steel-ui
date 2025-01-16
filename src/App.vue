@@ -28,18 +28,6 @@
     ];
     const ancestriesOption = [
       ['Ancestry Overview', 'ancestriesOverview'],
-      // ['Devil', 'ancestryDevil'],
-      // ['Dragon Knight', 'ancestryDragonKnight'],
-      // ['Dwarf', 'ancestryDwarf'],
-      // ['Wode Elf', 'ancestryWodeElf'],
-      // ['High Elf', 'ancestryHighElf'],
-      // ['Hakaan', 'ancestryHakaan'],
-      // ['Human', 'ancestryHuman'],
-      // ['Memonek', 'ancestryMemonek'],
-      // ['Orc', 'ancestryOrc'],
-      // ['Polder', 'ancestryPolder'],
-      // ['Revenant', 'ancestryRevenant'],
-      // ['Time Raider', 'ancestryTimeRaider'],
     ];
     const culturesOptions = [
       ['Culture Overview', 'culturesOverview'],
@@ -50,24 +38,6 @@
     ];
     const careersOptions = [
       ['Career Overview', 'careersOverview'],
-      // ['Agent', 'careersAgent'],
-      // ['Aristocrat', 'careersAristocrat'],
-      // ['Artisan', 'careersArtisan'],
-      // ['Beggar', 'careersBeggar'],
-      // ['Criminal', 'careersCriminal'],
-      // ['Disciple', 'careersDisciple'],
-      // ['Explorer', 'careersExplorer'],
-      // ['Farmer', 'careersFarmer'],
-      // ['Gladiator', 'careersGladiator'],
-      // ['Laborer', 'careersLaborer'],
-      // [`Mage's Apprentice`, 'careersMagesApprentice'],
-      // ['Performer', 'careersPerformer'],
-      // ['Politician', 'careersPolitician'],
-      // ['Sage', 'careersSage'],
-      // ['Sailor', 'careersSailor'],
-      // ['Soldier', 'careersSoldier'],
-      // ['Warden', 'careersWarden'],
-      // ['Watch Officer', 'careersWatchOfficer'],
     ];
     const classesOptions = [
       ['Class Overview', 'classesOverview'],
@@ -134,6 +104,10 @@
       ['Research Projects', 'downtimeResearchProjects'],
       ['Other Projects', 'downtimeOtherProjects'],
     ];
+    const rewardsOptions = [
+      ['Rewards Overview', 'rewardsOverview'],
+      ['Found, Earned, or Crafted', 'rewardsFoundEarnedOrCrafted'],
+    ];
 
     const combinedArray = [
       gameIntroOptions,
@@ -161,13 +135,11 @@
 
     function updateShownSections(searchTerm: string) {
       if (searchTerm === '') {
-        console.log('searchTerm is empty');
         filteredSections.value = undefined;
         return;
       }
       filteredSections.value = allSectionsArray.filter(section => section.toLowerCase().includes(searchTerm.toLowerCase()));
-      console.log('updateShownSections');
-    }
+    };
 </script>
 
 <template>
@@ -440,6 +412,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in downTimeOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Rewards">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Rewards"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in rewardsOptions"
                 :key="i"
                 :title="title"
                 :value="title"
