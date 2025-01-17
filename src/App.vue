@@ -108,6 +108,9 @@
       ['Rewards Overview', 'rewardsOverview'],
       ['Found, Earned, or Crafted', 'rewardsFoundEarnedOrCrafted'],
     ];
+    const titlesOptions = [
+      ['Titles Overview', 'titlesOverview'],
+    ];
 
     const combinedArray = [
       gameIntroOptions,
@@ -429,6 +432,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in rewardsOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="Titles">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Titles"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in titlesOptions"
                 :key="i"
                 :title="title"
                 :value="title"

@@ -107,6 +107,9 @@ import DowntimeOtherProjectsView from '@/views/DowntimeOptions/DowntimeOtherProj
 import RewardsOverviewView from '@/views/RewardsOptions/RewardsOverviewView.vue'
 import RewardsFoundEarnedOrCraftedView from '@/views/RewardsOptions/RewardsFoundEarnedOrCraftedView.vue'
 // #endregion
+// #region TitlesOptions imports
+import TitlesOverviewView from '@/views/TitlesOptions/TitlesOverviewView.vue'
+// #endregion
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -521,6 +524,13 @@ const router = createRouter({
       path: '/rewardsFoundEarnedOrCrafted',
       name: 'rewardsFoundEarnedOrCrafted',
       component: RewardsFoundEarnedOrCraftedView,
+    },
+    // #endregion
+    // #region Titles
+    {
+      path: '/titlesOverview',
+      name: 'titlesOverview',
+      component: TitlesOverviewView,
     },
     // #endregion
   ],
