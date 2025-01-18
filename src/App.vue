@@ -27,7 +27,7 @@
       ['Heroic Advancement', 'heroicAdvancement']
     ];
     const ancestriesOption = [
-      ['Ancestry Overview', 'ancestriesOverview'],
+      ['Ancestry', 'ancestriesOverview'],
     ];
     const culturesOptions = [
       ['Culture Overview', 'culturesOverview'],
@@ -37,7 +37,7 @@
       ['Upbringing', 'culturesUpbringing'],
     ];
     const careersOptions = [
-      ['Career Overview', 'careersOverview'],
+      ['Careers', 'careersOverview'],
     ];
     const classesOptions = [
       ['Class Overview', 'classesOverview'],
@@ -51,10 +51,10 @@
       ['Signature Ability', 'kitsSignatureAbility'],
     ];
     const perksOptions = [
-      ['Perk Overview', 'perksOverview'],
+      ['Perks', 'perksOverview'],
     ];
     const complicationsOptions = [
-      ['Complication Overview', 'complicationsOverview'],
+      ['Complications', 'complicationsOverview'],
     ];
     const testsOptions = [
       ['Test Overview', 'testsOverview'],
@@ -109,11 +109,11 @@
       ['Found, Earned, or Crafted', 'rewardsFoundEarnedOrCrafted'],
     ];
     const titlesOptions = [
-      ['Titles Overview', 'titlesOverview'],
+      ['Titles', 'titlesOverview'],
     ];
     const renownWealthOptions = [
-      ['Renown Overview', 'renownOverview'],
-      ['Wealth Overview', 'wealthOverview'],
+      ['Renown', 'renownOverview'],
+      ['Wealth', 'wealthOverview'],
     ];
 
     const combinedArray = [
@@ -132,9 +132,11 @@
       combatOptions,
       negotiationOptions,
       downTimeOptions,
+      titlesOptions,
+      renownWealthOptions
     ];
 
-    const allSectionsArray = combinedArray.flatMap(arr => arr.map(section => section[0]));
+    const allSectionsArray = combinedArray.flatMap(arr => arr.map(section => section));
 
     let navOpen = ref(null);
 
@@ -145,7 +147,9 @@
         filteredSections.value = undefined;
         return;
       }
-      filteredSections.value = allSectionsArray.filter(section => section.toLowerCase().includes(searchTerm.toLowerCase()));
+      filteredSections.value = allSectionsArray.filter(section => section[0].toLowerCase().includes(searchTerm.toLowerCase()));
+
+      console.log('filteredSections', filteredSections.value);
     };
 </script>
 
@@ -221,22 +225,11 @@
               ></v-list-item>
           </v-list-group>
 
-          <v-list-group value="Ancestry">
-            <template v-slot:activator="{ props }">
-              <v-list-item
-                v-bind="props"
-                title="Ancestry"
-              ></v-list-item>
-            </template>
-
-            <v-list-item
-                v-for="([title,location], i) in ancestriesOption"
-                :key="i"
-                :title="title"
-                :value="title"
-                :to="location"
-              ></v-list-item>
-          </v-list-group>
+          <v-list-item
+            title="Ancestry"
+            value="Ancestry"
+            to="ancestriesOverview"
+          ></v-list-item>
 
           <v-list-group value="Culture">
             <template v-slot:activator="{ props }">
@@ -255,22 +248,11 @@
               ></v-list-item>
           </v-list-group>
 
-          <v-list-group value="Careers">
-            <template v-slot:activator="{ props }">
-              <v-list-item
-                v-bind="props"
-                title="Careers"
-              ></v-list-item>
-            </template>
-
-            <v-list-item
-                v-for="([title,location], i) in careersOptions"
-                :key="i"
-                :title="title"
-                :value="title"
-                :to="location"
-              ></v-list-item>
-          </v-list-group>
+          <v-list-item
+            title="Careers"
+            value="Careers"
+            to="careersOverview"
+          ></v-list-item>
 
           <v-list-group value="Classes">
             <template v-slot:activator="{ props }">
@@ -306,39 +288,17 @@
               ></v-list-item>
           </v-list-group>
 
-          <v-list-group value="Perks">
-            <template v-slot:activator="{ props }">
-              <v-list-item
-                v-bind="props"
-                title="Perks"
-              ></v-list-item>
-            </template>
+          <v-list-item
+            title="Perks"
+            value="Perks"
+            to="perksOverview"
+          ></v-list-item>
 
-            <v-list-item
-                v-for="([title,location], i) in perksOptions"
-                :key="i"
-                :title="title"
-                :value="title"
-                :to="location"
-              ></v-list-item>
-          </v-list-group>
-
-          <v-list-group value="Complications">
-            <template v-slot:activator="{ props }">
-              <v-list-item
-                v-bind="props"
-                title="Complications"
-              ></v-list-item>
-            </template>
-
-            <v-list-item
-                v-for="([title,location], i) in complicationsOptions"
-                :key="i"
-                :title="title"
-                :value="title"
-                :to="location"
-              ></v-list-item>
-          </v-list-group>
+          <v-list-item
+            title="Complications"
+            value="Complications"
+            to="complicationsOverview"
+          ></v-list-item>
 
           <v-list-group value="Tests">
             <template v-slot:activator="{ props }">
@@ -442,48 +402,32 @@
               ></v-list-item>
           </v-list-group>
 
-          <v-list-group value="Titles">
-            <template v-slot:activator="{ props }">
-              <v-list-item
-                v-bind="props"
-                title="Titles"
-              ></v-list-item>
-            </template>
+          <v-list-item
+            title="Titles"
+            value="Titles"
+            to="titlesOverview"
+          ></v-list-item>
 
-            <v-list-item
-                v-for="([title,location], i) in titlesOptions"
-                :key="i"
-                :title="title"
-                :value="title"
-                :to="location"
-              ></v-list-item>
-          </v-list-group>
+          <v-list-item
+            title="Renown"
+            value="Renown"
+            to="renownOverview"
+          ></v-list-item>
 
-          <v-list-group value="RenownWealth">
-            <template v-slot:activator="{ props }">
-              <v-list-item
-                v-bind="props"
-                title="Renown & Wealth"
-              ></v-list-item>
-            </template>
-
-            <v-list-item
-                v-for="([title,location], i) in renownWealthOptions"
-                :key="i"
-                :title="title"
-                :value="title"
-                :to="location"
-              ></v-list-item>
-          </v-list-group>
+          <v-list-item
+            title="Wealth"
+            value="Wealth"
+            to="wealthOverview"
+          ></v-list-item>
         </v-list>
 
         <v-list v-if="filteredSections" open-strategy="multiple">
           <v-list-item
             v-for="(section, i) in filteredSections"
             :key="i"
-            :title="section"
-            :value="section"
-            to="conditions"
+            :title="section[0]"
+            :value="section[0]"
+            :to="section[1]"
           ></v-list-item>
         </v-list>
       </v-navigation-drawer>
