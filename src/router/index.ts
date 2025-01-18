@@ -1,118 +1,118 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/BasicOptions/HomeView.vue'
+const HomeView = () => import('@/views/HomeView.vue')
 // #region GameIntroOptions imports
-import WhatTheGameIsNotView from '@/views/GameIntroOptions/WhatTheGameIsNotView.vue'
-import WhatTheGameIsView from '@/views/GameIntroOptions/WhatTheGameIsView.vue'
-import ComingFromD20View from '@/views/GameIntroOptions/ComingFromD20View.vue'
+const WhatTheGameIsNotView = () => import('@/views/GameIntroOptions/WhatTheGameIsNotView.vue')
+const WhatTheGameIsView = () => import('@/views/GameIntroOptions/WhatTheGameIsView.vue')
+const ComingFromD20View = () => import('@/views/GameIntroOptions/ComingFromD20View.vue')
 // #endregion
 // #region BasicOptions imports
-import CharacteristicsView from '@/views/BasicOptions/CharacteristicsView.vue'
-import PotenciesView from '@/views/BasicOptions/PotenciesView.vue'
-import DiceView from '@/views/BasicOptions/DiceView.vue'
-import PowerRollsView from '@/views/BasicOptions/PowerRollsView.vue'
-import HeroTokenView from '@/views/BasicOptions/HeroTokenView.vue'
-import VictoriesView from '@/views/BasicOptions/VictoriesView.vue'
-import ExperienceView from '@/views/BasicOptions/ExperienceView.vue'
-import RecoveriesView from '@/views/BasicOptions/RecoveriesView.vue'
-import RespiteView from '@/views/BasicOptions/RespiteView.vue'
-import MiscRulesView from '@/views/BasicOptions/MiscRulesView.vue'
-import EchelonsView from '@/views/BasicOptions/EchelonsView.vue'
+const CharacteristicsView = () => import('@/views/BasicOptions/CharacteristicsView.vue')
+const PotenciesView = () => import('@/views/BasicOptions/PotenciesView.vue')
+const DiceView = () => import('@/views/BasicOptions/DiceView.vue')
+const PowerRollsView = () => import('@/views/BasicOptions/PowerRollsView.vue')
+const HeroTokenView = () => import('@/views/BasicOptions/HeroTokenView.vue')
+const VictoriesView = () => import('@/views/BasicOptions/VictoriesView.vue')
+const ExperienceView = () => import('@/views/BasicOptions/ExperienceView.vue')
+const RecoveriesView = () => import('@/views/BasicOptions/RecoveriesView.vue')
+const RespiteView = () => import('@/views/BasicOptions/RespiteView.vue')
+const MiscRulesView = () => import('@/views/BasicOptions/MiscRulesView.vue')
+const EchelonsView = () => import('@/views/BasicOptions/EchelonsView.vue')
 // #endregion
 // #region MakingAHeroOptions imports
-import FirstSessionView from '@/views/MakingAHeroOptions/FirstSessionView.vue'
-import HeroMakingView from '@/views/MakingAHeroOptions/HeroMakingView.vue'
-import AdventuringGearView from '@/views/MakingAHeroOptions/AdventuringGearView.vue'
-import ChangingOptionsView from '@/views/MakingAHeroOptions/ChangingOptionsView.vue'
-import HeroicAdvancementView from '@/views/MakingAHeroOptions/HeroicAdvancementView.vue'
+const FirstSessionView = () => import('@/views/MakingAHeroOptions/FirstSessionView.vue')
+const HeroMakingView = () => import('@/views/MakingAHeroOptions/HeroMakingView.vue')
+const AdventuringGearView = () => import('@/views/MakingAHeroOptions/AdventuringGearView.vue')
+const ChangingOptionsView = () => import('@/views/MakingAHeroOptions/ChangingOptionsView.vue')
+const HeroicAdvancementView = () => import('@/views/MakingAHeroOptions/HeroicAdvancementView.vue')
 // #endregion
 // #region AncestriesOptions imports
-import AncestriesOverviewView from '@/views/AncestriesOptions/AncestryOverviewView.vue'
+const AncestriesOverviewView = () => import('@/views/AncestriesOptions/AncestryOverviewView.vue')
 // #endregion
 // #region CulturesOptions imports
-import CultureOverviewView from '@/views/CulturesOptions/CultureOverviewView.vue'
-import CultureLanguageView from '@/views/CulturesOptions/CultureLanguageView.vue'
-import CultureEnvironmentView from '@/views/CulturesOptions/CultureEnvironmentView.vue'
-import CultureOrganizationView from '@/views/CulturesOptions/CultureOrganizationView.vue'
-import CultureUpbringingView from '@/views/CulturesOptions/CultureUpbringingView.vue'
+const CultureOverviewView = () => import('@/views/CulturesOptions/CultureOverviewView.vue')
+const CultureLanguageView = () => import('@/views/CulturesOptions/CultureLanguageView.vue')
+const CultureEnvironmentView = () => import('@/views/CulturesOptions/CultureEnvironmentView.vue')
+const CultureOrganizationView = () => import('@/views/CulturesOptions/CultureOrganizationView.vue')
+const CultureUpbringingView = () => import('@/views/CulturesOptions/CultureUpbringingView.vue')
 // #endregion
 // #region CareersOptions imports
-import CareersOverviewView from '@/views/CareersOptions/CareersOverviewView.vue'
+const CareersOverviewView = () => import('@/views/CareersOptions/CareersOverviewView.vue')
 // #endregion
 // #region ClassesOptions imports
-import ClassesOverviewView from '@/views/ClassesOptions/ClassesOverviewView.vue'
-import ClassesAbilitiesView from '@/views/ClassesOptions/ClassesAbilitiesView.vue'
-import ConditionsView from '@/views/ConditionsView.vue'
+const ClassesOverviewView = () => import('@/views/ClassesOptions/ClassesOverviewView.vue')
+const ClassesAbilitiesView = () => import('@/views/ClassesOptions/ClassesAbilitiesView.vue')
+const ConditionsView = () => import('@/views/ClassesOptions/ConditionsView.vue')
 // #endregion
 // #region KitsOptions imports
-import KitOverviewView from '@/views/KitsOptions/KitsOverviewView.vue'
-import KitsEquipmentView from '@/views/KitsOptions/KitsEquipmentView.vue'
-import KitsBonusesView from '@/views/KitsOptions/KitsBonusesView.vue'
-import KitsSignatureAbilityView from '@/views/KitsOptions/KitsSignatureAbilityView.vue'
+const KitOverviewView = () => import('@/views/KitsOptions/KitsOverviewView.vue')
+const KitsEquipmentView = () => import('@/views/KitsOptions/KitsEquipmentView.vue')
+const KitsBonusesView = () => import('@/views/KitsOptions/KitsBonusesView.vue')
+const KitsSignatureAbilityView = () => import('@/views/KitsOptions/KitsSignatureAbilityView.vue')
 // #endregion
 // #region PerksOptions imports
-import PerksOverviewView from '@/views/PerksOptions/PerksOverviewView.vue'
+const PerksOverviewView = () => import('@/views/PerksOptions/PerksOverviewView.vue')
 // #endregion
 // #region ComplicationsOptions imports
-import ComplicationsOverviewView from '@/views/ComplicationsOptions/ComplicationsOverviewView.vue'
+const ComplicationsOverviewView = () => import('@/views/ComplicationsOptions/ComplicationsOverviewView.vue')
 // #endregion
 // #region TestsOptions imports
-import TestsOverviewView from '@/views/TestsOptions/TestsOverviewView.vue'
-import TestsHowToMakeView from '@/views/TestsOptions/TestsHowToMakeView.vue'
-import TestsDifficultyAndOutcomesView from '@/views/TestsOptions/TestsDifficultyAndOutcomesView.vue'
-import TestsReactiveView from '@/views/TestsOptions/TestsReactiveView.vue'
-import TestsAssistView from '@/views/TestsOptions/TestsAssistView.vue'
-import TestsGroupView from '@/views/TestsOptions/TestsGroupView.vue'
-import TestsMontageView from '@/views/TestsOptions/TestsMontageView.vue'
-import TestsHideAndSneakView from '@/views/TestsOptions/TestsHideAndSneakView.vue'
+const TestsOverviewView = () => import('@/views/TestsOptions/TestsOverviewView.vue')
+const TestsHowToMakeView = () => import('@/views/TestsOptions/TestsHowToMakeView.vue')
+const TestsDifficultyAndOutcomesView = () => import('@/views/TestsOptions/TestsDifficultyAndOutcomesView.vue')
+const TestsReactiveView = () => import('@/views/TestsOptions/TestsReactiveView.vue')
+const TestsAssistView = () => import('@/views/TestsOptions/TestsAssistView.vue')
+const TestsGroupView = () => import('@/views/TestsOptions/TestsGroupView.vue')
+const TestsMontageView = () => import('@/views/TestsOptions/TestsMontageView.vue')
+const TestsHideAndSneakView = () => import('@/views/TestsOptions/TestsHideAndSneakView.vue')
 // #endregion
 // #region SkillsOptions imports
-import SkillsOverviewView from '@/views/SkillsOptions/SkillsOverviewView.vue'
-import SkillsGroupsView from '@/views/SkillsOptions/SkillsGroupsView.vue'
+const SkillsOverviewView = () => import('@/views/SkillsOptions/SkillsOverviewView.vue')
+const SkillsGroupsView = () => import('@/views/SkillsOptions/SkillsGroupsView.vue')
 // #endregion
 // #region CombatOptions imports
-import CombatOverviewView from '@/views/CombatOptions/CombatOverviewView.vue'
-import CombatRoundView from '@/views/CombatOptions/CombatRoundView.vue'
-import CombatTakeingATurnView from '@/views/CombatOptions/CombatTakeingATurnView.vue'
-import CombatMovementView from '@/views/CombatOptions/CombatMovementView.vue'
-import CombatMoveActionView from '@/views/CombatOptions/CombatMoveActionView.vue'
-import CombatManeuversView from '@/views/CombatOptions/CombatManeuversView.vue'
-import CombatActionsView from '@/views/CombatOptions/CombatActionsView.vue'
-import CombatFreeStrikesView from '@/views/CombatOptions/CombatFreeStrikesView.vue'
-import CombatFlankingView from '@/views/CombatOptions/CombatFlankingView.vue'
-import CombatCoverAndConcealmentView from '@/views/CombatOptions/CombatCoverAndConcealmentView.vue'
-import CombatDamageView from '@/views/CombatOptions/CombatDamageView.vue'
-import CombatStaminaView from '@/views/CombatOptions/CombatStaminaView.vue'
-import CombatUnderwaterView from '@/views/CombatOptions/CombatUnderwaterView.vue'
-import CombatMountedView from '@/views/CombatOptions/CombatMountedView.vue'
-import CombatEndOfCombatView from '@/views/CombatOptions/CombatEndOfCombatView.vue'
+const CombatOverviewView = () => import('@/views/CombatOptions/CombatOverviewView.vue')
+const CombatRoundView = () => import('@/views/CombatOptions/CombatRoundView.vue')
+const CombatTakeingATurnView = () => import('@/views/CombatOptions/CombatTakeingATurnView.vue')
+const CombatMovementView = () => import('@/views/CombatOptions/CombatMovementView.vue')
+const CombatMoveActionView = () => import('@/views/CombatOptions/CombatMoveActionView.vue')
+const CombatManeuversView = () => import('@/views/CombatOptions/CombatManeuversView.vue')
+const CombatActionsView = () => import('@/views/CombatOptions/CombatActionsView.vue')
+const CombatFreeStrikesView = () => import('@/views/CombatOptions/CombatFreeStrikesView.vue')
+const CombatFlankingView = () => import('@/views/CombatOptions/CombatFlankingView.vue')
+const CombatCoverAndConcealmentView = () => import('@/views/CombatOptions/CombatCoverAndConcealmentView.vue')
+const CombatDamageView = () => import('@/views/CombatOptions/CombatDamageView.vue')
+const CombatStaminaView = () => import('@/views/CombatOptions/CombatStaminaView.vue')
+const CombatUnderwaterView = () => import('@/views/CombatOptions/CombatUnderwaterView.vue')
+const CombatMountedView = () => import('@/views/CombatOptions/CombatMountedView.vue')
+const CombatEndOfCombatView = () => import('@/views/CombatOptions/CombatEndOfCombatView.vue')
 // #endregion
 // #region NegotiationOptions imports
-import NegotiationOverviewView from '@/views/NegotiationOptions/NegotiationOverviewView.vue'
-import NegotiationStatsView from '@/views/NegotiationOptions/NegotiationStatsView.vue'
-import NegotiationMotivationsAndPitfallsView from '@/views/NegotiationOptions/NegotiationMotivationsAndPitfallsView.vue'
-import NegotiationOpeningANegotiationView from '@/views/NegotiationOptions/NegotiationOpeningANegotiationView.vue'
-import NegotiationUncoveringMotivationsView from '@/views/NegotiationOptions/NegotiationUncoveringMotivationsView.vue'
-import NegotiationMakingArgumentsView from '@/views/NegotiationOptions/NegotiationMakingArgumentsView.vue'
-import NegotiationResponseAndOfferView from '@/views/NegotiationOptions/NegotiationResponseAndOfferView.vue'
-import NegotiationKeepGoingOrStopView from '@/views/NegotiationOptions/NegotiationKeepGoingOrStopView.vue'
+const NegotiationOverviewView = () => import('@/views/NegotiationOptions/NegotiationOverviewView.vue')
+const NegotiationStatsView = () => import('@/views/NegotiationOptions/NegotiationStatsView.vue')
+const NegotiationMotivationsAndPitfallsView = () => import('@/views/NegotiationOptions/NegotiationMotivationsAndPitfallsView.vue')
+const NegotiationOpeningANegotiationView = () => import('@/views/NegotiationOptions/NegotiationOpeningANegotiationView.vue')
+const NegotiationUncoveringMotivationsView = () => import('@/views/NegotiationOptions/NegotiationUncoveringMotivationsView.vue')
+const NegotiationMakingArgumentsView = () => import('@/views/NegotiationOptions/NegotiationMakingArgumentsView.vue')
+const NegotiationResponseAndOfferView = () => import('@/views/NegotiationOptions/NegotiationResponseAndOfferView.vue')
+const NegotiationKeepGoingOrStopView = () => import('@/views/NegotiationOptions/NegotiationKeepGoingOrStopView.vue')
 // #endregion
 // #region DowntimeProjectsOptions imports
-import DowntimeOverviewView from '@/views/DowntimeOptions/DowntimeOverviewView.vue'
-import DowntimeProjectRollView from '@/views/DowntimeOptions/DowntimeProjectRollView.vue'
-import DowntimeCraftingProjectsView from '@/views/DowntimeOptions/DowntimeCraftingProjectsView.vue'
-import DowntimeResearchProjectsView from '@/views/DowntimeOptions/DowntimeResearchProjectsView.vue'
-import DowntimeOtherProjectsView from '@/views/DowntimeOptions/DowntimeOtherProjectsView.vue'
+const DowntimeOverviewView = () => import('@/views/DowntimeOptions/DowntimeOverviewView.vue')
+const DowntimeProjectRollView = () => import('@/views/DowntimeOptions/DowntimeProjectRollView.vue')
+const DowntimeCraftingProjectsView = () => import('@/views/DowntimeOptions/DowntimeCraftingProjectsView.vue')
+const DowntimeResearchProjectsView = () => import('@/views/DowntimeOptions/DowntimeResearchProjectsView.vue')
+const DowntimeOtherProjectsView = () => import('@/views/DowntimeOptions/DowntimeOtherProjectsView.vue')
 // #endregion
 // #region RewardsOptions imports
-import RewardsOverviewView from '@/views/RewardsOptions/RewardsOverviewView.vue'
-import RewardsFoundEarnedOrCraftedView from '@/views/RewardsOptions/RewardsFoundEarnedOrCraftedView.vue'
+const RewardsOverviewView = () => import('@/views/RewardsOptions/RewardsOverviewView.vue')
+const RewardsFoundEarnedOrCraftedView = () => import('@/views/RewardsOptions/RewardsFoundEarnedOrCraftedView.vue')
 // #endregion
 // #region TitlesOptions imports
-import TitlesOverviewView from '@/views/TitlesOptions/TitlesOverviewView.vue'
+const TitlesOverviewView = () => import('@/views/TitlesOptions/TitlesOverviewView.vue')
 // #endregion
 // #region RenownAndWealthOptions imports
-import RenownOverviewView from '@/views/RenownWealthOptions/RenownOverviewView.vue'
-import WealthOverviewView from '@/views/RenownWealthOptions/WealthOverviewView.vue'
+const RenownOverviewView = () => import('@/views/RenownWealthOptions/RenownOverviewView.vue')
+const WealthOverviewView = () => import('@/views/RenownWealthOptions/WealthOverviewView.vue')
 // #endregion
 
 const router = createRouter({
