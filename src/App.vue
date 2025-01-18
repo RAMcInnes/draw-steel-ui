@@ -111,6 +111,10 @@
     const titlesOptions = [
       ['Titles Overview', 'titlesOverview'],
     ];
+    const renownWealthOptions = [
+      ['Renown Overview', 'renownOverview'],
+      ['Wealth Overview', 'wealthOverview'],
+    ];
 
     const combinedArray = [
       gameIntroOptions,
@@ -158,14 +162,13 @@
     </v-app-bar>
     <v-main>
       <v-navigation-drawer v-model="navOpen">
-        <div style="display: flex">
-          <v-text-field
-            label="Search Section Titles"
-            density="compact"
-            variant="underlined"
-            @update:modelValue="updateShownSections"
-          />
-        </div>
+        <v-text-field
+          label="Search Section Titles"
+          density="compact"
+          variant="underlined"
+          hide-details="auto"
+          @update:modelValue="updateShownSections"
+        />
         <v-list v-if="!filteredSections" open-strategy="multiple">
           <v-list-group value="Game">
             <template v-slot:activator="{ props }">
@@ -449,6 +452,23 @@
 
             <v-list-item
                 v-for="([title,location], i) in titlesOptions"
+                :key="i"
+                :title="title"
+                :value="title"
+                :to="location"
+              ></v-list-item>
+          </v-list-group>
+
+          <v-list-group value="RenownWealth">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                title="Renown & Wealth"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                v-for="([title,location], i) in renownWealthOptions"
                 :key="i"
                 :title="title"
                 :value="title"

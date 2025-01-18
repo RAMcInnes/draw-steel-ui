@@ -3,7 +3,7 @@
 
 <template>
     <h1>Potencies</h1>
-    <p class="mx-2">
+    <p class="mx-3">
         Many effects inflict conditions and unique statuses on
         heroes and their enemies. But creatures get a chance to
         resist these effects. A creature with a high Might score

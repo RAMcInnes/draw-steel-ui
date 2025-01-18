@@ -110,6 +110,10 @@ import RewardsFoundEarnedOrCraftedView from '@/views/RewardsOptions/RewardsFound
 // #region TitlesOptions imports
 import TitlesOverviewView from '@/views/TitlesOptions/TitlesOverviewView.vue'
 // #endregion
+// #region RenownAndWealthOptions imports
+import RenownOverviewView from '@/views/RenownWealthOptions/RenownOverviewView.vue'
+import WealthOverviewView from '@/views/RenownWealthOptions/WealthOverviewView.vue'
+// #endregion
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -531,6 +535,18 @@ const router = createRouter({
       path: '/titlesOverview',
       name: 'titlesOverview',
       component: TitlesOverviewView,
+    },
+    // #endregion
+    // #region Renown & Wealth
+    {
+      path: '/renownOverview',
+      name: 'renownOverview',
+      component: RenownOverviewView,
+    },
+    {
+      path: '/wealthOverview',
+      name: 'wealthOverview',
+      component: WealthOverviewView,
     },
     // #endregion
   ],
