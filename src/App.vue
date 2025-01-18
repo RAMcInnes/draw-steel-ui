@@ -143,13 +143,12 @@
     let filteredSections = ref();
 
     function updateShownSections(searchTerm: string) {
-      if (searchTerm === '') {
+      if (!searchTerm) {
         filteredSections.value = undefined;
         return;
       }
-      filteredSections.value = allSectionsArray.filter(section => section[0].toLowerCase().includes(searchTerm.toLowerCase()));
 
-      console.log('filteredSections', filteredSections.value);
+      filteredSections.value = allSectionsArray.filter(section => section[0].toLowerCase().includes(searchTerm.toLowerCase()));
     };
 </script>
 
@@ -171,6 +170,7 @@
           density="compact"
           variant="underlined"
           hide-details="auto"
+          clearable
           @update:modelValue="updateShownSections"
         />
         <v-list v-if="!filteredSections" open-strategy="multiple">

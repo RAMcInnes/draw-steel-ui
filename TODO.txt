@@ -6,8 +6,8 @@ TO DO LIST
     -- ** I'm leaning on Option 2. That is to say, I want this to be a resource for learning the game.
     -- ** As such, it will NOT contain every bit of information for creating a character. It will explain how the rules work.
 
-- Search
-    - Ensure Search works on Mobile
+- [DONE] Search
+    - [DONE] Ensure Search works on Mobile
 
 - Add links
     - When something says "See ___", link to it.
